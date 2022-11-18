@@ -2,7 +2,7 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rr: <http://www.w3.org/ns/r2rml#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ex: <http://data.example.org/ont#>
+@prefix ex: <http://data.example.org/ont#> .
 @prefix sch: <https://schema.org/address#> .
 
 <#TennisClubs>
@@ -19,7 +19,7 @@
 		rr:predicate ex:Name ;
 		rr:predicate rdfs:label ;
 		rr:objectMap [
-             rr:column "NAME" ;
+             rr:column "Name" ;
 			 rr:datatype xsd:string ;
         ] ;
 	] ;
@@ -104,9 +104,9 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate geo:hasGeometry ;
+		rr:predicate geo:lat ;
 		rr:objectMap [
-			 rr:template "POINT ({LAT} {LONG})" ;
+			 rr:template "POINT({LAT} {LONG})" ;
 			 rr:datatype geo:wktLiteral ; 
         ] ;
 	] ;
