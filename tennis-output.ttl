@@ -1,0 +1,251 @@
+<http://data.example.org/club/tennis/14>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "West Wood Club, Leopardstown Race Course, Foxrock, Dublin 18" ;
+        <http://data.example.org/ont#Email>
+                "infoleopardstown@westwood.ie" ;
+        <http://data.example.org/ont#Name>
+                "Westwood Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "01 2893208"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/14/loc> .
+
+<http://data.example.org/club/tennis/14/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.26439027 -6.19574966)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/11/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.25574893 -6.17233884)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/1>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Silchester Rd, DÃºn Laoghaire, Dublin" ;
+        <http://data.example.org/ont#Email>
+                "secretary@glenagearyltc.ie" ;
+        <http://data.example.org/ont#Name>
+                "Glenageary Lawn Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "01 280 8565"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/1/loc> .
+
+<http://data.example.org/club/tennis/7>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Newtown Park Tennis Club" ;
+        <http://data.example.org/ont#Email>
+                "newtownparktc@gmail.com" ;
+        <http://data.example.org/ont#Name>
+                "Newtown Park Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "086 0667702"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/7/loc> .
+
+<http://data.example.org/club/tennis/13>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Kilternan Church of Ireland, Enniskerry Rd, Dublin 18" ;
+        <http://data.example.org/ont#Email>
+                "" ;
+        <http://data.example.org/ont#Name>
+                "Kilternan Parish Lawn Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                ""^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/13/loc> .
+
+<http://data.example.org/club/tennis/8/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.28797490 -6.14783040)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/5/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.23199254 -6.11367902)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/2/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.27250217 -6.15715625)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/6>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Green Rd, Blackrock, Dublin" ;
+        <http://data.example.org/ont#Email>
+                "contact@blackrockbtc.ie" ;
+        <http://data.example.org/ont#Name>
+                "Blackrock Bowling and Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "01 2881933"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/6/loc> .
+
+<http://data.example.org/club/tennis/7/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.28532884 -6.17487014)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/12>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Deer Park, Mount Merrion, Dublin" ;
+        <http://data.example.org/ont#Email>
+                "info@deerparktennis.ie" ;
+        <http://data.example.org/ont#Name>
+                "Deerpark Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "01 2781466"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/12/loc> .
+
+<http://data.example.org/club/tennis/5>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Shanganagh Park" ;
+        <http://data.example.org/ont#Email>
+                "clubhouse@shankilltennisclub.com" ;
+        <http://data.example.org/ont#Name>
+                "Shankill Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "01 2825400"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/5/loc> .
+
+<http://data.example.org/club/tennis/13/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.24344257 -6.20036165)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/11>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Glenamuck Road,Carrickmines, Dublin 18" ;
+        <http://data.example.org/ont#Email>
+                "info@carrickmines.com" ;
+        <http://data.example.org/ont#Name>
+                "Carrickmines Croquet & Lawn Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "01 2891462"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/11/loc> .
+
+<http://data.example.org/club/tennis/10/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.26063761 -6.22911087)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/4>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Rockfield Park, Blackrock, Co. Dublin" ;
+        <http://data.example.org/ont#Email>
+                "carraigtcinfo@gmail.com" ;
+        <http://data.example.org/ont#Name>
+                "Carraig Lawn Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "086 221 7560"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/4/loc> .
+
+<http://data.example.org/club/tennis/12/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.29473704 -6.21544123)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/4/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.29632333 -6.17624216)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/1/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.28169819 -6.12911499)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/10>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "LC Tennis, Enniskerry Rd, Sandyford, Dublin 18" ;
+        <http://data.example.org/ont#Email>
+                "" ;
+        <http://data.example.org/ont#Name>
+                "LC Tennis" ;
+        <http://data.example.org/ont#Phone>
+                "087 6480107"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/10/loc> .
+
+<http://data.example.org/club/tennis/9/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.28523588 -6.11750372)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/6/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.29851354 -6.18728879)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/3>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Stillorgan, Dublin" ;
+        <http://data.example.org/ont#Email>
+                "joinltc@gmail.com" ;
+        <http://data.example.org/ont#Name>
+                "Leopardstown Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                ""^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/3/loc> .
+
+<http://data.example.org/club/tennis/3/loc>
+        a       <http://data.example.org/ont#location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT (+53.27916432 -6.19355775)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/club/tennis/9>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Elton Park, Sandycove, Dublin" ;
+        <http://data.example.org/ont#Email>
+                "sandycovetsc@eircom.net" ;
+        <http://data.example.org/ont#Name>
+                "Sandycove Tennis and Squash Club" ;
+        <http://data.example.org/ont#Phone>
+                "01 2808769"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/9/loc> .
+
+<http://data.example.org/club/tennis/2>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "Meadow Vale, Woodpark, Dublin" ;
+        <http://data.example.org/ont#Email>
+                "committee@meadowvaletennis.net" ;
+        <http://data.example.org/ont#Name>
+                "Meadowvale Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "01 2897284"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/2/loc> .
+
+<http://data.example.org/club/tennis/8>
+        a       <http://data.example.org/ont#sports_club> ;
+        <http://data.example.org/ont#Address>
+                "St John's Park, Upper, Monkstown, Co. Dublin" ;
+        <http://data.example.org/ont#Email>
+                "admin@monkstownltc.com" ;
+        <http://data.example.org/ont#Name>
+                "Monkstown Lawn Tennis Club" ;
+        <http://data.example.org/ont#Phone>
+                "01 2842582"^^<http://www.w3.org/2001/XMLSchema#long> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/club/tennis/8/loc> .

@@ -1,0 +1,330 @@
+ROUTE_ID,TRIP_ID,TRIP_HEADSIGN,DIRECTION_ID,AGENCY_ID,ROUTE_SHORT_NAME,ROUTE_LONG_NAME,STOP_ID,STOP_SEQUENCE,STOP_HEADSIGN,SHAPE_DIST_TRAVELED,STOP_NAME,STOP_LAT,STOP_LON
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB007229,1, Harristown,0.0,"Grange, stop 7229",53.3300889307077,-6.45108278609524
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB007229,93, Grange Castle IAWS,38481.93,"Grange, stop 7229",53.3300889307077,-6.45108278609524
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB004617,2, Harristown,1096.06,"Pfizer Ireland, stop 4617",53.3266657523699,-6.43945187383431
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB004555,3, Harristown,1282.17,"Grange Castle Park, stop 4555",53.3250293591832,-6.4394065107057
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB007714,4, Harristown,3124.51,"Cuisine de France, stop 7714",53.3221886579217,-6.45386078566319
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB003415,5, Harristown,7274.17,"Kilcarberry, stop 3415",53.3185414486384,-6.44501676829457
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB003416,6, Harristown,7515.51,"Kilcarberry Park, stop 3416",53.3181532731833,-6.44144356583209
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB003417,7, Harristown,7933.15,"Grange Castle GC, stop 3417",53.3183422521968,-6.4352826767201
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB003418,8, Harristown,8512.04,"Castlegrange Green, stop 3418",53.3200332113251,-6.42717525248251
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB003419,9, Harristown,8722.79,"Rath Gael Estate, stop 3419",53.3203785142742,-6.42405537920522
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002374,10, Harristown,9215.88,"St Cuthberts Road, stop 2374",53.3215211328941,-6.42278237827998
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002146,11, Harristown,9752.36,"Old Castle Drive, stop 2146",53.3240823081193,-6.4261556401621
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002147,12, Harristown,10069.5,"Kilmahuddrick Avenue, stop 2147",53.326846743382,-6.4251831448195
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002148,13, Harristown,10295.22,"Kilcronan Estate, stop 2148",53.3287932689761,-6.42421063893747
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002149,14, Harristown,10542.07,"Deansrath Grove, stop 2149",53.3295682613435,-6.42164475275836
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002150,15, Harristown,10887.53,"Melrose, stop 2150",53.3287300560698,-6.41672125864195
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002151,16, Harristown,11064.83,"Lindisfarne Drive, stop 2151",53.3286145216927,-6.41411320257253
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002152,17, Harristown,11370.54,"Bawnogue Road, stop 2152",53.3275109454562,-6.41155688142711
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002153,18, Harristown,11662.26,"Newlife Church, stop 2153",53.3249873857044,-6.41238622388415
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002154,19, Harristown,11891.03,"Lealand Drive, stop 2154",53.3234234312592,-6.41035767609538
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB006245,20, Harristown,12091.48,"Alpine Heights, stop 6245",53.322858012071,-6.40839718883208
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB004671,21, Harristown,12586.8,"Fonthill Road, stop 4671",53.320154453835,-6.40584095288536
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB004672,22, Harristown,13042.3,"St John's Estate, stop 4672",53.3175476725324,-6.40112004646139
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB003465,23, Harristown,13468.48,"Boot Road, stop 3465",53.3167666743766,-6.39583595179424
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB004673,24, Harristown,13620.91,"Boot Road, stop 4673",53.3180971354725,-6.39518566062083
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002172,25, Harristown,13806.33,"Moyle Park College, stop 2172",53.3197268726684,-6.39473423823064
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB002159,26, Harristown,14303.31,"Clondalkin Garda Stn, stop 2159",53.3232207170879,-6.39388252941307
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB004409,27, Harristown,14413.68,"Clondalkin Village, stop 4409",53.3223471943327,-6.39308971803543
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB004550,28, Harristown,14833.58,"Watery Lane, stop 4550",53.3249165793841,-6.39033600808384
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB004551,29, Harristown,15471.56,"Woodford Walk, stop 4551",53.3264970336277,-6.38292027025667
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB001965,30, Harristown,15856.63,"Woodford Grove, stop 1965",53.3238683062497,-6.37929674981493
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB001966,31, Harristown,16340.28,"Woodford Hill, stop 1966",53.3205430553674,-6.37799675639534
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB007781,32, Harristown,16719.13,"Monastery Gate, stop 7781",53.3183570405228,-6.37587320582063
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB001975,33, Harristown,16969.32,"Mount Talbot, stop 1975",53.3179325030535,-6.37242207409399
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB001977,34, Harristown,17770.43,"Red Cow Hotel, stop 1977",53.3205468241669,-6.36183011161259
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB001978,35, Harristown,18110.81,"Robin Hood Ind Est, stop 1978",53.3221221536801,-6.3574315124014
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8230DB001980,36, Harristown,18739.28,"J F Kennedy Drive, stop 1980",53.3249258630463,-6.34957748889716
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001981,37, Harristown,19133.62,"Kylemore Luas, stop 1981",53.3264867532149,-6.34481822747154
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001982,38, Harristown,19495.41,"Kylemore Road Junc, stop 1982",53.3272299503099,-6.34202704890604
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB004406,39, Harristown,19748.75,"Carriglea Ind Est, stop 4406",53.3280888160763,-6.33851063578029
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001984,40, Harristown,20093.22,"Bluebell Luas, stop 1984",53.3294445318972,-6.33389372947135
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001985,41, Harristown,20597.83,"Blackhorse Luas, stop 1985",53.3329236566384,-6.32944879131455
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001986,42, Harristown,20905.6,"Tyrconnell Road, stop 1986",53.3353553796505,-6.32723649887246
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001987,43, Harristown,21039.98,"Oblates Church, stop 1987",53.3362899055545,-6.32593855473873
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001988,44, Harristown,21338.12,"Hampton Court, stop 1988",53.3382603815023,-6.32288800493356
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001989,45, Harristown,21684.13,"Emmet Road, stop 1989",53.3397064788474,-6.31898677046974
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001990,46, Harristown,21988.06,"Myra Cottages, stop 1990",53.340472781797,-6.3146915731395
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001992,47, Harristown,22362.06,"Inchicore Library, stop 1992",53.3406544981538,-6.30911277701973
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001993,48, Harristown,22651.16,"Old Kilmainham, stop 1993",53.3408536613947,-6.30477972664043
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001994,49, Harristown,23019.06,"Mount Brown, stop 1994",53.341423962847,-6.29938060050005
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001995,50, Harristown,23455.2,"Basin Street Lower, stop 1995",53.3426751859688,-6.29321822745691
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001996,51, Harristown,23784.41,"James Street, stop 1996",53.3435600718364,-6.28848195376398
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001997,52, Harristown,23982.54,"Thomas Street, stop 1997",53.3435710812152,-6.28549274156146
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001998,53, Harristown,24315.87,"Bridgefoot Street, stop 1998",53.3431396149005,-6.28049377213707
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001999,54, Harristown,24591.14,"Francis St Junction, stop 1999",53.3431192358332,-6.2765897013646
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB002001,55, Harristown,24786.92,"High Street, stop 2001",53.3433104732332,-6.27365330535549
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB002002,56, Harristown,25107.5,"Lord Edward Street, stop 2002",53.3437708065888,-6.26944439003136
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002002,62, Ringsend Road,21596.55,"Lord Edward Street, stop 2002",53.3437708065888,-6.26944439003136
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB001359,57, Harristown,25652.05,"College Green, stop 1359",53.3443994063637,-6.26136859043361
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000319,58, Harristown,25973.11,"Westmoreland Street, stop 319",53.3462744267355,-6.25927961394872
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000281,59, Harristown,26557.28,"O'Connell St Upper, stop 281",53.3513435349612,-6.26111600843156
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000007,60, Harristown,26943.69,"Parnell Square West, stop 7",53.3528409105808,-6.26457026121744
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000011,61, Harristown,27492.69,"St Joseph's Parade, stop 11",53.3568152335319,-6.26467919507521
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000014,62, Harristown,27720.75,"Dorset Street Lower, stop 14",53.3585312378782,-6.26277650570866
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000015,63, Harristown,27950.03,"Innisfallen Parade, stop 15",53.3602667075989,-6.26097804267247
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000017,64, Harristown,28305.62,"Drumcondra Rail Stn, stop 17",53.3630783243804,-6.25839928847829
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000018,65, Harristown,28656.66,"Dargle Road, stop 18",53.3658559259191,-6.2559568206783
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000019,66, Harristown,28814.06,"Botanic Avenue, stop 19",53.3672348759349,-6.25559994097697
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000021,67, Harristown,29141.36,"DCU St Patrick's, stop 21",53.3701011992972,-6.25431059904437
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB007602,68, Harristown,29316.04,"DCU St Patrick’s, stop 7602",53.3715535144783,-6.2534396446411
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000085,69, Harristown,29600.87,"Wellpark Avenue, stop 85",53.3739579526161,-6.25191342966416
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000086,70, Harristown,29889.54,"Home Farm FC, stop 86",53.3760502204615,-6.25116639066164
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000087,71, Harristown,30148.7,"Clare Road, stop 87",53.3767517255744,-6.25488028992455
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000088,72, Harristown,30345.08,"Walnut Rise, stop 88",53.3772872553016,-6.25769922864556
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB00089,73, Harristown,30616.93,"Lambay Road, stop 89",53.3780271155011,-6.26159214988754
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000027,74, Harristown,31027.32,"Ballymun Road, stop 27",53.3794389600131,-6.26658526125999
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000028,75, Harristown,31276.22,"Hampstead Avenue, stop 28",53.3815786376305,-6.26600227077734
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000029,76, Harristown,31488.61,"Albert College Park, stop 29",53.3834882529482,-6.26566910125412
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB004680,77, Harristown,31655.43,"DCU, stop 4680",53.3849664763564,-6.26533840628634
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000090,78, Harristown,31813.41,"Albert College Court, stop 90",53.3863855316762,-6.26526567275517
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000091,79, Harristown,32039.61,"Ballymun Road NS, stop 91",53.3884278896508,-6.26540814207678
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000092,80, Harristown,32204.41,"Ballymun Library, stop 92",53.3898373340536,-6.264674240361
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000093,81, Harristown,32483.36,"Gateway Avenue, stop 93",53.3923014677522,-6.26415297561009
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000094,82, Harristown,32898.99,"Civic Centre, stop 94",53.396034762414,-6.26437695995443
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000102,83, Harristown,33241.96,"Balbutcher Lane, stop 102",53.3977730701685,-6.26771985697008
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB006239,84, Harristown,33488.36,"Dolmen Court, stop 6239",53.3980420322605,-6.27139328390733
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000104,85, Harristown,33901.07,"Poppintree Parade, stop 104",53.3997562075198,-6.27681294502523
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB006241,86, Harristown,34205.38,"Crannogue Road, stop 6241",53.40181592283,-6.27940673236032
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000105,87, Harristown,34400.13,"Belclare Park, stop 105",53.4029363966841,-6.28169269646944
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB006253,88, Harristown,34544.62,"Balbutcher Drive, stop 6253",53.4039584880706,-6.28151614111667
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB007191,89, Harristown,34935.25,"Balbutcher Way, stop 7191",53.4045112182789,-6.27621466866566
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB006238,90, Harristown,35684.43,"Ballymun, stop 6238",53.4011920390632,-6.26672371806463
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB006182,91, Harristown,35960.27,"Santry Cross, stop 6182",53.4022507542177,-6.26535718879144
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8220DB000322,92, Harristown,36183.11,"Gulliver's Retail Pk, stop 322",53.4042549924669,-6.26535084532181
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8240DB000323,93, Harristown,37193.17,"Silloge Golf Club, stop 323",53.4129298606578,-6.26544910096627
+60-13-b12-1,13241.1.60-13-b12-1.21.I,Business Park Bus Terminus - Harristown Bus Garage,1,978,13,,8240DB000332,94, Harristown,38585.79,"Harristown, stop 332",53.4173526533912,-6.27853875647111
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8240DB000324,1, Grange Castle IAWS,0.0,"Harristown, stop 324",53.4177226807655,-6.27864416912571
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8240DB000327,2, Grange Castle IAWS,1323.42,"Silloge Golf Club, stop 327",53.4131980312074,-6.26534792574262
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB006016,3, Grange Castle IAWS,2865.11,"Balbutcher Lane, stop 6016",53.40111577686,-6.26704264271178
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB006017,4, Grange Castle IAWS,3317.13,"Galluan Road, stop 6017",53.4026543424062,-6.27335698367751
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB007192,5, Grange Castle IAWS,3494.53,"Balbutcher Way, stop 7192",53.4038223134119,-6.27518970826941
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB004683,6, Grange Castle IAWS,3836.06,"Balbutcher Drive, stop 4683",53.4047127122378,-6.27959063627794
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000107,7, Grange Castle IAWS,4211.77,"Crannogue Road, stop 107",53.4023798988012,-6.28049690990608
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB006125,8, Grange Castle IAWS,4600.54,"Poppintree Parade, stop 6125",53.3998824003166,-6.27683792298319
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB007092,9, Grange Castle IAWS,4975.37,"Dolmen Court, stop 7092",53.3981870002091,-6.27209420381953
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000110,10, Grange Castle IAWS,5209.9,"Árd Na Meala, stop 110",53.3979386409638,-6.26860038147326
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000112,11, Grange Castle IAWS,5606.05,"Civic Centre, stop 112",53.3961544015487,-6.26395104030175
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000113,12, Grange Castle IAWS,6038.87,"Trinity Comp School, stop 113",53.3922679629287,-6.26370325464242
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000114,13, Grange Castle IAWS,6142.8,"Ballymun Road, stop 114",53.3913333220569,-6.26371122925232
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000115,14, Grange Castle IAWS,6527.8,"Ballymun Road Church, stop 115",53.3879640919895,-6.26503610048144
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000037,15, Grange Castle IAWS,6820.67,"DCU Ballymun Road, stop 37",53.3853464011964,-6.2648869813179
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000038,16, Grange Castle IAWS,7168.91,"Hampstead Avenue, stop 38",53.3822365941661,-6.26550952120501
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000039,17, Grange Castle IAWS,7371.79,"The Rise, stop 39",53.3804141869347,-6.26565875906584
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000116,18, Grange Castle IAWS,7959.27,"Griffith Lawns, stop 116",53.3776934606461,-6.25966673989331
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000117,19, Grange Castle IAWS,8105.82,"Walnut Rise, stop 117",53.3773659067276,-6.25754570845521
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000118,20, Grange Castle IAWS,8379.85,"Clare Road, stop 118",53.3766430016933,-6.25359209857676
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000119,21, Grange Castle IAWS,8685.46,"The Village, stop 119",53.3751904807261,-6.25076574528229
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000044,22, Grange Castle IAWS,8944.82,"Skylon Hotel, stop 44",53.3730174091229,-6.25213230324291
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB007603,23, Grange Castle IAWS,9119.01,"St Patrick's College, stop 7603",53.371576725454,-6.2531832038883
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000045,24, Grange Castle IAWS,9312.95,"DCU St Patrick's, stop 45",53.3699364344031,-6.25410694084961
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000046,25, Grange Castle IAWS,9639.55,"Botanic Avenue, stop 46",53.3671310162176,-6.25525855655008
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000047,26, Grange Castle IAWS,10019.1,"Drumcondra Rail Stn, stop 47",53.3639161189952,-6.25729825652797
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000048,27, Grange Castle IAWS,10229.34,"Fitzroy Avenue, stop 48",53.3622573901253,-6.25880841233312
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000049,28, Grange Castle IAWS,10515.72,"Dorset Street Lower, stop 49",53.3600042378903,-6.26085350834049
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000051,29, Grange Castle IAWS,10805.95,"Temple Street, stop 51",53.3578104088118,-6.26327157246547
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000052,30, Grange Castle IAWS,10962.71,"Dorset Street Upper, stop 52",53.3566607792373,-6.26456528204094
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000261,31, Grange Castle IAWS,11437.02,"Parnell Square East, stop 261",53.3540562845357,-6.26285336122222
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000270,32, Grange Castle IAWS,11857.4,"O'Connell St Upper, stop 270",53.3506233915332,-6.26042429163428
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB000335,33, Grange Castle IAWS,12368.12,"D'Olier Street, stop 335",53.3463614054442,-6.25784917048533
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB004521,34, Grange Castle IAWS,12703.35,"College Green, stop 4521",53.3443010558745,-6.26017105109329
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001935,35, Grange Castle IAWS,13247.78,"Lord Edward Street, stop 1935",53.3439343462182,-6.26832635157404
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001937,36, Grange Castle IAWS,13605.42,"High Street, stop 1937",53.3430874992207,-6.27315167433479
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001938,37, Grange Castle IAWS,13856.84,"Thomas Street, stop 1938",53.342977894971,-6.27676060847674
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001939,38, Grange Castle IAWS,14120.75,"Bridgefoot Street, stop 1939",53.3429982683437,-6.28066466654276
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001940,39, Grange Castle IAWS,14464.73,"James Street, stop 1940",53.3435386006496,-6.28573434793228
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001941,40, Grange Castle IAWS,14694.08,"Steeven's Lane, stop 1941",53.3433454019853,-6.28918142026459
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001942,41, Grange Castle IAWS,15077.52,"St James Hospital, stop 1942",53.3422549834013,-6.29463172936889
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001943,42, Grange Castle IAWS,15343.06,"Mount Brown, stop 1943",53.3413732637012,-6.29834636571313
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001944,43, Grange Castle IAWS,15702.38,"Old Kilmainham, stop 1944",53.3406753265063,-6.30361540534036
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001945,44, Grange Castle IAWS,16106.16,"Inchicore Library, stop 1945",53.3405547841713,-6.30968740041893
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001946,45, Grange Castle IAWS,16559.15,"Richmond Park, stop 1946",53.3401188049337,-6.31635747688677
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001947,46, Grange Castle IAWS,16671.18,"Camac Close, stop 1947",53.339817856505,-6.31796119520693
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001948,47, Grange Castle IAWS,17002.97,"Tyrconnell Road, stop 1948",53.3386619960493,-6.32204630155484
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001949,48, Grange Castle IAWS,17157.09,"Tyrconnell Park, stop 1949",53.3376414796005,-6.32361808034674
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001950,49, Grange Castle IAWS,17398.07,"Oblates Church, stop 1950",53.3360210442491,-6.32599413397446
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001951,50, Grange Castle IAWS,17785.25,"Blackhorse Luas, stop 1951",53.3331348380343,-6.32912521917044
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001952,51, Grange Castle IAWS,17954.86,"Lansdowne Valley, stop 1952",53.3317095154437,-6.33003676787114
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001953,52, Grange Castle IAWS,18186.67,"Bluebell Luas, stop 1953",53.329994499494,-6.33208562071691
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001954,53, Grange Castle IAWS,18411.25,"Muirfield Drive, stop 1954",53.3287741741445,-6.33480565905474
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001955,54, Grange Castle IAWS,18636.4,"Carriglea Ind Estate, stop 1955",53.3279457071728,-6.33791566337677
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8220DB001956,55, Grange Castle IAWS,19070.14,"Kylemore Luas, stop 1956",53.3263654179262,-6.34384709401733
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB001957,56, Grange Castle IAWS,19305.24,"Robinhood Road, stop 1957",53.3254115709781,-6.34700662729441
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB001958,57, Grange Castle IAWS,19489.55,"Long Mile Road, stop 1958",53.3245634198194,-6.34936629643856
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB001959,58, Grange Castle IAWS,19984.64,"Club Road, stop 1959",53.3222337514405,-6.35574596021052
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB001960,59, Grange Castle IAWS,20462.35,"Red Cow Hotel, stop 1960",53.3200631687512,-6.36195371168539
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004379,60, Grange Castle IAWS,21429.5,"Red Cow Luas, stop 4379",53.3162963465609,-6.37371508620956
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB001963,61, Grange Castle IAWS,22235.59,"Woodford Hill, stop 1963",53.3200381428223,-6.37854127295757
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004549,62, Grange Castle IAWS,22382.07,"Woodford Drive, stop 4549",53.3212566232549,-6.3775944193515
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB001964,63, Grange Castle IAWS,22669.66,"Woodford Walk, stop 1964",53.3232100854933,-6.3784810474854
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004674,64, Grange Castle IAWS,23098.05,"Yellow Meadows Dr, stop 4674",53.3260815608275,-6.3827708448101
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004663,65, Grange Castle IAWS,23696.28,"Watery Lane, stop 4663",53.325142319734,-6.38908149326993
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004664,66, Grange Castle IAWS,24122.48,"Clondalkin Town C, stop 4664",53.3222848031907,-6.39246159034273
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002160,67, Grange Castle IAWS,24504.6,"Convent Road, stop 2160",53.3195731447018,-6.39466495688777
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002161,68, Grange Castle IAWS,24639.35,"Clondalkin Church, stop 2161",53.3183725942563,-6.39495017689403
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004665,69, Grange Castle IAWS,24771.47,"St Joseph's NS, stop 4665",53.3172387613979,-6.39551805677925
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004666,70, Grange Castle IAWS,25057.77,"Fonthill Road, stop 4666",53.3168234642548,-6.39805520056037
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004667,71, Grange Castle IAWS,25290.4,"St John's Estate, stop 4667",53.3174788209986,-6.40134776332138
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004668,72, Grange Castle IAWS,25757.35,"Cherrywood Avenue, stop 4668",53.3203385342897,-6.4061643228607
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004677,73, Grange Castle IAWS,26333.4,"Bawnogue Road, stop 4677",53.3230137745304,-6.4099675950714
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002136,74, Grange Castle IAWS,26609.16,"Bawnogue Church, stop 2136",53.3249264980418,-6.41253860584035
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002137,75, Grange Castle IAWS,26770.37,"Lindisfarne, stop 2137",53.3263979956783,-6.41234886015546
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB007201,76, Grange Castle IAWS,26971.91,"Lindisfarne Park, stop 7201",53.3281014584419,-6.41135478361725
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002138,77, Grange Castle IAWS,27198.72,"Lindisfarne Drive, stop 2138",53.3285582266326,-6.41393512993322
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002139,78, Grange Castle IAWS,27412.93,"Melrose, stop 2139",53.3287172666108,-6.41711208196643
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002140,79, Grange Castle IAWS,27778.7,"Deansrath Grove, stop 2140",53.3295498464203,-6.42229102308286
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002141,80, Grange Castle IAWS,27998.48,"St Cuthberts Road, stop 2141",53.3284075708911,-6.42426989449739
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002142,81, Grange Castle IAWS,28139.81,"Kilmahuddrick Estate, stop 2142",53.3272019252862,-6.42485479176684
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002143,82, Grange Castle IAWS,28390.76,"Grange View, stop 2143",53.3250593390441,-6.42595454555005
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002145,83, Grange Castle IAWS,28650.51,"St Ronan's, stop 2145",53.3231270229853,-6.42459958300617
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004670,84, Grange Castle IAWS,28916.98,"St Cuthberts Court, stop 4670",53.3212285005731,-6.42240288968382
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002165,85, Grange Castle IAWS,29143.39,"Rath Gael Estate, stop 2165",53.3202109978019,-6.42430171923575
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002166,86, Grange Castle IAWS,29306.45,"Castlegrange, stop 2166",53.3199641927968,-6.42671246968373
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB002167,87, Grange Castle IAWS,29943.82,"Grange Castle GC, stop 2167",53.3182214010191,-6.4356623410922
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB003383,88, Grange Castle IAWS,30608.95,"Kilcarberry, stop 3383",53.3184848205703,-6.44549914065893
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB003384,89, Grange Castle IAWS,30943.26,"Ballybane Green, stop 3384",53.3195769036816,-6.44999252074413
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB007230,90, Grange Castle IAWS,35243.28,"Cuisine de France, stop 7230",53.3223763429667,-6.4537789442073
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004552,91, Grange Castle IAWS,37214.42,"Grange Castle Park, stop 4552",53.3250858126651,-6.43959960800997
+60-13-b12-1,13242.1.60-13-b12-1.20.O,Harristown Bus Garage - Business Park Bus Terminus,0,978,13,,8230DB004554,92, Grange Castle IAWS,37419.71,"Pfizer, stop 4554",53.326927651407,-6.4395474044763
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB000395,1, Citywest,0.0,"Ringsend Road, stop 395",53.3419400535678,-6.23527645441628
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB000396,2, Citywest,292.56,"Grand Canal Quay, stop 396",53.3424425175736,-6.23947594842615
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB000397,3, Citywest,466.34,"Pearse Square, stop 397",53.342785555443,-6.24201500730756
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB000398,4, Citywest,702.09,"Erne Street, stop 398",53.3432949350384,-6.24547844686784
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB000399,5, Citywest,902.06,"Pearse Station, stop 399",53.3438668221087,-6.2483086014322
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB000400,6, Citywest,1255.93,"Shaw Street, stop 400",53.3448491210166,-6.25338997292405
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB004522,7, Citywest,1813.1,"College Green, stop 4522",53.3442624890487,-6.2606081798795
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB001934,8, Citywest,2139.94,"Dame Street, stop 1934",53.3441183606967,-6.26552532473915
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002310,9, Citywest,2571.72,"Werburgh Street, stop 2310",53.3424457018012,-6.26979842837399
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002311,10, Citywest,3135.7,"Kevin Street, stop 2311",53.3382852826653,-6.27049246703827
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002312,11, Citywest,3516.64,"St Luke's Avenue, stop 2312",53.3388788545774,-6.27548423467158
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002313,12, Citywest,3714.47,"Ardee Court, stop 2313",53.3387423330578,-6.27847818154424
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002314,13, Citywest,3878.2,"Cork Street, stop 2314",53.3383536836872,-6.28082149273864
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002315,14, Citywest,4185.8,"Brickfield Lane, stop 2315",53.3375364314403,-6.28523928429942
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002094,15, Citywest,4644.98,"Coombe Hospital, stop 2094",53.3347519664071,-6.28975063819714
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB001406,16, Citywest,4889.36,"Dolphin's Barn, stop 1406",53.3331529314539,-6.29169152684095
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB001407,17, Citywest,5144.38,"Crumlin Road, stop 1407",53.3315385027721,-6.2944436769088
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB001409,18, Citywest,5378.61,"Loreto College, stop 1409",53.3303667447669,-6.29735815557584
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002095,19, Citywest,5749.52,"Crumlin SC, stop 2095",53.3290374667788,-6.30247075150147
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002096,20, Citywest,6057.05,"Guinness RFC, stop 2096",53.3280835904832,-6.3068174910165
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002097,21, Citywest,6263.14,"Iveagh Gardens, stop 2097",53.3274327540357,-6.30972580638994
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002099,22, Citywest,6773.72,"Drimnagh Road, stop 2099",53.3255615813935,-6.31660046938247
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002101,23, Citywest,6894.64,"Crumlin Hospital, stop 2101",53.3249545652181,-6.31817063885903
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002102,24, Citywest,7432.96,"Balfe Road, stop 2102",53.3241948460768,-6.32614190218009
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002103,25, Citywest,7800.45,"Walkinstown Road, stop 2103",53.3220826954818,-6.32999241707335
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002332,26, Citywest,7953.73,"Walkinstown Mall, stop 2332",53.3208746366549,-6.33101530032291
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8220DB002333,27, Citywest,8308.65,"Walkinstown Rdbt, stop 2333",53.3178417645959,-6.33266465395946
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002334,28, Citywest,8619.17,"Greenhills Road, stop 2334",53.3155340136633,-6.33475080976013
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB004662,29, Citywest,9117.54,"Hillcrest Park, stop 4662",53.3133051863598,-6.34121606402376
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002335,30, Citywest,9347.58,"Calmount Avenue, stop 2335",53.3116507619473,-6.34311114449921
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002336,31, Citywest,9719.02,"Tibradden Drive, stop 2336",53.3088560239831,-6.34574049195714
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002337,32, Citywest,10090.08,"Old Tymon Lane, stop 2337",53.3059914350169,-6.34852224326364
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002339,33, Citywest,10525.44,"Elmcastle Court, stop 2339",53.3025723019747,-6.35150503436292
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002420,34, Citywest,10739.06,"Tymonville, stop 2420",53.3011849394606,-6.35127340118161
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002421,35, Citywest,11103.79,"Tymon North Road, stop 2421",53.2996703260459,-6.34639563095132
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002423,36, Citywest,11382.13,"Tymon Park, stop 2423",53.2982653587464,-6.3429542331971
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002424,37, Citywest,11791.93,"Castletymon Green, stop 2424",53.2951494846255,-6.34122962985521
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002447,38, Citywest,12056.57,"St Aengus Church, stop 2447",53.2929855283159,-6.3426785783227
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB005133,39, Citywest,12342.26,"Castle Park, stop 5133",53.2905101106874,-6.3430594096978
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002596,40, Citywest,12596.5,"Glenview Lawn, stop 2596",53.2898063494852,-6.34092665251652
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002611,41, Citywest,13138.2,"Bolbrook, stop 2611",53.2869170961386,-6.34063363271395
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002602,42, Citywest,13533.6,"Avonmore Park, stop 2602",53.2842949179581,-6.34403480924659
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002613,43, Citywest,13859.16,"Homelawn Road, stop 2613",53.2825053322815,-6.34785335715701
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002614,44, Citywest,14081.69,"Seskin View Road, stop 2614",53.2814295882604,-6.35065430575042
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002615,45, Citywest,14390.62,"New Bawn Park, stop 2615",53.280682587885,-6.35513710406153
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002535,46, Citywest,14703.61,"Seskin View Road, stop 2535",53.2810133262294,-6.35891860284655
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002536,47, Citywest,14923.3,"Old Bawn Court, stop 2536",53.2829548505574,-6.3595790811863
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002616,48, Citywest,15126.85,"St Maelruan's Park, stop 2616",53.2846412135112,-6.36063933900617
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002617,49, Citywest,15374.53,"Village Green, stop 2617",53.2867102221549,-6.3620750078624
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002557,50, Citywest,15600.5,"Tallaght Village, stop 2557",53.2885064213373,-6.36328124896311
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB004436,51, Citywest,15909.74,"IT Tallaght, stop 4436",53.2891682645027,-6.36697586970939
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB005008,52, Citywest,16222.43,"Belgard Square North, stop 5008",53.2904501890302,-6.3693569938866
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB004640,53, Citywest,16556.33,"Tallaght Hospital, stop 4640",53.289395624798,-6.37374708548246
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB004347,54, Citywest,17017.01,"Tallaght Luas, stop 4347",53.2862220524214,-6.37500751308391
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002349,55, Citywest,17327.81,"Alderwood, stop 2349",53.2850288716238,-6.37847238352646
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002351,56, Citywest,17820.41,"Blessington Road, stop 2351",53.2832055705941,-6.3845254486257
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002558,57, Citywest,18212.76,"Killinarden Estate, stop 2558",53.2802494527158,-6.38393211607987
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002559,58, Citywest,18843.39,"Health Care Centre, stop 2559",53.276380482704,-6.37899472410106
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002560,59, Citywest,19128.73,"Cushlawn Park, stop 2560",53.2739022564133,-6.37983821539069
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002561,60, Citywest,19475.7,"Donomore Crescent, stop 2561",53.2727602973652,-6.38443954790541
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002562,61, Citywest,19709.96,"Sacred Heart FC, stop 2562",53.2731850716708,-6.38793213453595
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002564,62, Citywest,19965.43,"Killinarden Heights, stop 2564",53.2737654963264,-6.39164385764597
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB004927,63, Citywest,20182.75,"Hazel Grove, stop 4927",53.2748355654726,-6.39434769440277
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB004928,64, Citywest,20314.89,"Killinarden Comm Sch, stop 4928",53.2759929207157,-6.39485912803681
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002352,65, Citywest,20741.14,"Jobstown House, stop 2352",53.2775372313765,-6.39741048190077
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002573,66, Citywest,21525.99,"Kiltalown Cottages, stop 2573",53.2742753736053,-6.4068590193323
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002574,67, Citywest,21786.81,"De Selby Estate, stop 2574",53.2745607514065,-6.41073197519197
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB002575,68, Citywest,22449.55,"Corbally Vale, stop 2575",53.2771580082974,-6.41882308493602
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB004929,69, Citywest,22900.68,"Verschoyle Avenue, stop 4929",53.2808055658936,-6.42141781405817
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB007460,70, Citywest,23103.13,"Citywest SC, stop 7460",53.2826316202709,-6.4215304732232
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB004930,71, Citywest,23676.78,"Citywest Avenue, stop 4930",53.287569714924,-6.42248836386907
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB004931,72, Citywest,23948.55,"Orchard Avenue, stop 4931",53.28901878191,-6.42535987909249
+60-77A-b12-1,10000.1.60-77A-b12-1.49.O,Ringsend Road - Bianconi Avenue,0,978,77a,,8230DB007459,73, Citywest,24195.54,"Bianconi Avenue, stop 7459",53.2908418206833,-6.42728784873351
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB004713,1, Ringsend Road,0.0,"Bianconi Avenue, stop 4713",53.2912892220389,-6.42713641091449
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB004714,2, Ringsend Road,394.98,"Castle Drive, stop 4714",53.2887472357334,-6.42385492509483
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB004960,3, Ringsend Road,860.17,"Citywest Road, stop 4960",53.285050592141,-6.42162128652657
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB004932,4, Ringsend Road,1574.03,"Magna Drive, stop 4932",53.2788609880719,-6.42049974981811
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB004933,5, Ringsend Road,1739.42,"Belfry, stop 4933",53.2776403003773,-6.41927014304665
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002590,6, Ringsend Road,2137.12,"Belfry Downs, stop 2590",53.2751454328569,-6.41549358352695
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002591,7, Ringsend Road,2479.1,"De Selby Estate, stop 2591",53.2746108567564,-6.41044522105172
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002592,8, Ringsend Road,2759.02,"Kiltalown Cottages, stop 2592",53.2743034961601,-6.4062731923077
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002357,9, Ringsend Road,3567.85,"Jobstown House, stop 2357",53.2779689604244,-6.39676450981217
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002566,10, Ringsend Road,3736.9,"Killinarden School, stop 2566",53.277755906692,-6.39495801430494
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002567,11, Ringsend Road,3958.29,"Hazelgrove, stop 2567",53.275765911704,-6.39468769528682
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002568,12, Ringsend Road,4354.13,"Killinarden Heights, stop 2568",53.2737235798839,-6.39053585920059
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002569,13, Ringsend Road,4641.68,"Donomore Avenue, stop 2569",53.2730917136781,-6.38634628300231
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB007550,14, Ringsend Road,5053.49,"Donomore Crescent, stop 7550",53.2735257417022,-6.38057217513132
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002570,15, Ringsend Road,5388.64,"Health Care Centre, stop 2570",53.276246546268,-6.37905977311639
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002571,16, Ringsend Road,6074.32,"Killinarden Estate, stop 2571",53.2806118378806,-6.38414339180352
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002359,17, Ringsend Road,6476.57,"Maplewood Avenue, stop 2359",53.2835900308723,-6.38437596627328
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002360,18, Ringsend Road,6841.68,"Alderwood, stop 2360",53.2846948207372,-6.37968487975509
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB004348,19, Ringsend Road,7260.48,"Tallaght Luas, stop 4348",53.2866720396025,-6.37505043118615
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB004646,20, Ringsend Road,7677.56,"Tallaght Hospital, stop 4646",53.289438713432,-6.37427044038538
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB004647,21, Ringsend Road,7872.95,"South Dublin CC, stop 4647",53.2900574732911,-6.37153194884297
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002346,22, Ringsend Road,8202.64,"Belgard Square North, stop 2346",53.2900797370852,-6.36790110381362
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB004435,23, Ringsend Road,8639.17,"Tallaght Village, stop 4435",53.2888429202751,-6.36356837702223
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002604,24, Ringsend Road,8897.72,"Village Green, stop 2604",53.2868149331801,-6.361846019424
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002605,25, Ringsend Road,9235.1,"St Maelruan's Park, stop 2605",53.2840559727612,-6.35991184833953
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002538,26, Ringsend Road,9522.31,"The Crescent, stop 2538",53.2815345660125,-6.35891362658069
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002606,27, Ringsend Road,9826.44,"Seskin View Road, stop 2606",53.280687041243,-6.35611172058534
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002607,28, Ringsend Road,10230.09,"Millbrook Lawns, stop 2607",53.2816222439678,-6.3502869564886
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002608,29, Ringsend Road,10445.54,"Avonmore Road, stop 2608",53.2827192694236,-6.34772512397811
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002609,30, Ringsend Road,10830.0,"Avonmore Drive, stop 2609",53.2847852777384,-6.34310095668828
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002610,31, Ringsend Road,11209.76,"Bolbrook, stop 2610",53.2874613057722,-6.34098752062897
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002554,32, Ringsend Road,11488.87,"Glenview Park, stop 2554",53.2890402900917,-6.3394863676336
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002425,33, Ringsend Road,11909.69,"Castletymon Road, stop 2425",53.2906588419378,-6.34341365950677
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002426,34, Ringsend Road,12193.46,"St Aengus Church, stop 2426",53.2932034182472,-6.34283515535471
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002427,35, Ringsend Road,12533.52,"Tymon Lane, stop 2427",53.2959797105037,-6.34082240352393
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002428,36, Ringsend Road,12884.4,"Tymon Park, stop 2428",53.298335949369,-6.34350660914583
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002429,37, Ringsend Road,13119.59,"Tymon North School, stop 2429",53.2995447684511,-6.34641548547526
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002430,38, Ringsend Road,13428.07,"Tymonville Grove, stop 2430",53.300921380266,-6.35041333241483
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002371,39, Ringsend Road,13798.08,"Kilnamanagh SC, stop 2371",53.3033968969847,-6.35133822643901
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002372,40, Ringsend Road,14289.87,"Old Tymon Lane, stop 2372",53.3072568776087,-6.34773810297749
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002373,41, Ringsend Road,14732.97,"Kilakee Drive, stop 2373",53.3107116337382,-6.34473828870487
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8230DB002377,42, Ringsend Road,15680.8,"Greenhills SC, stop 2377",53.3160470777079,-6.33416048619781
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002378,43, Ringsend Road,15942.73,"Walkinstown Road, stop 2378",53.3181478211858,-6.33269775229581
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002183,44, Ringsend Road,16362.76,"Walkinstown Shop Cen, stop 2183",53.3217039808398,-6.33054760884823
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002184,45, Ringsend Road,16533.19,"Drimnagh Road Junc, stop 2184",53.3229966132193,-6.32914609742305
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002185,46, Ringsend Road,16722.96,"Slievebloom Road, stop 2185",53.3242587027691,-6.32749048930551
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB007043,47, Ringsend Road,17315.18,"St Mary's Road, stop 7043",53.3250607821042,-6.3186918941508
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB001424,48, Ringsend Road,17466.63,"Crumlin Hospital, stop 1424",53.3256625125872,-6.31674662153121
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002186,49, Ringsend Road,17781.37,"Crumlin Road, stop 2186",53.3269332843438,-6.31253797965369
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002187,50, Ringsend Road,18150.95,"Iveagh Grounds, stop 2187",53.3280452768604,-6.30728442530439
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002188,51, Ringsend Road,18460.33,"Crumlin College, stop 2188",53.3290169228319,-6.30292198124806
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002189,52, Ringsend Road,18663.99,"Crumlin SC, stop 2189",53.3296953958841,-6.30007240820084
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB001436,53, Ringsend Road,18938.76,"Herberton Road, stop 1436",53.3308849576952,-6.29651171993402
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB003952,54, Ringsend Road,19095.66,"Rutland Avenue, stop 3952",53.3316839465215,-6.29455799199736
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002190,55, Ringsend Road,19276.09,"Dolphin's Barn, stop 2190",53.3327705719712,-6.2926077161978
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB004434,56, Ringsend Road,19712.09,"Coombe Hospital, stop 4434",53.3358683779528,-6.28925547896635
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002379,57, Ringsend Road,20106.43,"Marion Villas, stop 2379",53.3378334357811,-6.28464170707985
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002380,58, Ringsend Road,20415.7,"Ardee Street, stop 2380",53.3385060739033,-6.28016962356299
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002382,59, Ringsend Road,20538.81,"St Luke's Avenue, stop 2382",53.3388578109852,-6.27838342591739
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB005099,60, Ringsend Road,20711.19,"Newmarket Street, stop 5099",53.3389824385794,-6.27581043675113
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB002383,61, Ringsend Road,21004.81,"Patrick's Cathedral, stop 2383",53.3394580682633,-6.2726525825533
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB001358,63, Ringsend Road,22037.74,"Dame Street, stop 1358",53.3443047133873,-6.26288938939078
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB000340,64, Ringsend Road,22620.38,"Townsend Street, stop 340",53.3459751202948,-6.25601747845666
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB000350,65, Ringsend Road,23036.91,"Prince's St South, stop 350",53.3456319415842,-6.24976824959419
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB000351,66, Ringsend Road,23461.44,"Erne Street, stop 351",53.3434182647933,-6.24530817378356
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB000352,67, Ringsend Road,23662.5,"Pearse Square, stop 352",53.3429891458056,-6.24241213998985
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB000353,68, Ringsend Road,23838.78,"Grand Canal Quay, stop 353",53.3426450090451,-6.23979801761223
+60-77A-b12-1,10001.1.60-77A-b12-1.50.I,Bianconi Avenue - Barrow Street,1,978,77a,,8220DB000354,69, Ringsend Road,24066.83,"Ringsend Road, stop 354",53.34223582802,-6.23643568982665

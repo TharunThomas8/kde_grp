@@ -1,0 +1,121 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://data.example.org/ont#> .
+@prefix sch: <https://schema.org/address#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<#Bus>
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/bus/{ROUTE_SHORT_NAME}" ;
+		rr:class ex:Bus ;
+	] ;
+	
+	rr:predicateObjectMap [
+		rr:predicate ex:hasTrip ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Trips> ;
+			rr:joinCondition [
+				rr:child "TRIP_ID";
+				rr:parent "TRIP_ID";
+			] 
+        ] ;
+	] ;
+	.
+
+<#Trips>
+
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/bus/{ROUTE_SHORT_NAME}/{DIRECTION_ID}" ;
+		rr:class ex:BusTrip ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:tripID ;
+		rr:objectMap [
+             rr:column "TRIP_ID" ;
+			 rr:datatype xsd:string ;
+        ] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:stopSequenceNumber ;
+		rr:objectMap [
+			rr:parentTriplesMap <#SequenceNumber> ;
+			rr:joinCondition [
+				rr:child "STOP_SEQUENCE";
+				rr:parent "STOP_SEQUENCE";
+			] 
+        ] ;
+	] ;
+	.
+
+<#SequenceNumber>
+
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/bus/{ROUTE_SHORT_NAME}/{DIRECTION_ID}/{STOP_SEQUENCE}" ;
+		rr:class ex:SequenceNumber ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate foaf:Name ;
+		rr:objectMap [
+			rr:column "STOP_SEQUENCE";
+			rr:datatype xsd:string ; 
+		] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:hasStop ;
+		rr:objectMap [
+			rr:parentTriplesMap <#BusStop> ;
+			rr:joinCondition [
+				rr:child "STOP_ID";
+				rr:parent "STOP_ID";
+			] 
+        ] ;
+	] ;
+	.
+
+
+
+<#BusStop>
+
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/bus/stop/{STOP_ID}" ;
+		rr:class ex:Stop ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate foaf:Name ;
+		rr:objectMap [
+			rr:column "STOP_NAME";
+			rr:datatype xsd:string ; 
+		] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate geo:hasGeometry ;
+		rr:objectMap [
+			 rr:template "POINT ({STOP_LAT} {STOP_LON})" ;
+			 rr:datatype geo:wktLiteral ; 
+        ] ;
+	] ;
+	.
