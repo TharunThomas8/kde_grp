@@ -9,7 +9,7 @@
 <#Luas>
 	a rr:TriplesMap ;
 	
-	rr:logicalTable [ rr:tableName "routes_trips_stops_combined" ] ;
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined2" ] ;
 	
 	rr:subjectMap [
 		rr:template "http://data.example.org/luas/{ROUTE_SHORT_NAME}" ;
@@ -32,7 +32,7 @@
 
 	a rr:TriplesMap ;
 	
-	rr:logicalTable [ rr:tableName "routes_trips_stops_combined" ] ;
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined2" ] ;
 	
 	rr:subjectMap [
 		rr:template "http://data.example.org/luas/{ROUTE_SHORT_NAME}/{DIRECTION_ID}" ;
@@ -52,8 +52,8 @@
 		rr:objectMap [
 			rr:parentTriplesMap <#SequenceNumber> ;
 			rr:joinCondition [
-				rr:child "STOP_SEQUENCE";
-				rr:parent "STOP_SEQUENCE";
+				rr:child "TRIP_ID";
+				rr:parent "TRIP_ID";
 			] 
         ] ;
 	] ;
@@ -63,7 +63,7 @@
 
 	a rr:TriplesMap ;
 	
-	rr:logicalTable [ rr:tableName "routes_trips_stops_combined" ] ;
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined2" ] ;
 	
 	rr:subjectMap [
 		rr:template "http://data.example.org/luas/{ROUTE_SHORT_NAME}/{DIRECTION_ID}/{STOP_SEQUENCE}" ;
@@ -81,7 +81,7 @@
 	rr:predicateObjectMap [
 		rr:predicate ex:hasStop ;
 		rr:objectMap [
-			rr:parentTriplesMap <#BusStop> ;
+			rr:parentTriplesMap <#LuasStop> ;
 			rr:joinCondition [
 				rr:child "STOP_ID";
 				rr:parent "STOP_ID";
@@ -96,10 +96,10 @@
 
 	a rr:TriplesMap ;
 	
-	rr:logicalTable [ rr:tableName "routes_trips_stops_combined" ] ;
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined2" ] ;
 	
 	rr:subjectMap [
-		rr:template "http://data.example.org/luas/stop/{STOP_ID}" ;
+		rr:template "http://data.example.org/stop/{STOP_ID}" ;
 		rr:class ex:Stop ;
 	] ;
 
@@ -112,10 +112,58 @@
 	] ;
 
 	rr:predicateObjectMap [
+		rr:predicate ex:hasLocation ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Geolocation> ;
+			rr:joinCondition [
+				rr:child "STOP_ID";
+				rr:parent "STOP_ID";
+			] 
+        ] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:isStopOf ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Trips> ;
+			rr:joinCondition [
+				rr:child "TRIP_ID";
+				rr:parent "TRIP_ID";
+			] 
+        ] ;
+	] ;
+	
+	
+	.
+
+	<#Geolocation>
+
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined2" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/stop/{STOP_ID}/loc" ;
+		rr:class ex:location ;
+	] ;
+
+	rr:predicateObjectMap [
 		rr:predicate geo:hasGeometry ;
 		rr:objectMap [
-			 rr:template "POINT ({STOP_LAT} {STOP_LON})" ;
+			 rr:template "POINT({STOP_LAT} {STOP_LON})" ;
 			 rr:datatype geo:wktLiteral ; 
         ] ;
 	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:isLocationOf ;
+		rr:objectMap [
+			rr:parentTriplesMap <#LuasStop> ;
+			rr:joinCondition [
+				rr:child "STOP_ID";
+				rr:parent "STOP_ID";
+			] 
+        ] ;
+	] ;
+	
 	.
