@@ -112,9 +112,32 @@
 	] ;
 
 	rr:predicateObjectMap [
+		rr:predicate ex:hasLocation ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Geolocation> ;
+			rr:joinCondition [
+				rr:child "OBJECTID";
+				rr:parent "OBJECTID";
+			] 
+        ] ;
+	] ;
+	.
+
+<#Geolocation>
+
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "routes_trips_stops_combined" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/bus/stop/{STOP_ID}/loc" ;
+		rr:class ex:location ;
+	] ;
+
+	rr:predicateObjectMap [
 		rr:predicate geo:hasGeometry ;
 		rr:objectMap [
-			 rr:template "POINT ({STOP_LAT} {STOP_LON})" ;
+			 rr:template "POINT({STOP_LAT} {STOP_LON})" ;
 			 rr:datatype geo:wktLiteral ; 
         ] ;
 	] ;

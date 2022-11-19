@@ -5,21 +5,20 @@
 @prefix ex: <http://data.example.org/ont#> .
 @prefix sch: <https://schema.org/address#> .
 
-<#TennisClubs>
+<#SportsClubs>
 	a rr:TriplesMap ;
 	
 	rr:logicalTable [ rr:tableName "sports_centres" ] ;
 	
 	rr:subjectMap [
 		rr:template "http://data.example.org/sports/{OBJECTID}" ;
-		rr:class ex:TennisClub ;
+		rr:class ex:SportsClub ;
 	] ;
 	
 	rr:predicateObjectMap [
 		rr:predicate ex:Name ;
-		rr:predicate rdfs:label ;
 		rr:objectMap [
-             rr:column "Name" ;
+             rr:column "NAME" ;
 			 rr:datatype xsd:string ;
         ] ;
 	] ;
@@ -104,7 +103,7 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate geo:lat ;
+		rr:predicate geo:asWKT;
 		rr:objectMap [
 			 rr:template "POINT({LAT} {LONG})" ;
 			 rr:datatype geo:wktLiteral ; 

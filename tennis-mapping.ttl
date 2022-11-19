@@ -12,7 +12,7 @@
 	
 	rr:subjectMap [
 		rr:template "http://data.example.org/club/tennis/{OBJECTID}" ;
-		rr:class ex:sports_club ;
+		rr:class ex:sportsclub ;
 	] ;
 	
 	rr:predicateObjectMap [
@@ -71,9 +71,9 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate geo:hasGeometry;
+		rr:predicate geo:asWKT;
 		rr:objectMap [
-			 rr:template "POINT ({LAT} {LONG})" ;
+			 rr:template "POINT({LAT} {LONG})" ;
 			 rr:datatype geo:wktLiteral ; 
         ] ;
 	] ;

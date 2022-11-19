@@ -1,7 +1,5 @@
 <http://data.example.org/sports/29222>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Peamount United fC" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Greenogue, Newcastle, Co. Dublin" ;
         <http://data.example.org/ont#Email>
@@ -23,13 +21,11 @@
 
 <http://data.example.org/club/sports/5325/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28717589 -6.33952578)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28717589 -6.33952578)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/10806>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Kilnamanagh Football Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Treepark Road, Kilnamanagh, Dublin 24" ;
         <http://data.example.org/ont#Email>
@@ -50,9 +46,7 @@
                 <http://data.example.org/club/sports/10806/loc> .
 
 <http://data.example.org/sports/4920>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "SAINT JOSEPH'S AMATURE BOXING CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "BALLYBODEN ROAD, DUBLIN 16" ;
         <http://data.example.org/ont#Email>
@@ -74,18 +68,16 @@
 
 <http://data.example.org/club/sports/16010/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29272779 -6.35580422)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29272779 -6.35580422)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/30023/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.34133235 -6.40959959)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.34133235 -6.40959959)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4849>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "COMMERCIALS GAA CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "COLLEGE LANE, NEWCASTLE ROAD, RATHCOOLE, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -107,13 +99,11 @@
 
 <http://data.example.org/club/sports/4826/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29626020 -6.32579918)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29626020 -6.32579918)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4828>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "THREE ROCK ROVERS" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "MARLEY PARK, GRANGE ROAD, DUBLIN 16" ;
         <http://data.example.org/ont#Email>
@@ -134,9 +124,7 @@
                 <http://data.example.org/club/sports/4828/loc> .
 
 <http://data.example.org/sports/4807>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "BLUEBELL UTD AFC LTD." ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "CARPO PARK, NAAS ROAD, DUBLIN 22" ;
         <http://data.example.org/ont#Email>
@@ -157,9 +145,7 @@
                 <http://data.example.org/club/sports/4807/loc> .
 
 <http://data.example.org/sports/4899>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "NEILSTOWN BOXING CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "UNIT 12, NEILSTOWN ROAD, DUBLIN 22" ;
         <http://data.example.org/ont#Email>
@@ -181,18 +167,16 @@
 
 <http://data.example.org/club/sports/4836/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.31814145 -6.39566928)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.31814145 -6.39566928)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4863/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.30334662 -6.42818502)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.30334662 -6.42818502)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4836>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "ROUND TOWERS GAA" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "CONVENT ROAD, DUBLIN 22" ;
         <http://data.example.org/ont#Email>
@@ -213,9 +197,7 @@
                 <http://data.example.org/club/sports/4836/loc> .
 
 <http://data.example.org/sports/4815>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "MANORTOWN F.C." ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "LIMEKILN LANE, PERRYSTOWN, DUBLIN 12" ;
         <http://data.example.org/ont#Email>
@@ -237,23 +219,21 @@
 
 <http://data.example.org/club/sports/30417/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29028957 -6.38862875)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29028957 -6.38862875)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/14808/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.35610941 -6.46120835)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.35610941 -6.46120835)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4873/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.33168902 -6.45829614)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.33168902 -6.45829614)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4915>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "KILNAMANAGH BOXING CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "UNIT 42, THIRD AVENUE, COOKSTOWN INDUSTRIAL ESTATE, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -275,18 +255,16 @@
 
 <http://data.example.org/club/sports/29222/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.30390331 -6.47724794)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.30390331 -6.47724794)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4840/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28966746 -6.38838199)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28966746 -6.38838199)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4844>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Saint Anne's GAA Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "SAINT ANNE'S G.A.A. CLUB, BOHERNABREENA ROAD, BOHERNABREENA, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -308,18 +286,16 @@
 
 <http://data.example.org/club/sports/4902/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28745365 -6.33923634)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28745365 -6.33923634)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4883/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.26535601 -6.47041819)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.26535601 -6.47041819)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/14810>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Esker Celtic Football Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Griffeen Park, Lucan, Co. Dublin" ;
         <http://data.example.org/ont#Email>
@@ -340,9 +316,7 @@
                 <http://data.example.org/club/sports/14810/loc> .
 
 <http://data.example.org/sports/30023>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "South Dublin Football League" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Ballyowen Park  Lucan  Co Dublin" ;
         <http://data.example.org/ont#Email>
@@ -363,9 +337,7 @@
                 <http://data.example.org/club/sports/30023/loc> .
 
 <http://data.example.org/sports/4902>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "EMERALD WARRIORS FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "UNIT 3, BOLBROOK ENTERPRISE CENTRE, AVONMORE ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -387,13 +359,11 @@
 
 <http://data.example.org/club/sports/4912/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29107245 -6.35630145)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29107245 -6.35630145)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4873>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "LUCAN SARSFIELDS GAA" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "NEWCASTLE ROAD, LUCAN, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -415,13 +385,11 @@
 
 <http://data.example.org/club/sports/30024/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27306440 -6.38629028)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27306440 -6.38629028)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4831>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "PHOENIX GYMNASTICS CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "UNIT 1, BROOMHILL TERRACE, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -442,9 +410,7 @@
                 <http://data.example.org/club/sports/4831/loc> .
 
 <http://data.example.org/sports/4810>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "GREENHILLS BOYS FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "SAINT JOSEPH'S ROAD, DUBLIN 12" ;
         <http://data.example.org/ont#Email>
@@ -466,13 +432,11 @@
 
 <http://data.example.org/club/sports/30021/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.26005756 -6.26806783)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.26005756 -6.26806783)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4881>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "SAINT FINIAN'S GAA CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "AYLMER ROAD, NEWCASTLE, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -493,9 +457,7 @@
                 <http://data.example.org/club/sports/4881/loc> .
 
 <http://data.example.org/sports/4860>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "BEECH PARK GOLF CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "KILTEEL ROAD, JOHNSTOWN, RATHCOOLE, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -517,18 +479,16 @@
 
 <http://data.example.org/club/sports/4807/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.32058885 -6.36451134)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.32058885 -6.36451134)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4834/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.35630234 -6.36318416)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.35630234 -6.36318416)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4818>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "SAINT MARY'S BOXING CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "SAINT DOMINIC'S ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -549,9 +509,7 @@
                 <http://data.example.org/club/sports/4818/loc> .
 
 <http://data.example.org/sports/29220>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Jobstown All Weather Pitch" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Jobstown, Tallaght, Dublin 24" ;
         <http://data.example.org/ont#Email>
@@ -573,18 +531,16 @@
 
 <http://data.example.org/club/sports/4831/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29592228 -6.36225674)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29592228 -6.36225674)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4877/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27316270 -6.40428336)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27316270 -6.40428336)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4918>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "FIRHOUSE CARMEL FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "BALLYCULLEN DRIVE, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -606,18 +562,16 @@
 
 <http://data.example.org/club/sports/14809/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.34692527 -6.44942234)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.34692527 -6.44942234)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4844/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.26976583 -6.35635609)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.26976583 -6.35635609)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4868>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "WANDERERS G.A.A. CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Frank Kelly Park, MOUNT VENUS ROAD, DUBLIN 16" ;
         <http://data.example.org/ont#Email>
@@ -639,18 +593,16 @@
 
 <http://data.example.org/club/sports/4841/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28623585 -6.39086509)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28623585 -6.39086509)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4887/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.30999301 -6.41842471)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.30999301 -6.41842471)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4826>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "FAUGH'S GAA Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "WELLINGTON LANE, DUBLIN 6W" ;
         <http://data.example.org/ont#Email>
@@ -671,9 +623,7 @@
                 <http://data.example.org/club/sports/4826/loc> .
 
 <http://data.example.org/sports/16010>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Astro Park Tallaght" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Greenhills Road" ;
         <http://data.example.org/ont#Email>
@@ -695,18 +645,16 @@
 
 <http://data.example.org/club/sports/4919/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28394169 -6.32625160)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28394169 -6.32625160)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4884/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27165432 -6.36679267)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27165432 -6.36679267)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4926>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "KNOCKLYON UNITED FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "GLENLYON PARK, DUBLIN 16" ;
         <http://data.example.org/ont#Email>
@@ -728,13 +676,11 @@
 
 <http://data.example.org/club/sports/4881/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.30204495 -6.48593006)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.30204495 -6.48593006)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/10407>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "FETTERCAIRN HORSE PROJECT" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Fettercairn Road, Tallaght, Dublin 24" ;
         <http://data.example.org/ont#Email>
@@ -756,13 +702,11 @@
 
 <http://data.example.org/club/sports/4913/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29117283 -6.35626413)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29117283 -6.35626413)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4855>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "SLADE VALLEY GOLF CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "SLADEVALLEY, BRITTAS, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -784,13 +728,11 @@
 
 <http://data.example.org/club/sports/14810/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.35445959 -6.41541576)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.35445959 -6.41541576)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4834>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "PALMERSTOWN RANGERS SPORTS & LEISURE LTD." ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "MILL LANE, DUBLIN 20" ;
         <http://data.example.org/ont#Email>
@@ -811,9 +753,7 @@
                 <http://data.example.org/club/sports/4834/loc> .
 
 <http://data.example.org/sports/29620>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Eagles Rifle and Pistol Target Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Lugg Hill, Saggart, Co. Dublin" ;
         <http://data.example.org/ont#Email>
@@ -834,9 +774,7 @@
                 <http://data.example.org/club/sports/29620/loc> .
 
 <http://data.example.org/sports/4813>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "RATHFARNHAM W. S. A. F. ATHLETIC CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "59 MAIN STREET, RATHFARNHAM, DUBLIN 14" ;
         <http://data.example.org/ont#Email>
@@ -857,9 +795,7 @@
                 <http://data.example.org/club/sports/4813/loc> .
 
 <http://data.example.org/sports/4913>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "TALLAGHT ATHLETIC CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "GREENHILLS ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -880,9 +816,7 @@
                 <http://data.example.org/club/sports/4913/loc> .
 
 <http://data.example.org/sports/4884>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "AN POST SPORTS AND SOCIAL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "THE ANDY MOORE MEMORIAL SPORTS CLUB, KILTIPPER ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -904,13 +838,11 @@
 
 <http://data.example.org/club/sports/4838/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.35189321 -6.47395972)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.35189321 -6.47395972)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4863>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "SAINT FRANCIS FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "BALDONNELL LOWER, CLONDALKIN, DUBLIN 22" ;
         <http://data.example.org/ont#Email>
@@ -931,9 +863,7 @@
                 <http://data.example.org/club/sports/4863/loc> .
 
 <http://data.example.org/sports/4842>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Thomas Davis GAA Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "THOMAS DAVIS G.A.A CLUB, KILTIPPER ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -954,9 +884,7 @@
                 <http://data.example.org/club/sports/4842/loc> .
 
 <http://data.example.org/sports/4821>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "BALLYBODEN SAINT ENDA'S GAA CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "FIRHOUSE ROAD, DUBLIN 16" ;
         <http://data.example.org/ont#Email>
@@ -977,9 +905,7 @@
                 <http://data.example.org/club/sports/4821/loc> .
 
 <http://data.example.org/sports/14808>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Clondalkin Canoe Facility" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "South County Dublin Leisure Services" ;
         <http://data.example.org/ont#Email>
@@ -1000,9 +926,7 @@
                 <http://data.example.org/club/sports/14808/loc> .
 
 <http://data.example.org/sports/30021>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Stackstown Golf Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Stackstown Golf Club Kellystown Road Rathfarnham Dublin 16" ;
         <http://data.example.org/ont#Email>
@@ -1023,9 +947,7 @@
                 <http://data.example.org/club/sports/30021/loc> .
 
 <http://data.example.org/sports/4892>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "LUCAN UNITED SOCCER CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "LUCAN UNITED CLUBHOUSE, AIRLIE HEIGHTS, LUCAN, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1047,13 +969,11 @@
 
 <http://data.example.org/club/sports/4815/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.31112609 -6.32168828)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.31112609 -6.32168828)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4850>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "St. Marys GAA Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "SAINT MARY'S G.A.A. CLUB, PÃ�IRC MHUIRE, SAGGART, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1075,18 +995,16 @@
 
 <http://data.example.org/club/sports/4842/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27256401 -6.36138936)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27256401 -6.36138936)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4855/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.25647864 -6.47117104)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.25647864 -6.47117104)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/5325>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "TALLAGHT WARRIORS RUGBY YOUTH CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "BOLBROOK ENTERPRISE CENTRE, AVONMORE ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -1107,9 +1025,7 @@
                 <http://data.example.org/club/sports/5325/loc> .
 
 <http://data.example.org/sports/4858>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "LUCAN PITCH & PUTT" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "12TH LOCK NEWCASTLE ROAD, LUCAN, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1131,13 +1047,11 @@
 
 <http://data.example.org/club/sports/4892/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.34976761 -6.46839883)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.34976761 -6.46839883)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4887>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "CORKAGH PARK FISHING CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "CORKAGH DEMESNE, DUBLIN 22" ;
         <http://data.example.org/ont#Email>
@@ -1158,9 +1072,7 @@
                 <http://data.example.org/club/sports/4887/loc> .
 
 <http://data.example.org/sports/4824>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "NAOMH JUDE GAA Saint Jude" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "WELLINGTON LANE, DUBLIN 6W" ;
         <http://data.example.org/ont#Email>
@@ -1181,9 +1093,7 @@
                 <http://data.example.org/club/sports/4824/loc> .
 
 <http://data.example.org/sports/30024>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Sacred Heart Football Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Killinarden, Tallaght, Dublin 24" ;
         <http://data.example.org/ont#Email>
@@ -1205,18 +1115,16 @@
 
 <http://data.example.org/club/sports/4849/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28444320 -6.46144659)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28444320 -6.46144659)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4843/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27155312 -6.36172449)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27155312 -6.36172449)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4811>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "SAINT MARY'S RUGBY FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "TEMPLEVILLE ROAD, DUBLIN 6W" ;
         <http://data.example.org/ont#Email>
@@ -1238,48 +1146,46 @@
 
 <http://data.example.org/club/sports/4813/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29955027 -6.28464414)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29955027 -6.28464414)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4859/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27785789 -6.47304411)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27785789 -6.47304411)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4810/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.30970769 -6.33199956)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.30970769 -6.33199956)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/10806/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.30420570 -6.35178127)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.30420570 -6.35178127)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4856/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.32082015 -6.47290010)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.32082015 -6.47290010)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4918/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27621939 -6.34020086)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27621939 -6.34020086)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4899/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.33793751 -6.40146812)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.33793751 -6.40146812)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4915/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29376602 -6.37655745)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29376602 -6.37655745)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4861>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "BOHERNABREENA PITCH AND PUTT" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "BOHERNABREENA, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1300,9 +1206,7 @@
                 <http://data.example.org/club/sports/4861/loc> .
 
 <http://data.example.org/sports/4840>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "SAINT MARK'S GAA CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "MCGEE PARK, COOKSTOWN ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -1324,18 +1228,16 @@
 
 <http://data.example.org/club/sports/4850/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27944739 -6.44225628)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27944739 -6.44225628)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4820/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29801063 -6.30392084)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29801063 -6.30392084)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/29221>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Kilmashogue Golf Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "St. Columba's College, Whitechurch, Dublin 16" ;
         <http://data.example.org/ont#Email>
@@ -1357,13 +1259,11 @@
 
 <http://data.example.org/club/sports/4925/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28075477 -6.28293071)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28075477 -6.28293071)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4919>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "MODEL RAILWAY CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "OLD KNOCKLYON ROAD, DUBLIN 16" ;
         <http://data.example.org/ont#Email>
@@ -1385,18 +1285,16 @@
 
 <http://data.example.org/club/sports/4890/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.23369617 -6.43878101)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.23369617 -6.43878101)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4860/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.25995167 -6.49817595)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.25995167 -6.49817595)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4890>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "DUBLIN MOUNTAIN GOLF CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "BRITTAS, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1418,13 +1316,11 @@
 
 <http://data.example.org/club/sports/4922/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29257855 -6.28596720)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29257855 -6.28596720)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4877>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "HAZELGROVE GOLF CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "KILTALOWN, TALLAGHT, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -1445,9 +1341,7 @@
                 <http://data.example.org/club/sports/4877/loc> .
 
 <http://data.example.org/sports/4856>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "NEWCASTLE GOLF CENTRE" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "PEAMOUNT LANE, NEWCASTLE, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1468,9 +1362,7 @@
                 <http://data.example.org/club/sports/4856/loc> .
 
 <http://data.example.org/sports/4835>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "EDMONDSTOWN GOLF COURSE" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "EDMONDSTOWN ROAD, DUBLIN 16" ;
         <http://data.example.org/ont#Email>
@@ -1491,9 +1383,7 @@
                 <http://data.example.org/club/sports/4835/loc> .
 
 <http://data.example.org/sports/4814>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "ROBERT EMMET'S GAA Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "LIMEKILN LANE, PERRYSTOWN, DUBLIN 12" ;
         <http://data.example.org/ont#Email>
@@ -1515,18 +1405,16 @@
 
 <http://data.example.org/club/sports/4814/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.31112264 -6.32237410)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.31112264 -6.32237410)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4811/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.30266203 -6.31191674)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.30266203 -6.31191674)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/6808>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Ballyboden St. Endas GAA" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Sancta Maria" ;
         <http://data.example.org/ont#Email>
@@ -1548,13 +1436,11 @@
 
 <http://data.example.org/club/sports/4854/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.26904079 -6.30816218)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.26904079 -6.30816218)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4864>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "NEWLANDS GOLF CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "BELGARD ROAD, DUBLIN 22" ;
         <http://data.example.org/ont#Email>
@@ -1576,13 +1462,11 @@
 
 <http://data.example.org/club/sports/4824/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29667015 -6.32777160)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29667015 -6.32777160)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4843>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "GLENVILLE PITCH AND PUTT COURSE" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "KILTIPPER ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -1603,9 +1487,7 @@
                 <http://data.example.org/club/sports/4843/loc> .
 
 <http://data.example.org/sports/4822>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Templeogue Castle Community Bridge Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "TEMPLEOGUE HOUSE, TEMPLEOGUE ROAD, DUBLIN 6W" ;
         <http://data.example.org/ont#Email>
@@ -1627,13 +1509,11 @@
 
 <http://data.example.org/club/sports/4821/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28931836 -6.31671885)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28931836 -6.31671885)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/29224>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Leinster Badminton Union" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Whitehall Road, Dublin 12" ;
         <http://data.example.org/ont#Email>
@@ -1655,18 +1535,16 @@
 
 <http://data.example.org/club/sports/4867/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29950972 -6.41783142)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29950972 -6.41783142)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/29219/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.31549942 -6.43314624)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.31549942 -6.43314624)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/14809>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Lucan Harriers Athletic CLub" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Newcastle Road,  Lucan,  Co Dublin" ;
         <http://data.example.org/ont#Email>
@@ -1688,18 +1566,16 @@
 
 <http://data.example.org/club/sports/4864/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.30859113 -6.39188385)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.30859113 -6.39188385)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/10407/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29343551 -6.39405558)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29343551 -6.39405558)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4922>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "LORETO HOCKEY CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "LORETO HIGH SCHOOL, GRANGE ROAD, DUBLIN 14" ;
         <http://data.example.org/ont#Email>
@@ -1721,23 +1597,21 @@
 
 <http://data.example.org/club/sports/4926/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27752968 -6.32641419)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27752968 -6.32641419)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4861/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.26352440 -6.36224410)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.26352440 -6.36224410)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/29620/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.26498381 -6.45567679)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.26498381 -6.45567679)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4872>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "HERMITAGE GOLF CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "LUCAN, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1759,18 +1633,16 @@
 
 <http://data.example.org/club/sports/4920/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28055128 -6.29715283)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28055128 -6.29715283)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/29220/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27890428 -6.40590507)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27890428 -6.40590507)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4859>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "RATHCOOLE BOY'S FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "MAIN ROAD, FOREST HILLS, RATHCOOLE, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1791,9 +1663,7 @@
                 <http://data.example.org/club/sports/4859/loc> .
 
 <http://data.example.org/sports/4838>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "LUCAN GOLF CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "CELBRIDGE ROAD, LUCAN, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1815,13 +1685,11 @@
 
 <http://data.example.org/club/sports/4818/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28495877 -6.35484090)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28495877 -6.35484090)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/29219>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Grange Castle Golf Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "New Nangor Road, Clondalkin, Dublin 22, Co. Dublin, Ireland" ;
         <http://data.example.org/ont#Email>
@@ -1843,18 +1711,16 @@
 
 <http://data.example.org/club/sports/4858/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.33150027 -6.45549467)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.33150027 -6.45549467)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4828/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27965528 -6.27281097)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27965528 -6.27281097)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4867>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "CLONDALKIN RUGBY FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "GORDON PARK, KINGSWOOD CROSS, DUBLIN 22" ;
         <http://data.example.org/ont#Email>
@@ -1876,13 +1742,11 @@
 
 <http://data.example.org/club/sports/4825/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29710461 -6.32900280)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29710461 -6.32900280)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4825>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "TEMPLEOGUE UNITED" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "WELLINGTON LANE, DUBLIN 6W" ;
         <http://data.example.org/ont#Email>
@@ -1904,18 +1768,16 @@
 
 <http://data.example.org/club/sports/4822/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.29608889 -6.31574612)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.29608889 -6.31574612)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4868/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.26078500 -6.30241675)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.26078500 -6.30241675)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4925>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "GRANGE GOLF CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "WHITECHURCH ROAD, DUBLIN 16" ;
         <http://data.example.org/ont#Email>
@@ -1937,18 +1799,16 @@
 
 <http://data.example.org/club/sports/4835/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.27397072 -6.29136130)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.27397072 -6.29136130)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/4862/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.25038228 -6.37616092)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.25038228 -6.37616092)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4875>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "LIFFEY VALLEY PAR THREE" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "LUCAN ROAD, LEIXLIP, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -1969,9 +1829,7 @@
                 <http://data.example.org/club/sports/4875/loc> .
 
 <http://data.example.org/sports/4854>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "RATHFARNHAM GOLF CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "STOCKING LANE, DUBLIN 16" ;
         <http://data.example.org/ont#Email>
@@ -1993,13 +1851,11 @@
 
 <http://data.example.org/club/sports/4875/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.36148490 -6.47423084)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.36148490 -6.47423084)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/30417>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Glennane Hockey Club" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "Glenanne Park, St. Marks Community School, Tallaght 24." ;
         <http://data.example.org/ont#Email>
@@ -2021,18 +1877,16 @@
 
 <http://data.example.org/club/sports/4872/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.36335602 -6.41163765)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.36335602 -6.41163765)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/club/sports/29224/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.30826755 -6.31394101)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.30826755 -6.31394101)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4912>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "MAELRUANS FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "GREENHILLS ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -2054,13 +1908,11 @@
 
 <http://data.example.org/club/sports/29221/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.26371876 -6.27383458)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.26371876 -6.27383458)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4883>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "SAGGART PITCH AND PUTT" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "COOLMINE, SAGGART, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -2081,9 +1933,7 @@
                 <http://data.example.org/club/sports/4883/loc> .
 
 <http://data.example.org/sports/4862>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "fOOTEE" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "BALLINASCORNEY LOWER, CO. DUBLIN" ;
         <http://data.example.org/ont#Email>
@@ -2105,13 +1955,11 @@
 
 <http://data.example.org/club/sports/6808/loc>
         a       <http://data.example.org/ont#location> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT (+53.28316628 -6.30260512)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+        <http://www.opengis.net/ont/geosparql#asWKT>
+                "POINT(+53.28316628 -6.30260512)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/sports/4841>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "MARK'S CELTIC FOOTBALL CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "MAPLEWOOD ROAD, DUBLIN 24" ;
         <http://data.example.org/ont#Email>
@@ -2132,9 +1980,7 @@
                 <http://data.example.org/club/sports/4841/loc> .
 
 <http://data.example.org/sports/4820>
-        a       <http://data.example.org/ont#TennisClub> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "TEMPLEOGUE TENNIS CLUB" ;
+        a       <http://data.example.org/ont#SportsClub> ;
         <http://data.example.org/ont#Address>
                 "192/194 TEMPLEOGUE ROAD, DUBLIN 6W" ;
         <http://data.example.org/ont#Email>
