@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RDF Example by Maheen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<h1> </h1>
+
+<div class="container">
+  <p class="text-justify">This is demo to search in RDF data file. </p>
+  <!-- <h1 class="label label-success">Demo RDF Quering by Maheen Bakhtyar</h1> -->
+  <form class="form-horizontal" action="/" method="post" >
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Enter Name</label>
+      <select id="mySelection" name = "question">
+        <option value="q1">Are you lesbian?</option>
+        <option value="q2">Are you gay?</option>
+        <option value="q3">Does your mm know you are gay?</option>
+        <option value="q4">Does your dad know you are lesbian?</option>
+      </select>
+      
+    </div>
+    
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Search</button>
+      </div>
+    </div>
+  </form>
+</div>
+{%if showtable%}
+<div class="container">
+  <h2>Welcome</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        {% for header in query_result.head.vars %}
+          <th>{{ header }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in query_result.results.bindings %}
+      <tr class="success">
+        {% for cell in row.items() %}
+          <td>{{ cell.1.value }}</td>
+        {% endfor %}
+      </tr>
+      {%endfor%}
+    </tbody>
+  </table>
+</div>
+{%endif%}
+</body>
+</html>
