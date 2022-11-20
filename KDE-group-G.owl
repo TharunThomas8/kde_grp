@@ -271,6 +271,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#ContactInfo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#ContactInfo"/>
+    
+
+
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Location -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Location"/>
