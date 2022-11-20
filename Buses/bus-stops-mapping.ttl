@@ -17,7 +17,7 @@
 	] ;
 	
 	rr:predicateObjectMap [
-		rr:predicate ex:hasTrip ;
+		rr:predicate ex:hasBusTrip ;
 		rr:objectMap [
 			rr:parentTriplesMap <#Trips> ;
 			rr:joinCondition [
@@ -48,7 +48,7 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate ex:stopSequenceNumber ;
+		rr:predicate ex:hasBusStopSequenceNumber ;
 		rr:objectMap [
 			rr:parentTriplesMap <#SequenceNumber> ;
 			rr:joinCondition [
@@ -79,7 +79,7 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate ex:hasStop ;
+		rr:predicate ex:hasBusStop ;
 		rr:objectMap [
 			rr:parentTriplesMap <#BusStop> ;
 			rr:joinCondition [
@@ -100,7 +100,7 @@
 	
 	rr:subjectMap [
 		rr:template "http://data.example.org/stop/{STOP_ID}" ;
-		rr:class ex:Stop ;
+		rr:class ex:BusStop ;
 	] ;
 
 	rr:predicateObjectMap [
@@ -121,22 +121,9 @@
 			] 
         ] ;
 	] ;
-
-	rr:predicateObjectMap [
-		rr:predicate ex:isStopOf ;
-		rr:objectMap [
-			rr:parentTriplesMap <#Trips> ;
-			rr:joinCondition [
-				rr:child "TRIP_ID";
-				rr:parent "TRIP_ID";
-			] 
-        ] ;
-	] ;
-	
-	
 	.
 
-	<#Geolocation>
+<#Geolocation>
 
 	a rr:TriplesMap ;
 	
@@ -144,7 +131,7 @@
 	
 	rr:subjectMap [
 		rr:template "http://data.example.org/stop/{STOP_ID}/loc" ;
-		rr:class ex:location ;
+		rr:class ex:Location ;
 	] ;
 
 	rr:predicateObjectMap [
@@ -154,16 +141,5 @@
 			 rr:datatype geo:wktLiteral ; 
         ] ;
 	] ;
-
-	rr:predicateObjectMap [
-		rr:predicate ex:isLocationOf ;
-		rr:objectMap [
-			rr:parentTriplesMap <#BusStop> ;
-			rr:joinCondition [
-				rr:child "STOP_ID";
-				rr:parent "STOP_ID";
-			] 
-        ] ;
-	] ;
-	
 	.
+	
