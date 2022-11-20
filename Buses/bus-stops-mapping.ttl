@@ -71,7 +71,7 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate foaf:Name ;
+		rr:predicate foaf:name ;
 		rr:objectMap [
 			rr:column "STOP_SEQUENCE";
 			rr:datatype xsd:string ; 
@@ -104,7 +104,7 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate foaf:Name ;
+		rr:predicate foaf:name ;
 		rr:objectMap [
 			rr:column "STOP_NAME";
 			rr:datatype xsd:string ; 

@@ -73,6 +73,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasContactInfo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasContactInfo">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#RecreationClub"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#ContactInfo"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLocation -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLocation">

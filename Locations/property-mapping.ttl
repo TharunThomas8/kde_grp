@@ -4,6 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix ex: <http://data.example.org/ont#> .
 @prefix sch: <https://schema.org/address#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
  
 
@@ -42,7 +43,7 @@
 	] ;
 
 	rr:predicateObjectMap [
-		rr:predicate foaf:Name ;
+		rr:predicate foaf:name ;
 		rr:objectMap [
 			rr:column "ADDRESS";
 			rr:datatype xsd:string ; 
@@ -70,7 +71,7 @@
 	rr:logicalTable [ rr:tableName "properties" ] ;
 	
 	rr:subjectMap [
-		rr:template "http://data.example.org/apartment/{ID}/loc" ;
+		rr:template "http://data.example.org/property/{ID}/loc" ;
 		rr:class ex:location ;
 	] ;
 

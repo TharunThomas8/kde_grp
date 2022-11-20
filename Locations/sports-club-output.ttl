@@ -1,0 +1,391 @@
+<http://data.example.org/sportsclub/7>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/7/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/7/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Newtown Park Tennis Club" .
+
+<http://data.example.org/sportsclub/12/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.29473704 -6.21544123)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/5/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "clubhouse@shankilltennisclub.com" ;
+        <http://data.example.org/ont#phone>
+                "01 2825400" .
+
+<http://data.example.org/sportsclub/7/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.28532884 -6.17487014)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/4/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.29632333 -6.17624216)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/13/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "" ;
+        <http://data.example.org/ont#phone>
+                "" .
+
+<http://data.example.org/sportsclub/14>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/14/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/14/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Westwood Tennis Club" .
+
+<http://data.example.org/sportsclub/1/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.28169819 -6.12911499)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/1>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/1/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/1/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Glenageary Lawn Tennis Club" .
+
+<http://data.example.org/sportsclub/6/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/6/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Green Rd, Blackrock, Dublin" .
+
+<http://data.example.org/sportsclub/13/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.24344257 -6.20036165)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/10/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.26063761 -6.22911087)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/14/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/14/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "West Wood Club, Leopardstown Race Course, Foxrock, Dublin 18" .
+
+<http://data.example.org/sportsclub/2/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "committee@meadowvaletennis.net" ;
+        <http://data.example.org/ont#phone>
+                "01 2897284" .
+
+<http://data.example.org/sportsclub/8/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/8/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "St John's Park, Upper, Monkstown, Co. Dublin" .
+
+<http://data.example.org/sportsclub/14/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.26439027 -6.19574966)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/6>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/6/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/6/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Blackrock Bowling and Tennis Club" .
+
+<http://data.example.org/sportsclub/10/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "" ;
+        <http://data.example.org/ont#phone>
+                "087 6480107" .
+
+<http://data.example.org/sportsclub/11/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.25574893 -6.17233884)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/3/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/3/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Stillorgan, Dublin" .
+
+<http://data.example.org/sportsclub/13>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/13/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/13/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Kilternan Parish Lawn Tennis Club" .
+
+<http://data.example.org/sportsclub/4/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "carraigtcinfo@gmail.com" ;
+        <http://data.example.org/ont#phone>
+                "086 221 7560" .
+
+<http://data.example.org/sportsclub/11/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/11/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Glenamuck Road,Carrickmines, Dublin 18" .
+
+<http://data.example.org/sportsclub/5/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/5/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Shanganagh Park" .
+
+<http://data.example.org/sportsclub/5>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/5/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/5/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Shankill Tennis Club" .
+
+<http://data.example.org/sportsclub/7/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "newtownparktc@gmail.com" ;
+        <http://data.example.org/ont#phone>
+                "086 0667702" .
+
+<http://data.example.org/sportsclub/1/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "secretary@glenagearyltc.ie" ;
+        <http://data.example.org/ont#phone>
+                "01 280 8565" .
+
+<http://data.example.org/sportsclub/12>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/12/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/12/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Deerpark Tennis Club" .
+
+<http://data.example.org/sportsclub/2/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/2/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Meadow Vale, Woodpark, Dublin" .
+
+<http://data.example.org/sportsclub/9/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "sandycovetsc@eircom.net" ;
+        <http://data.example.org/ont#phone>
+                "01 2808769" .
+
+<http://data.example.org/sportsclub/10/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/10/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "LC Tennis, Enniskerry Rd, Sandyford, Dublin 18" .
+
+<http://data.example.org/sportsclub/12/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "info@deerparktennis.ie" ;
+        <http://data.example.org/ont#phone>
+                "01 2781466" .
+
+<http://data.example.org/sportsclub/4>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/4/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/4/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Carraig Lawn Tennis Club" .
+
+<http://data.example.org/sportsclub/6/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "contact@blackrockbtc.ie" ;
+        <http://data.example.org/ont#phone>
+                "01 2881933" .
+
+<http://data.example.org/sportsclub/11>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/11/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/11/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Carrickmines Croquet & Lawn Tennis Club" .
+
+<http://data.example.org/sportsclub/13/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/13/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Kilternan Church of Ireland, Enniskerry Rd, Dublin 18" .
+
+<http://data.example.org/sportsclub/14/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "infoleopardstown@westwood.ie" ;
+        <http://data.example.org/ont#phone>
+                "01 2893208" .
+
+<http://data.example.org/sportsclub/7/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/7/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Newtown Park Tennis Club" .
+
+<http://data.example.org/sportsclub/9>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/9/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/9/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Sandycove Tennis and Squash Club" .
+
+<http://data.example.org/sportsclub/3/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "joinltc@gmail.com" ;
+        <http://data.example.org/ont#phone>
+                "" .
+
+<http://data.example.org/sportsclub/3>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/3/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/3/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Leopardstown Tennis Club" .
+
+<http://data.example.org/sportsclub/11/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "info@carrickmines.com" ;
+        <http://data.example.org/ont#phone>
+                "01 2891462" .
+
+<http://data.example.org/sportsclub/10>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/10/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/10/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "LC Tennis" .
+
+<http://data.example.org/sportsclub/4/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/4/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Rockfield Park, Blackrock, Co. Dublin" .
+
+<http://data.example.org/sportsclub/12/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/12/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Deer Park, Mount Merrion, Dublin" .
+
+<http://data.example.org/sportsclub/8>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/8/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/8/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Monkstown Lawn Tennis Club" .
+
+<http://data.example.org/sportsclub/8/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.28797490 -6.14783040)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/5/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.23199254 -6.11367902)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/2/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.27250217 -6.15715625)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/2>
+        a       <http://data.example.org/ont#SportsClub> ;
+        <http://data.example.org/ont#hasAddress>
+                <http://data.example.org/sportsclub/2/address> ;
+        <http://data.example.org/ont#hasContactInfo>
+                <http://data.example.org/sportsclub/2/contact> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Meadowvale Tennis Club" .
+
+<http://data.example.org/sportsclub/1/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/1/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Silchester Rd, Dún Laoghaire, Dublin" .
+
+<http://data.example.org/sportsclub/8/contact>
+        a       <http://data.example.org/ont#ContactInfo> ;
+        <http://data.example.org/ont#email>
+                "admin@monkstownltc.com" ;
+        <http://data.example.org/ont#phone>
+                "01 2842582" .
+
+<http://data.example.org/sportsclub/9/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.28523588 -6.11750372)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/6/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.29851354 -6.18728879)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/sportsclub/9/address>
+        a       <http://data.example.org/ont#Address> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/sportsclub/9/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Elton Park, Sandycove, Dublin" .
+
+<http://data.example.org/sportsclub/3/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(+53.27916432 -6.19355775)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .

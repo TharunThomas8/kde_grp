@@ -1,0 +1,129 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://data.example.org/ont#>.
+@prefix sch: <https://schema.org/address#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<#TennisClubs>
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "sports_clubs" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/sportsclub/{OBJECTID}" ;
+		rr:class ex:SportsClub ;
+	] ;
+	
+	rr:predicateObjectMap [
+		rr:predicate foaf:name ;
+		rr:objectMap [
+             rr:column "NAME" ;
+			 rr:datatype xsd:string ;
+        ] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:hasContactInfo ;
+		rr:objectMap [
+			rr:parentTriplesMap <#ContactInfomation> ;
+			rr:joinCondition [
+				rr:child "OBJECTID";
+				rr:parent "OBJECTID";
+			] 
+        ] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:hasAddress ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Address> ;
+			rr:joinCondition [
+				rr:child "OBJECTID";
+				rr:parent "OBJECTID";
+			] 
+        ] ;
+	] ;
+	.
+
+<#ContactInfomation>
+	a rr:TriplesMap ;
+
+	rr:logicalTable [ rr:tableName "sports_clubs" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/sportsclub/{OBJECTID}/contact" ;
+		rr:class ex:ContactInfo ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:phone ;
+		rr:objectMap [
+             rr:column "PHONE" ;
+			 rr:datatype xsd:string ;
+        ] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:email ;
+		rr:objectMap [
+             rr:column "EMAIL" ;
+			 rr:datatype xsd:string ;
+        ] ;
+	] ;
+
+	.
+
+
+
+<#Address>
+	a rr:TriplesMap ;
+
+	rr:logicalTable [ rr:tableName "sports_clubs" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/sportsclub/{OBJECTID}/address" ;
+		rr:class ex:Address ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate foaf:name ;
+		rr:objectMap [
+			rr:column "ADDRESS";
+			rr:datatype xsd:string ; 
+		] ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate ex:hasLocation ;
+		rr:objectMap [
+			rr:parentTriplesMap <#Geolocation> ;
+			rr:joinCondition [
+				rr:child "OBJECTID";
+				rr:parent "OBJECTID";
+			] 
+        ] ;
+	] ;
+	.
+
+
+<#Geolocation>
+
+	a rr:TriplesMap ;
+	
+	rr:logicalTable [ rr:tableName "sports_clubs" ] ;
+	
+	rr:subjectMap [
+		rr:template "http://data.example.org/sportsclub/{OBJECTID}/loc" ;
+		rr:class ex:Location ;
+	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate geo:hasGeometry;
+		rr:objectMap [
+			 rr:template "POINT({LAT} {LONG})" ;
+			 rr:datatype geo:wktLiteral ; 
+        ] ;
+	] ;
+	.
