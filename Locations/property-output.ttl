@@ -20,7 +20,9 @@
 <http://data.example.org/property/182>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/182/address> .
+                <http://data.example.org/property/182/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "100 CHURCHVIEW RD, KILLINEY, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/168/loc>
         a       <http://data.example.org/ont#location> ;
@@ -35,12 +37,16 @@
 <http://data.example.org/property/55>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/55/address> .
+                <http://data.example.org/property/55/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "15 COOLOCK VILLAGE, COOLOCK, DUBLIN 5, Dublin, Ireland" .
 
 <http://data.example.org/property/152>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/152/address> .
+                <http://data.example.org/property/152/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "11 LANDSCAPE GARDENS, CHURCHTOWN, DUBLIN 14, Dublin, Ireland" .
 
 <http://data.example.org/property/88/loc>
         a       <http://data.example.org/ont#location> ;
@@ -62,7 +68,9 @@
 <http://data.example.org/property/25>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/25/address> .
+                <http://data.example.org/property/25/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "89 KYLEMORE DR, BALLYFERMOT, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/147/loc>
         a       <http://data.example.org/ont#location> ;
@@ -86,7 +94,9 @@
 <http://data.example.org/property/122>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/122/address> .
+                <http://data.example.org/property/122/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "9 NEWCOMEN AVE, NORTH STRAND, DUBLIN 3, Dublin, Ireland" .
 
 <http://data.example.org/property/27/loc>
         a       <http://data.example.org/ont#location> ;
@@ -103,7 +113,9 @@
 <http://data.example.org/property/97>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/97/address> .
+                <http://data.example.org/property/97/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "90 RATHDOWN PARK, TERENURE, DUBLIN 6W, Dublin, Ireland" .
 
 <http://data.example.org/property/79/address>
         a       <http://data.example.org/ont#Address> ;
@@ -129,7 +141,9 @@
 <http://data.example.org/property/67>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/67/address> .
+                <http://data.example.org/property/67/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "5 WOODBINE AVENUE, BLACKROCK, CO DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/6/loc>
         a       <http://data.example.org/ont#location> ;
@@ -153,12 +167,16 @@
 <http://data.example.org/property/164>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/164/address> .
+                <http://data.example.org/property/164/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "67 LORCAN CRESCENT, SANTRY, DUBLIN 9, Dublin, Ireland" .
 
 <http://data.example.org/property/37>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/37/address> .
+                <http://data.example.org/property/37/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "23 COOLRUA DR, BEAUMONT, DUBLIN 9, Dublin, Ireland" .
 
 <http://data.example.org/property/24/address>
         a       <http://data.example.org/ont#Address> ;
@@ -170,7 +188,9 @@
 <http://data.example.org/property/134>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/134/address> .
+                <http://data.example.org/property/134/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "16 GRATTAN ST, DUBLIN 2, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/15/address>
         a       <http://data.example.org/ont#Address> ;
@@ -194,7 +214,9 @@
 <http://data.example.org/property/104>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/104/address> .
+                <http://data.example.org/property/104/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "170 BEECHWOOD COURT, STILLORGAN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/185/loc>
         a       <http://data.example.org/ont#location> ;
@@ -209,7 +231,9 @@
 <http://data.example.org/property/79>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/79/address> .
+                <http://data.example.org/property/79/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "34B Hazelgrove, Tallaght, Dublin 24, Dublin, Ireland" .
 
 <http://data.example.org/property/179/address>
         a       <http://data.example.org/ont#Address> ;
@@ -228,7 +252,9 @@
 <http://data.example.org/property/176>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/176/address> .
+                <http://data.example.org/property/176/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "6 CASTLEGATE HEATH, ADAMSTOWN, LUCAN, Dublin, Ireland" .
 
 <http://data.example.org/property/124/loc>
         a       <http://data.example.org/ont#location> ;
@@ -250,7 +276,9 @@
 <http://data.example.org/property/49>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/49/address> .
+                <http://data.example.org/property/49/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "9 CASTLE GROVE, CLONTARF, DUBLIN 3, Dublin, Ireland" .
 
 <http://data.example.org/property/98/loc>
         a       <http://data.example.org/ont#location> ;
@@ -274,7 +302,9 @@
 <http://data.example.org/property/146>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/146/address> .
+                <http://data.example.org/property/146/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "74 THE CLOISTERS, TERENURE, DUBLIN 6W, Dublin, Ireland" .
 
 <http://data.example.org/property/44/loc>
         a       <http://data.example.org/ont#location> ;
@@ -289,7 +319,9 @@
 <http://data.example.org/property/19>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/19/address> .
+                <http://data.example.org/property/19/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "67 CLONLIFFE RD, BALLYBOUGH, DUBLIN 3, Dublin, Ireland" .
 
 <http://data.example.org/property/103/loc>
         a       <http://data.example.org/ont#location> ;
@@ -299,7 +331,9 @@
 <http://data.example.org/property/80>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/80/address> .
+                <http://data.example.org/property/80/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "364 CASHEL ROAD, CRUMLIN, DUBLIN 12, Dublin, Ireland" .
 
 <http://data.example.org/property/115/address>
         a       <http://data.example.org/ont#Address> ;
@@ -318,7 +352,9 @@
 <http://data.example.org/property/116>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/116/address> .
+                <http://data.example.org/property/116/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "45 SANDYMOUNT AVE, DUBLIN 4, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/77/loc>
         a       <http://data.example.org/ont#location> ;
@@ -335,7 +371,9 @@
 <http://data.example.org/property/50>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/50/address> .
+                <http://data.example.org/property/50/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "99 CASTLELAND PARK WAY, BALBRIGGAN, Dublin, Ireland" .
 
 <http://data.example.org/property/28/address>
         a       <http://data.example.org/ont#Address> ;
@@ -359,7 +397,9 @@
 <http://data.example.org/property/20>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/20/address> .
+                <http://data.example.org/property/20/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "95 MEADOW PARK, CHURCHTOWN UPPER, CHURCHTOWN DUBLIN 14, Dublin, Ireland" .
 
 <http://data.example.org/property/129/loc>
         a       <http://data.example.org/ont#location> ;
@@ -369,7 +409,9 @@
 <http://data.example.org/property/158>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/158/address> .
+                <http://data.example.org/property/158/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "21 LLEWELLYN WAY, RATHFARNHAM, DUBLIN 16, Dublin, Ireland" .
 
 <http://data.example.org/property/49/loc>
         a       <http://data.example.org/ont#location> ;
@@ -386,17 +428,23 @@
 <http://data.example.org/property/92>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/92/address> .
+                <http://data.example.org/property/92/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "3 MOYVILLE LAWN, RATHFARNHAM, DUBLIN 16, Dublin, Ireland" .
 
 <http://data.example.org/property/128>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/128/address> .
+                <http://data.example.org/property/128/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "12 DROMARD TERRACE, SANDYMOUNT, DUBLIN 4, Dublin, Ireland" .
 
 <http://data.example.org/property/62>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/62/address> .
+                <http://data.example.org/property/62/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "56 ELM MOUNT AVE, BEAUMONT, DUBLIN 9, Dublin, Ireland" .
 
 <http://data.example.org/property/95/address>
         a       <http://data.example.org/ont#Address> ;
@@ -420,7 +468,9 @@
 <http://data.example.org/property/32>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/32/address> .
+                <http://data.example.org/property/32/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "16 GLEN ELLAN DR, SWORDS, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/128/address>
         a       <http://data.example.org/ont#Address> ;
@@ -485,12 +535,16 @@
 <http://data.example.org/property/74>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/74/address> .
+                <http://data.example.org/property/74/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "159 CHERRYWOOD PARK, CLONDALKIN, DUBLIN 22, Dublin, Ireland" .
 
 <http://data.example.org/property/171>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/171/address> .
+                <http://data.example.org/property/171/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "20 MOUNT SYMON PARK, CLONSILLA, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/87/loc>
         a       <http://data.example.org/ont#location> ;
@@ -505,7 +559,9 @@
 <http://data.example.org/property/44>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/44/address> .
+                <http://data.example.org/property/44/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "40 CRANNAGH PARK, RATHFARNHAM, DUBLIN 14, Dublin, Ireland" .
 
 <http://data.example.org/property/146/loc>
         a       <http://data.example.org/ont#location> ;
@@ -515,12 +571,16 @@
 <http://data.example.org/property/6>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/6/address> .
+                <http://data.example.org/property/6/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "29 CHERRYWOOD GROVE, CLONDALKIN, DUBLIN 22, Dublin, Ireland" .
 
 <http://data.example.org/property/141>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/141/address> .
+                <http://data.example.org/property/141/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "32 The Avenue, Semple Woods, Donabate, Dublin, Ireland" .
 
 <http://data.example.org/property/139/loc>
         a       <http://data.example.org/ont#location> ;
@@ -530,7 +590,9 @@
 <http://data.example.org/property/14>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/14/address> .
+                <http://data.example.org/property/14/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "32 SKELLIGS COURT, BLANCHARDSTOWN, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/66/loc>
         a       <http://data.example.org/ont#location> ;
@@ -540,7 +602,9 @@
 <http://data.example.org/property/111>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/111/address> .
+                <http://data.example.org/property/111/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "3 CHARNWOOD GARDENS, CLONSILLA, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/59/loc>
         a       <http://data.example.org/ont#location> ;
@@ -564,7 +628,9 @@
 <http://data.example.org/property/86>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/86/address> .
+                <http://data.example.org/property/86/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "LISIEUX HALL, MURPHYSTOWN RD, SANDYFORD DUBLIN 18, Dublin, Ireland" .
 
 <http://data.example.org/property/118/loc>
         a       <http://data.example.org/ont#location> ;
@@ -574,7 +640,9 @@
 <http://data.example.org/property/183>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/183/address> .
+                <http://data.example.org/property/183/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "100A AVONDALE PARK, RAHENY, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/49/address>
         a       <http://data.example.org/ont#Address> ;
@@ -586,7 +654,9 @@
 <http://data.example.org/property/56>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/56/address> .
+                <http://data.example.org/property/56/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "19 TERENURE GATE, TERENURE, DUBLIN 6W, Dublin, Ireland" .
 
 <http://data.example.org/property/44/address>
         a       <http://data.example.org/ont#Address> ;
@@ -598,17 +668,23 @@
 <http://data.example.org/property/153>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/153/address> .
+                <http://data.example.org/property/153/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "12 CASINO PARK, MARINO, DUBLIN 3, Dublin, Ireland" .
 
 <http://data.example.org/property/26>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/26/address> .
+                <http://data.example.org/property/26/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "96 KINCORA GROVE, CLONTARF, DUBLIN 3, Dublin, Ireland" .
 
 <http://data.example.org/property/123>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/123/address> .
+                <http://data.example.org/property/123/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "19 CHAPEL FARM GREEN, LUSK, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/184/loc>
         a       <http://data.example.org/ont#location> ;
@@ -623,7 +699,9 @@
 <http://data.example.org/property/98>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/98/address> .
+                <http://data.example.org/property/98/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "98 THE RAMPARTS, LOUGHLINSTOWN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/50/loc>
         a       <http://data.example.org/ont#location> ;
@@ -633,7 +711,9 @@
 <http://data.example.org/property/68>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/68/address> .
+                <http://data.example.org/property/68/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "52 RICHMOND RD, DRUMCONDRA, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/163/loc>
         a       <http://data.example.org/ont#location> ;
@@ -648,7 +728,9 @@
 <http://data.example.org/property/165>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/165/address> .
+                <http://data.example.org/property/165/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "8 ERRIS RD, CABRA, DUBLIN 7, Dublin, Ireland" .
 
 <http://data.example.org/property/156/loc>
         a       <http://data.example.org/ont#location> ;
@@ -679,7 +761,9 @@
 <http://data.example.org/property/38>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/38/address> .
+                <http://data.example.org/property/38/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "28 GLEN ELLAN GREEN, SWORDS, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/102/loc>
         a       <http://data.example.org/ont#location> ;
@@ -689,7 +773,9 @@
 <http://data.example.org/property/135>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/135/address> .
+                <http://data.example.org/property/135/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "17 PRIORY HALL, KIMMAGE, DUBLIN 6W, Dublin, Ireland" .
 
 <http://data.example.org/property/76/loc>
         a       <http://data.example.org/ont#location> ;
@@ -723,7 +809,9 @@
 <http://data.example.org/property/105>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/105/address> .
+                <http://data.example.org/property/105/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "172 THE LINKS, DONABATE, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/15/loc>
         a       <http://data.example.org/ont#location> ;
@@ -738,12 +826,16 @@
 <http://data.example.org/property/1>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/1/address> .
+                <http://data.example.org/property/1/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "APT 15, SANDON COVE, CASTLE AVE DUBLIN 3, Dublin, Ireland" .
 
 <http://data.example.org/property/177>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/177/address> .
+                <http://data.example.org/property/177/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "6 RATHDOWN AVENUE, TERENURE, DUBLIN 6W, Dublin, Ireland" .
 
 <http://data.example.org/property/1/loc>
         a       <http://data.example.org/ont#location> ;
@@ -763,17 +855,23 @@
 <http://data.example.org/property/147>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/147/address> .
+                <http://data.example.org/property/147/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "78 DECIES RD BALLYFERMOT, DUBLIN 10, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/81>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/81/address> .
+                <http://data.example.org/property/81/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "43 ANGLESEA RD, BALLSBRIDGE, DUBLIN 4, Dublin, Ireland" .
 
 <http://data.example.org/property/117>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/117/address> .
+                <http://data.example.org/property/117/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "60 LEIX RD, CABRA, DUBLIN 7, Dublin, Ireland" .
 
 <http://data.example.org/property/157/address>
         a       <http://data.example.org/ont#Address> ;
@@ -797,7 +895,9 @@
 <http://data.example.org/property/51>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/51/address> .
+                <http://data.example.org/property/51/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "APARTMENT 529, LONGBOAT QUAY NORTH, DUBLIN 2, Dublin, Ireland" .
 
 <http://data.example.org/property/148/address>
         a       <http://data.example.org/ont#Address> ;
@@ -847,12 +947,16 @@
 <http://data.example.org/property/21>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/21/address> .
+                <http://data.example.org/property/21/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "1 GEOFFREY KEATING RD, DUBLIN 8, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/159>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/159/address> .
+                <http://data.example.org/property/159/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "25 GROSVENOR PLACE, RATHMINES, DUBLIN 6, Dublin, Ireland" .
 
 <http://data.example.org/property/93/loc>
         a       <http://data.example.org/ont#location> ;
@@ -862,7 +966,9 @@
 <http://data.example.org/property/93>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/93/address> .
+                <http://data.example.org/property/93/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "30 Kinsealy Manor, Kinsealy, Dublin, Ireland" .
 
 <http://data.example.org/property/152/loc>
         a       <http://data.example.org/ont#location> ;
@@ -872,7 +978,9 @@
 <http://data.example.org/property/129>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/129/address> .
+                <http://data.example.org/property/129/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "13  THE  CLOSE, CYPRESS  DOWNS, TEMPLEOGUE, Dublin, Ireland" .
 
 <http://data.example.org/property/86/loc>
         a       <http://data.example.org/ont#location> ;
@@ -887,7 +995,9 @@
 <http://data.example.org/property/63>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/63/address> .
+                <http://data.example.org/property/63/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "9 MARINE DR, SANDYMOUNT, DUBLIN 4, Dublin, Ireland" .
 
 <http://data.example.org/property/145/loc>
         a       <http://data.example.org/ont#location> ;
@@ -897,7 +1007,9 @@
 <http://data.example.org/property/160>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/160/address> .
+                <http://data.example.org/property/160/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "29 QUAY ST, SKERRIES, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/65/loc>
         a       <http://data.example.org/ont#location> ;
@@ -907,7 +1019,9 @@
 <http://data.example.org/property/33>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/33/address> .
+                <http://data.example.org/property/33/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "16 MOUNT PROSPECT PARK, CLONTARF, DUBLIN 3, Dublin, Ireland" .
 
 <http://data.example.org/property/11/loc>
         a       <http://data.example.org/ont#location> ;
@@ -929,7 +1043,9 @@
 <http://data.example.org/property/130>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/130/address> .
+                <http://data.example.org/property/130/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "149 CLONARD RD, CRUMLIN, DUBLIN 12, Dublin, Ireland" .
 
 <http://data.example.org/property/160/address>
         a       <http://data.example.org/ont#Address> ;
@@ -965,7 +1081,9 @@
 <http://data.example.org/property/100>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/100/address> .
+                <http://data.example.org/property/100/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "11 COLLEGE MANOR, DRUMCONDRA, DUBLIN 9, Dublin, Ireland" .
 
 <http://data.example.org/property/78/address>
         a       <http://data.example.org/ont#Address> ;
@@ -984,7 +1102,9 @@
 <http://data.example.org/property/75>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/75/address> .
+                <http://data.example.org/property/75/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "20 HUNTSTOWN DR, MULHUDDART, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/69/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1001,7 +1121,9 @@
 <http://data.example.org/property/172>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/172/address> .
+                <http://data.example.org/property/172/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "206A SHANLISS RD, SANTRY, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/106/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1020,17 +1142,23 @@
 <http://data.example.org/property/45>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/45/address> .
+                <http://data.example.org/property/45/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "48 CEDAR BROOK WALK, DUBLIN 10, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/7>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/7/address> .
+                <http://data.example.org/property/7/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "29 FOXES GROVE, SHANKILL, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/142>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/142/address> .
+                <http://data.example.org/property/142/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "34 BALBRIGGAN ST, SKERRIES, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/19/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1049,12 +1177,16 @@
 <http://data.example.org/property/15>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/15/address> .
+                <http://data.example.org/property/15/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "34 RIALTO ST, DUBLIN 8, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/112>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/112/address> .
+                <http://data.example.org/property/112/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "30 KILCARRIG AVE, FETTERCAIRN, TALLAGHT DUBLIN 24, Dublin, Ireland" .
 
 <http://data.example.org/property/9/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1069,7 +1201,9 @@
 <http://data.example.org/property/87>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/87/address> .
+                <http://data.example.org/property/87/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "12 DALRIADA SQ, KNOCKLYON, DUBLIN 16, Dublin, Ireland" .
 
 <http://data.example.org/property/178/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1088,7 +1222,9 @@
 <http://data.example.org/property/184>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/184/address> .
+                <http://data.example.org/property/184/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "104 KILDONAN RD, FINGLAS WEST DUBLIN 11, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/101/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1117,7 +1253,9 @@
 <http://data.example.org/property/57>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/57/address> .
+                <http://data.example.org/property/57/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "2 KENURE CRESCENT, RUSH, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/86/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1129,7 +1267,9 @@
 <http://data.example.org/property/154>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/154/address> .
+                <http://data.example.org/property/154/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "12 DE SELBY CLOSE, TALLAGHT DUBLIN 24, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/81/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1151,7 +1291,9 @@
 <http://data.example.org/property/27>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/27/address> .
+                <http://data.example.org/property/27/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "APT 75, WYCKHAM PLACE, WYCKHAM WAY DUBLIN 16, Dublin, Ireland" .
 
 <http://data.example.org/property/77/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1189,7 +1331,9 @@
 <http://data.example.org/property/124>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/124/address> .
+                <http://data.example.org/property/124/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "37 Millers Avenue, Millers Glen, Swords, Dublin, Ireland" .
 
 <http://data.example.org/property/105/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1213,7 +1357,9 @@
 <http://data.example.org/property/99>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/99/address> .
+                <http://data.example.org/property/99/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "1 SUMMERFIELD CLOSE, BLANCHARDSTOWN, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/167/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1256,7 +1402,9 @@
 <http://data.example.org/property/69>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/69/address> .
+                <http://data.example.org/property/69/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "65 WOODLAWN PARK GROVE, FIRHOUSE, DUBLIN 24, Dublin, Ireland" .
 
 <http://data.example.org/property/106/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1266,12 +1414,16 @@
 <http://data.example.org/property/166>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/166/address> .
+                <http://data.example.org/property/166/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "8 St. Helen's Court, St. Helen's, Adamstown, Dublin, Ireland" .
 
 <http://data.example.org/property/39>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/39/address> .
+                <http://data.example.org/property/39/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "3 HYDE PARK GARDENS, BLACKROCK, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/181/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1288,7 +1440,9 @@
 <http://data.example.org/property/136>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/136/address> .
+                <http://data.example.org/property/136/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "18 WILLSBROOK CRESCENT, LUCAN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/177/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1307,7 +1461,9 @@
 <http://data.example.org/property/70>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/70/address> .
+                <http://data.example.org/property/70/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "8 BARNWELL AVE, HANSFIELD, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/19/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1331,7 +1487,9 @@
 <http://data.example.org/property/106>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/106/address> .
+                <http://data.example.org/property/106/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "20 COIS INBHIR, DONABATE, COUNTY DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/5/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1355,7 +1513,9 @@
 <http://data.example.org/property/40>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/40/address> .
+                <http://data.example.org/property/40/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "30 THOMAS HAND ST, SKERRIES, CO. DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/127/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1367,7 +1527,9 @@
 <http://data.example.org/property/2>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/2/address> .
+                <http://data.example.org/property/2/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "27 Beresford Avenue, Donabate, County Dublin, Dublin, Ireland" .
 
 <http://data.example.org/property/122/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1384,7 +1546,9 @@
 <http://data.example.org/property/178>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/178/address> .
+                <http://data.example.org/property/178/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "8 CASTLEBROOK, DUNDRUM, DUBLIN 16, Dublin, Ireland" .
 
 <http://data.example.org/property/118/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1403,7 +1567,9 @@
 <http://data.example.org/property/10>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/10/address> .
+                <http://data.example.org/property/10/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "113 ARDLEA RD, ARTANE, DUBLIN 5, Dublin, Ireland" .
 
 <http://data.example.org/property/151/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1427,7 +1593,9 @@
 <http://data.example.org/property/148>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/148/address> .
+                <http://data.example.org/property/148/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "8 DUN EMER WAY, LUSK, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/144/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1456,12 +1624,16 @@
 <http://data.example.org/property/82>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/82/address> .
+                <http://data.example.org/property/82/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "47 BELGARD SQ NORTH, TALLAGHT, DUBLIN 24, Dublin, Ireland" .
 
 <http://data.example.org/property/118>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/118/address> .
+                <http://data.example.org/property/118/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "63 PARK AVE, SANDYMOUNT, DUBLIN 4, Dublin, Ireland" .
 
 <http://data.example.org/property/64/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1476,7 +1648,9 @@
 <http://data.example.org/property/52>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/52/address> .
+                <http://data.example.org/property/52/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "38 ROSSE COURT HEIGHTS, LUCAN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/177/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1505,7 +1679,9 @@
 <http://data.example.org/property/22>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/22/address> .
+                <http://data.example.org/property/22/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "14 WHITTON RD, TERENURE, DUBLIN 6, Dublin, Ireland" .
 
 <http://data.example.org/property/97/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1553,7 +1729,9 @@
 <http://data.example.org/property/94>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/94/address> .
+                <http://data.example.org/property/94/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "37 BRENNANSTOWN SQ, BRENNANSTOWN, CABINTEELY DUBLIN 18, Dublin, Ireland" .
 
 <http://data.example.org/property/149/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1577,7 +1755,9 @@
 <http://data.example.org/property/64>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/64/address> .
+                <http://data.example.org/property/64/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "18 MARETIMO GARDENS EAST, BLACKROCK, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/48/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1601,7 +1781,9 @@
 <http://data.example.org/property/161>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/161/address> .
+                <http://data.example.org/property/161/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "34 NAAS RD, BLUEBELL, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/39/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1620,12 +1802,16 @@
 <http://data.example.org/property/34>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/34/address> .
+                <http://data.example.org/property/34/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "18 TYNAN HALL PARK, KINGSWOOD, DUBLIN 24, Dublin, Ireland" .
 
 <http://data.example.org/property/131>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/131/address> .
+                <http://data.example.org/property/131/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "15  16 Hollywoodrath Avenue, 1-29 Bay Meadows View  1-18, Bay Meadows Grove  1-48, Dublin, Ireland" .
 
 <http://data.example.org/property/161/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1635,7 +1821,9 @@
 <http://data.example.org/property/101>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/101/address> .
+                <http://data.example.org/property/101/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "12 KINGSTON AVENUE, BALLINTEER, DUBLIN 16, Dublin, Ireland" .
 
 <http://data.example.org/property/81/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1645,7 +1833,9 @@
 <http://data.example.org/property/76>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/76/address> .
+                <http://data.example.org/property/76/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "21 Belltree Lane, Belltree, Clongriffin, Dublin, Ireland" .
 
 <http://data.example.org/property/140/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1655,7 +1845,9 @@
 <http://data.example.org/property/173>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/173/address> .
+                <http://data.example.org/property/173/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "25 FERNS RD, KIMMAGE, DUBLIN 12, Dublin, Ireland" .
 
 <http://data.example.org/property/20/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1672,12 +1864,16 @@
 <http://data.example.org/property/46>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/46/address> .
+                <http://data.example.org/property/46/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "55 CASTLEKNOCK PARK, CASTLEKNOCK, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/8>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/8/address> .
+                <http://data.example.org/property/8/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "3 HARELAWN PARK, CLONDALKIN, DUBLIN 22, Dublin, Ireland" .
 
 <http://data.example.org/property/133/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1701,7 +1897,9 @@
 <http://data.example.org/property/143>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/143/address> .
+                <http://data.example.org/property/143/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "4 BOROIMHE ROWAN, SWORDS, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/53/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1711,7 +1909,9 @@
 <http://data.example.org/property/16>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/16/address> .
+                <http://data.example.org/property/16/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "36 CRUAGH CLOSE, STEPASIDE, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/56/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1740,7 +1940,9 @@
 <http://data.example.org/property/113>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/113/address> .
+                <http://data.example.org/property/113/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "32 APPLEWOOD AVE WEST, SWORDS, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/47/address>
         a       <http://data.example.org/ont#Address> ;
@@ -1759,7 +1961,9 @@
 <http://data.example.org/property/88>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/88/address> .
+                <http://data.example.org/property/88/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "12 WYNBERG PARK, BLACKROCK, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/159/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1774,12 +1978,16 @@
 <http://data.example.org/property/185>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/185/address> .
+                <http://data.example.org/property/185/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "112 BAYSIDE BOULEVARD NORTH, SUTTON, DUBLIN 13, Dublin, Ireland" .
 
 <http://data.example.org/property/58>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/58/address> .
+                <http://data.example.org/property/58/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "214 RATOATH RD, CABRA, DUBLIN 7, Dublin, Ireland" .
 
 <http://data.example.org/property/79/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1794,7 +2002,9 @@
 <http://data.example.org/property/155>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/155/address> .
+                <http://data.example.org/property/155/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "13 Belltree Lane, Belltree, Clongriffin, Dublin, Ireland" .
 
 <http://data.example.org/property/138/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1804,7 +2014,9 @@
 <http://data.example.org/property/28>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/28/address> .
+                <http://data.example.org/property/28/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "106 MELLOWES RD, FINGLAS WEST DUBLIN 11, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/18/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1814,7 +2026,9 @@
 <http://data.example.org/property/125>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/125/address> .
+                <http://data.example.org/property/125/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "108 BROADFORD HILL, BALLINTEER, DUBLIN 16, Dublin, Ireland" .
 
 <http://data.example.org/property/4/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1883,7 +2097,9 @@
 <http://data.example.org/property/167>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/167/address> .
+                <http://data.example.org/property/167/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "120 BEECHWOOD CT, STILLORGAN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/70/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1898,7 +2114,9 @@
 <http://data.example.org/property/137>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/137/address> .
+                <http://data.example.org/property/137/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "19 CEDAR WALK, RAHENY, DUBLIN 5, Dublin, Ireland" .
 
 <http://data.example.org/property/63/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1908,7 +2126,9 @@
 <http://data.example.org/property/71>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/71/address> .
+                <http://data.example.org/property/71/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "105 ROCKVIEW, SANDYFORD, DUBLIN 18, Dublin, Ireland" .
 
 <http://data.example.org/property/176/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1923,12 +2143,16 @@
 <http://data.example.org/property/107>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/107/address> .
+                <http://data.example.org/property/107/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "20 GRIFFEEN GLEN CRESCENT, LUCAN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/41>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/41/address> .
+                <http://data.example.org/property/41/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "32 THE VIEW, WOODPARK, DUBLIN 16, Dublin, Ireland" .
 
 <http://data.example.org/property/96/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1938,7 +2162,9 @@
 <http://data.example.org/property/3>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/3/address> .
+                <http://data.example.org/property/3/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "3 KILLOSSERY, ROWLESTOWN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/42/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1948,7 +2174,9 @@
 <http://data.example.org/property/179>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/179/address> .
+                <http://data.example.org/property/179/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "9 FERNWOOD LAWN, SPRINGFIELD, TALLAGHT DUBLIN 24, Dublin, Ireland" .
 
 <http://data.example.org/property/155/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1958,7 +2186,9 @@
 <http://data.example.org/property/11>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/11/address> .
+                <http://data.example.org/property/11/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "14 Gandon Place, Gandon Park, Lucan, Dublin, Ireland" .
 
 <http://data.example.org/property/35/loc>
         a       <http://data.example.org/ont#location> ;
@@ -1987,7 +2217,9 @@
 <http://data.example.org/property/149>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/149/address> .
+                <http://data.example.org/property/149/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "83 DODDER PARK RD, RATHFARNHAM, DUBLIN 14, Dublin, Ireland" .
 
 <http://data.example.org/property/6/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2011,7 +2243,9 @@
 <http://data.example.org/property/83>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/83/address> .
+                <http://data.example.org/property/83/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "53 MCCABE VILLAS, BOOTERSTOWN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/68/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2035,12 +2269,16 @@
 <http://data.example.org/property/119>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/119/address> .
+                <http://data.example.org/property/119/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "82 TURVEY WOODS, DONABATE, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/180>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/180/address> .
+                <http://data.example.org/property/180/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "APT 85, 109 PARNELL SQUARE, DUBLIN 1, Dublin, Ireland" .
 
 <http://data.example.org/property/127/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2050,22 +2288,30 @@
 <http://data.example.org/property/53>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/53/address> .
+                <http://data.example.org/property/53/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "1 & 2 DORSET LANE, DUBLIN 1, Dublin, Ireland" .
 
 <http://data.example.org/property/150>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/150/address> .
+                <http://data.example.org/property/150/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "APT 3, THE TRAMYARD, SPA RD DUBLIN 8, Dublin, Ireland" .
 
 <http://data.example.org/property/23>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/23/address> .
+                <http://data.example.org/property/23/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "8 WILLOWBANK DR, RATHFARNHAM, DUBLIN 14, Dublin, Ireland" .
 
 <http://data.example.org/property/120>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/120/address> .
+                <http://data.example.org/property/120/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "9 BOLBROOK AVE, TALLAGHT, DUBLIN 24, Dublin, Ireland" .
 
 <http://data.example.org/property/80/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2075,7 +2321,9 @@
 <http://data.example.org/property/95>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/95/address> .
+                <http://data.example.org/property/95/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "69 GARNISH SQ, WATERVILLE, BLANCHARDSTOWN DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/168/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2094,12 +2342,16 @@
 <http://data.example.org/property/65>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/65/address> .
+                <http://data.example.org/property/65/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "49 DORNEY COURT, SHANKILL, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/162>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/162/address> .
+                <http://data.example.org/property/162/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "35 HERBERT AVE, MERRION, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/172/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2114,7 +2366,9 @@
 <http://data.example.org/property/35>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/35/address> .
+                <http://data.example.org/property/35/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "19 EBENEZER TERRACE, DUBLIN 8, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/76/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2138,7 +2392,9 @@
 <http://data.example.org/property/132>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/132/address> .
+                <http://data.example.org/property/132/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "15 CASTLEGRANGE SQ, CLONDALKIN, DUBLIN 22, Dublin, Ireland" .
 
 <http://data.example.org/property/111/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2172,7 +2428,9 @@
 <http://data.example.org/property/102>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/102/address> .
+                <http://data.example.org/property/102/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "130 CARNLOUGH RD, CABRA, DUBLIN 7, Dublin, Ireland" .
 
 <http://data.example.org/property/78/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2189,7 +2447,9 @@
 <http://data.example.org/property/77>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/77/address> .
+                <http://data.example.org/property/77/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "29 The Avenue, St Marnock's Bay, Portmarnock, Dublin, Ireland" .
 
 <http://data.example.org/property/12/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2206,7 +2466,9 @@
 <http://data.example.org/property/174>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/174/address> .
+                <http://data.example.org/property/174/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "3 BELVEDERE ROAD, DUBLIN 1, Dublin, Ireland" .
 
 <http://data.example.org/property/137/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2216,12 +2478,16 @@
 <http://data.example.org/property/47>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/47/address> .
+                <http://data.example.org/property/47/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "84 SEAMOUNT APARTMENTS, BOOTERSTOWN, CO DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/9>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/9/address> .
+                <http://data.example.org/property/9/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "41 HAYWORTH TERRACE, ONGAR, CLONSILLA, Dublin, Ireland" .
 
 <http://data.example.org/property/57/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2231,7 +2497,9 @@
 <http://data.example.org/property/144>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/144/address> .
+                <http://data.example.org/property/144/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "50 BALLINTYRE MEADOWS, BALLINTEER, DUBLIN 16, Dublin, Ireland" .
 
 <http://data.example.org/property/176/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2250,7 +2518,9 @@
 <http://data.example.org/property/17>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/17/address> .
+                <http://data.example.org/property/17/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "4 Shackleton Links, Shackleton Park, Lucan, Dublin, Ireland" .
 
 <http://data.example.org/property/3/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2267,7 +2537,9 @@
 <http://data.example.org/property/114>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/114/address> .
+                <http://data.example.org/property/114/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "37 DONAGHMEDE PARK, DONAGHMEDE, DUBLIN 13, Dublin, Ireland" .
 
 <http://data.example.org/property/109/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2291,7 +2563,9 @@
 <http://data.example.org/property/89>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/89/address> .
+                <http://data.example.org/property/89/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "19 THE BRAMBLES, SKERRIES, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/29/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2315,7 +2589,9 @@
 <http://data.example.org/property/59>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/59/address> .
+                <http://data.example.org/property/59/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "295 NUTGROVE AVENUE, RATHFARNHAM, DUBLIN 14, Dublin, Ireland" .
 
 <http://data.example.org/property/108/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2332,7 +2608,9 @@
 <http://data.example.org/property/156>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/156/address> .
+                <http://data.example.org/property/156/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "16 BANCROFT RD, TALLAGHT, DUBLIN 24, Dublin, Ireland" .
 
 <http://data.example.org/property/25/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2344,7 +2622,9 @@
 <http://data.example.org/property/29>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/29/address> .
+                <http://data.example.org/property/29/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "11 CHURCHWELL GROVE, BELMAYNE, DUBLIN 13, Dublin, Ireland" .
 
 <http://data.example.org/property/20/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2356,7 +2636,9 @@
 <http://data.example.org/property/90>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/90/address> .
+                <http://data.example.org/property/90/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "25 SEAFIELD COURT, MALAHIDE, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/121/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2366,7 +2648,9 @@
 <http://data.example.org/property/126>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/126/address> .
+                <http://data.example.org/property/126/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "11 BUTTERFIELD CLOSE, RATHFARNHAM, DUBLIN 14, Dublin, Ireland" .
 
 <http://data.example.org/property/8/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2376,7 +2660,9 @@
 <http://data.example.org/property/60>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/60/address> .
+                <http://data.example.org/property/60/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "297 LOWER KIMMAGE ROAD, KIMMAGE, DUBLIN 6W, Dublin, Ireland" .
 
 <http://data.example.org/property/95/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2408,7 +2694,9 @@
 <http://data.example.org/property/30>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/30/address> .
+                <http://data.example.org/property/30/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "116 EMMET RD, INCHICORE, DUBLIN CITY, Dublin, Ireland" .
 
 <http://data.example.org/property/175/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2425,7 +2713,9 @@
 <http://data.example.org/property/168>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/168/address> .
+                <http://data.example.org/property/168/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "13 HUNTERS WALK, BALLYCULLEN, FIRHOUSE, Dublin, Ireland" .
 
 <http://data.example.org/property/97/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2461,7 +2751,9 @@
 <http://data.example.org/property/138>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/138/address> .
+                <http://data.example.org/property/138/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "22 SLANE RD, CRUMLIN, DUBLIN 12, Dublin, Ireland" .
 
 <http://data.example.org/property/125/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2485,7 +2777,9 @@
 <http://data.example.org/property/72>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/72/address> .
+                <http://data.example.org/property/72/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "14 Shackleton Lawn, Shackleton Park, Lucan, Dublin, Ireland" .
 
 <http://data.example.org/property/116/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2497,7 +2791,9 @@
 <http://data.example.org/property/108>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/108/address> .
+                <http://data.example.org/property/108/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "21 ELMPARK AVE, RANELAGH, DUBLIN 6, Dublin, Ireland" .
 
 <http://data.example.org/property/119/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2526,12 +2822,16 @@
 <http://data.example.org/property/42>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/42/address> .
+                <http://data.example.org/property/42/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "33 MILLERS AVE, MILLERS GLEN, SWORDS, Dublin, Ireland" .
 
 <http://data.example.org/property/4>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/4/address> .
+                <http://data.example.org/property/4/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "93 BALLYFERMOT CRESCENT, DUBLIN 10, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/29/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2548,7 +2848,9 @@
 <http://data.example.org/property/12>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/12/address> .
+                <http://data.example.org/property/12/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "17 MILLRACE GREEN, SAGGART, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/183/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2560,7 +2862,9 @@
 <http://data.example.org/property/84>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/84/address> .
+                <http://data.example.org/property/84/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "53 RAPHOE RD, CRUMLIN, DUBLIN 12, Dublin, Ireland" .
 
 <http://data.example.org/property/171/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2570,12 +2874,16 @@
 <http://data.example.org/property/181>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/181/address> .
+                <http://data.example.org/property/181/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "MERVYN, THE HILL, MONKSTOWN, Dublin, Ireland" .
 
 <http://data.example.org/property/54>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/54/address> .
+                <http://data.example.org/property/54/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "11 BRIDES GLEN PARK, SWORDS, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/96/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2611,7 +2919,9 @@
 <http://data.example.org/property/151>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/151/address> .
+                <http://data.example.org/property/151/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "103 LANDSCAPE PARK, CHURCHTOWN, DUBLIN 14, Dublin, Ireland" .
 
 <http://data.example.org/property/129/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2623,7 +2933,9 @@
 <http://data.example.org/property/24>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/24/address> .
+                <http://data.example.org/property/24/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "80 BLASKET SQ, WATERVILLE, BLANCHARDSTOWN DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/124/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2645,7 +2957,9 @@
 <http://data.example.org/property/121>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/121/address> .
+                <http://data.example.org/property/121/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "9 GROVE AVE, RATHMINES, DUBLIN 6, Dublin, Ireland" .
 
 <http://data.example.org/property/46/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2669,7 +2983,9 @@
 <http://data.example.org/property/96>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/96/address> .
+                <http://data.example.org/property/96/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "71 BEALING VILLAGE BLVD, TYRELLSTOWN, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/37/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2691,7 +3007,9 @@
 <http://data.example.org/property/66>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/66/address> .
+                <http://data.example.org/property/66/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "49 KILWORTH RD, DRIMNAGH, DUBLIN 12, Dublin, Ireland" .
 
 <http://data.example.org/property/56/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2701,7 +3019,9 @@
 <http://data.example.org/property/163>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/163/address> .
+                <http://data.example.org/property/163/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "56 CONNAUGHT ST, PHIBSBOROUGH, DUBLIN 7, Dublin, Ireland" .
 
 <http://data.example.org/property/169/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2716,7 +3036,9 @@
 <http://data.example.org/property/36>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/36/address> .
+                <http://data.example.org/property/36/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "19A SYDNEY AVENUE, BLACKROCK, CO DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/2/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2726,7 +3048,9 @@
 <http://data.example.org/property/133>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/133/address> .
+                <http://data.example.org/property/133/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "15 WOODFORD VILLAS, CLONDALKIN, DUBLIN 22, Dublin, Ireland" .
 
 <http://data.example.org/property/89/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2755,7 +3079,9 @@
 <http://data.example.org/property/103>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/103/address> .
+                <http://data.example.org/property/103/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "16 GRIFFITH HEIGHTS, FINGLAS EAST, DUBLIN 11, Dublin, Ireland" .
 
 <http://data.example.org/property/28/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2779,7 +3105,9 @@
 <http://data.example.org/property/78>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/78/address> .
+                <http://data.example.org/property/78/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "33 WINDMILL SQ, CLONSILLA, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/181/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2803,12 +3131,16 @@
 <http://data.example.org/property/175>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/175/address> .
+                <http://data.example.org/property/175/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "40/40A JAMES STREET, DUBLIN 8, Dublin, Ireland" .
 
 <http://data.example.org/property/48>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/48/address> .
+                <http://data.example.org/property/48/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "9 ASGARD RD, HOWTH, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/45/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2820,7 +3152,9 @@
 <http://data.example.org/property/145>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/145/address> .
+                <http://data.example.org/property/145/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "7 PALMERSTON PARK, RATHMINES, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/7/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2835,7 +3169,9 @@
 <http://data.example.org/property/18>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/18/address> .
+                <http://data.example.org/property/18/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "6 NEWHAVEN CLOSE, BALBRIGGAN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/40/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2845,7 +3181,9 @@
 <http://data.example.org/property/115>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/115/address> .
+                <http://data.example.org/property/115/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "387 PEARSE ST, SALLYNOGGIN, DUN LAOGHAIRE, Dublin, Ireland" .
 
 <http://data.example.org/property/153/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2894,7 +3232,9 @@
 <http://data.example.org/property/157>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/157/address> .
+                <http://data.example.org/property/157/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "19 Shackleton Terrace, Shackleton Park, Lucan, Dublin, Ireland" .
 
 <http://data.example.org/property/145/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2920,7 +3260,9 @@
 <http://data.example.org/property/91>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/91/address> .
+                <http://data.example.org/property/91/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "3 CLONTARF PARK, CLONTARF, DUBLIN 3, Dublin, Ireland" .
 
 <http://data.example.org/property/67/address>
         a       <http://data.example.org/ont#Address> ;
@@ -2939,7 +3281,9 @@
 <http://data.example.org/property/127>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/127/address> .
+                <http://data.example.org/property/127/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "11 GROVE PARK, RATHMINES, DUBLIN 6, Dublin, Ireland" .
 
 <http://data.example.org/property/99/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2973,7 +3317,9 @@
 <http://data.example.org/property/61>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/61/address> .
+                <http://data.example.org/property/61/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "5 HILLCREST LAWNS, LUCAN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/104/loc>
         a       <http://data.example.org/ont#location> ;
@@ -2988,12 +3334,16 @@
 <http://data.example.org/property/31>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/31/address> .
+                <http://data.example.org/property/31/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "131 MOUNT MERRION AVE, BLACKROCK, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/169>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/169/address> .
+                <http://data.example.org/property/169/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "184 GRACE PARK HEIGHTS, DRUMCONDRA, DUBLIN 9, Dublin, Ireland" .
 
 <http://data.example.org/property/17/loc>
         a       <http://data.example.org/ont#location> ;
@@ -3003,7 +3353,9 @@
 <http://data.example.org/property/139>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/139/address> .
+                <http://data.example.org/property/139/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "27 PARK CRESCENT, KIMMAGE, DUBLIN 12, Dublin, Ireland" .
 
 <http://data.example.org/property/170/loc>
         a       <http://data.example.org/ont#location> ;
@@ -3020,7 +3372,9 @@
 <http://data.example.org/property/73>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/73/address> .
+                <http://data.example.org/property/73/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "15 NANGOR CRESCENT, CLONDALKIN, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/90/loc>
         a       <http://data.example.org/ont#location> ;
@@ -3037,7 +3391,9 @@
 <http://data.example.org/property/109>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/109/address> .
+                <http://data.example.org/property/109/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "24 BEAUMONT CRESCENT, BEAUMONT, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/153/address>
         a       <http://data.example.org/ont#Address> ;
@@ -3049,7 +3405,9 @@
 <http://data.example.org/property/170>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/170/address> .
+                <http://data.example.org/property/170/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "19 CASTLEWOOD AVE, RATHMINES, DUBLIN 6, Dublin, Ireland" .
 
 <http://data.example.org/property/83/loc>
         a       <http://data.example.org/ont#location> ;
@@ -3059,12 +3417,16 @@
 <http://data.example.org/property/5>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/5/address> .
+                <http://data.example.org/property/5/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "185 CLONSILLA ROAD, BLANCHARDSTOWN, DUBLIN 15, Dublin, Ireland" .
 
 <http://data.example.org/property/43>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/43/address> .
+                <http://data.example.org/property/43/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "37 The Drive, Semple Woods, Dublin, Ireland" .
 
 <http://data.example.org/property/9/address>
         a       <http://data.example.org/ont#Address> ;
@@ -3090,7 +3452,9 @@
 <http://data.example.org/property/140>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/140/address> .
+                <http://data.example.org/property/140/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "29 CARNDONAGH DRIVE, DONAGHMEDE, DUBLIN 13, Dublin, Ireland" .
 
 <http://data.example.org/property/142/loc>
         a       <http://data.example.org/ont#location> ;
@@ -3114,7 +3478,9 @@
 <http://data.example.org/property/13>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/13/address> .
+                <http://data.example.org/property/13/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "18 ARDMORE CRESCENT, ARTANE, DUBLIN 5, Dublin, Ireland" .
 
 <http://data.example.org/property/103/address>
         a       <http://data.example.org/ont#Address> ;
@@ -3126,7 +3492,9 @@
 <http://data.example.org/property/110>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/110/address> .
+                <http://data.example.org/property/110/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "26 CHURCH AVE, DUBLIN 9, DUBLIN, Dublin, Ireland" .
 
 <http://data.example.org/property/62/loc>
         a       <http://data.example.org/ont#location> ;
@@ -3141,4 +3509,6 @@
 <http://data.example.org/property/85>
         a       <http://data.example.org/ont#Property> ;
         <http://data.example.org/ont#hasAddress>
-                <http://data.example.org/property/85/address> .
+                <http://data.example.org/property/85/address> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "60 DALE RD, STILLORGAN, DUBLIN, Dublin, Ireland" .

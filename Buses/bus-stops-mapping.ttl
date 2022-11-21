@@ -15,6 +15,14 @@
 		rr:template "http://data.example.org/bus/{ROUTE_SHORT_NAME}" ;
 		rr:class ex:Bus ;
 	] ;
+
+	rr:predicateObjectMap [
+		rr:predicate foaf:name ;
+		rr:objectMap [
+             rr:column "ROUTE_SHORT_NAME" ;
+			 rr:datatype xsd:string ;
+        ] ;
+	] ;
 	
 	rr:predicateObjectMap [
 		rr:predicate ex:hasBusTrip ;

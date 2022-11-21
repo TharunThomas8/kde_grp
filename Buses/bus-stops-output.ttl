@@ -2137,7 +2137,9 @@
 <http://data.example.org/bus/13>
         a       <http://data.example.org/ont#Bus> ;
         <http://data.example.org/ont#hasBusTrip>
-                <http://data.example.org/bus/13/0> , <http://data.example.org/bus/13/1> .
+                <http://data.example.org/bus/13/0> , <http://data.example.org/bus/13/1> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "13" .
 
 <http://data.example.org/stop/8230DB004672/loc>
         a       <http://data.example.org/ont#Location> ;
@@ -4934,7 +4936,9 @@
 <http://data.example.org/bus/77a>
         a       <http://data.example.org/ont#Bus> ;
         <http://data.example.org/ont#hasBusTrip>
-                <http://data.example.org/bus/77a/0> , <http://data.example.org/bus/77a/1> .
+                <http://data.example.org/bus/77a/0> , <http://data.example.org/bus/77a/1> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "77a" .
 
 <http://data.example.org/stop/8220DB007092>
         a       <http://data.example.org/ont#BusStop> ;

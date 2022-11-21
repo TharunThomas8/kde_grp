@@ -783,7 +783,9 @@
 <http://data.example.org/luas/RED>
         a       <http://data.example.org/ont#Luas> ;
         <http://data.example.org/ont#hasLuasTrip>
-                <http://data.example.org/luas/RED/0> , <http://data.example.org/luas/RED/1> .
+                <http://data.example.org/luas/RED/0> , <http://data.example.org/luas/RED/1> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "RED" .
 
 <http://data.example.org/stop/822GA00399/loc>
         a       <http://data.example.org/ont#Location> ;
@@ -1051,7 +1053,9 @@
 <http://data.example.org/luas/GRN>
         a       <http://data.example.org/ont#Luas> ;
         <http://data.example.org/ont#hasLuasTrip>
-                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> .
+                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "GRN" .
 
 <http://data.example.org/stop/825GA00330/loc>
         a       <http://data.example.org/ont#Location> ;

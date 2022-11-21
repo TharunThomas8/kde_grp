@@ -20,6 +20,14 @@
 	] ;
 
 	rr:predicateObjectMap [
+		rr:predicate foaf:name ;
+		rr:objectMap [
+             rr:column "ADDRESS" ;
+			 rr:datatype xsd:string ;
+        ] ;
+	] ;
+
+	rr:predicateObjectMap [
 		rr:predicate ex:hasAddress ;
 		rr:objectMap [
 			rr:parentTriplesMap <#Address> ;
