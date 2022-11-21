@@ -26,6 +26,12 @@ def index():
                 the_query = queries.q6_query
             case 'q7':
                 the_query = queries.q7_query
+            case 'q8':
+                the_query = queries.q7_query
+            case 'q9':
+                the_query = queries.q7_query
+            case 'q10':
+                the_query = queries.q7_query
         query_result = api.execute_get_select_query(repository, the_query , _return_http_data_only=True)
         return render_template("index.html", query_result = query_result, showtable=1 )
 
