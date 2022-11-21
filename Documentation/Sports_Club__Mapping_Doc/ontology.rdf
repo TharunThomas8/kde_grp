@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:r2rml="http://www.w3.org/ns/r2rml#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#child -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#child"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#class -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#class"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#column -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#column"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#datatype -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#datatype"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#joinCondition -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#joinCondition"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#logicalTable -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#logicalTable"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#objectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#objectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parent -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#parent"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parentTriplesMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#parentTriplesMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicate -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#predicate"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicateObjectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#predicateObjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#subjectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#subjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#tableName -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#tableName"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#template -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#template"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#TriplesMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#TriplesMap"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#Address -->
+
+
+    <NamedIndividual rdf:about="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#Address">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <r2rml:logicalTable>
+            <rdf:Description>
+                <r2rml:tableName>sports_clubs</r2rml:tableName>
+            </rdf:Description>
+        </r2rml:logicalTable>
+        <r2rml:predicateObjectMap rdf:nodeID="genid3"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid5"/>
+        <r2rml:subjectMap rdf:nodeID="genid8"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid3">
+        <r2rml:objectMap rdf:nodeID="genid4"/>
+        <r2rml:predicate rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <r2rml:objectMap rdf:nodeID="genid6"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#hasLocation"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid8">
+        <r2rml:class rdf:resource="http://data.example.org/ont#Address"/>
+        <r2rml:template>http://data.example.org/sportsclub/{OBJECTID}/address</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <r2rml:column>ADDRESS</r2rml:column>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid6">
+        <r2rml:joinCondition rdf:nodeID="genid7"/>
+        <r2rml:parentTriplesMap rdf:resource="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#Geolocation"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <r2rml:child>OBJECTID</r2rml:child>
+        <r2rml:parent>OBJECTID</r2rml:parent>
+    </rdf:Description>
+    
+
+
+    <!-- file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#ContactInfomation -->
+
+
+    <NamedIndividual rdf:about="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#ContactInfomation">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <r2rml:logicalTable>
+            <rdf:Description>
+                <r2rml:tableName>sports_clubs</r2rml:tableName>
+            </rdf:Description>
+        </r2rml:logicalTable>
+        <r2rml:predicateObjectMap rdf:nodeID="genid10"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid12"/>
+        <r2rml:subjectMap rdf:nodeID="genid14"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid10">
+        <r2rml:objectMap rdf:nodeID="genid11"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#email"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid12">
+        <r2rml:objectMap rdf:nodeID="genid13"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#phone"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid14">
+        <r2rml:class rdf:resource="http://data.example.org/ont#ContactInfo"/>
+        <r2rml:template>http://data.example.org/sportsclub/{OBJECTID}/contact</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid11">
+        <r2rml:column>EMAIL</r2rml:column>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid13">
+        <r2rml:column>PHONE</r2rml:column>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    
+
+
+    <!-- file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#Geolocation -->
+
+
+    <NamedIndividual rdf:about="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#Geolocation">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <r2rml:logicalTable>
+            <rdf:Description>
+                <r2rml:tableName>sports_clubs</r2rml:tableName>
+            </rdf:Description>
+        </r2rml:logicalTable>
+        <r2rml:predicateObjectMap rdf:nodeID="genid16"/>
+        <r2rml:subjectMap rdf:nodeID="genid18"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid16">
+        <r2rml:objectMap rdf:nodeID="genid17"/>
+        <r2rml:predicate rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid18">
+        <r2rml:class rdf:resource="http://data.example.org/ont#Location"/>
+        <r2rml:template>http://data.example.org/sportsclub/{OBJECTID}/loc</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid17">
+        <r2rml:datatype rdf:resource="http://www.opengis.net/ont/geosparql#wktLiteral"/>
+        <r2rml:template>POINT({LAT} {LONG})</r2rml:template>
+    </rdf:Description>
+    
+
+
+    <!-- file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#TennisClubs -->
+
+
+    <NamedIndividual rdf:about="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#TennisClubs">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <r2rml:logicalTable>
+            <rdf:Description>
+                <r2rml:tableName>sports_clubs</r2rml:tableName>
+            </rdf:Description>
+        </r2rml:logicalTable>
+        <r2rml:predicateObjectMap rdf:nodeID="genid20"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid23"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid25"/>
+        <r2rml:subjectMap rdf:nodeID="genid28"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid20">
+        <r2rml:objectMap rdf:nodeID="genid21"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#hasAddress"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid23">
+        <r2rml:objectMap rdf:nodeID="genid24"/>
+        <r2rml:predicate rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid25">
+        <r2rml:objectMap rdf:nodeID="genid26"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#hasContactInfo"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid28">
+        <r2rml:class rdf:resource="http://data.example.org/ont#SportsClub"/>
+        <r2rml:template>http://data.example.org/sportsclub/{OBJECTID}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid21">
+        <r2rml:joinCondition rdf:nodeID="genid22"/>
+        <r2rml:parentTriplesMap rdf:resource="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#Address"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid24">
+        <r2rml:column>NAME</r2rml:column>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid26">
+        <r2rml:joinCondition rdf:nodeID="genid27"/>
+        <r2rml:parentTriplesMap rdf:resource="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/sports-club-mapping.ttl#ContactInfomation"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid22">
+        <r2rml:child>OBJECTID</r2rml:child>
+        <r2rml:parent>OBJECTID</r2rml:parent>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid27">
+        <r2rml:child>OBJECTID</r2rml:child>
+        <r2rml:parent>OBJECTID</r2rml:parent>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

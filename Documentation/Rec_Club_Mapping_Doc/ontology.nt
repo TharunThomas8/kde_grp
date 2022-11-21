@@ -1,0 +1,247 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/r2rml#child
+<http://www.w3.org/ns/r2rml#child> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#class
+<http://www.w3.org/ns/r2rml#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#column
+<http://www.w3.org/ns/r2rml#column> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#datatype
+<http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#joinCondition
+<http://www.w3.org/ns/r2rml#joinCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#logicalTable
+<http://www.w3.org/ns/r2rml#logicalTable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#objectMap
+<http://www.w3.org/ns/r2rml#objectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#parent
+<http://www.w3.org/ns/r2rml#parent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#parentTriplesMap
+<http://www.w3.org/ns/r2rml#parentTriplesMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#predicate
+<http://www.w3.org/ns/r2rml#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#predicateObjectMap
+<http://www.w3.org/ns/r2rml#predicateObjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#subjectMap
+<http://www.w3.org/ns/r2rml#subjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#tableName
+<http://www.w3.org/ns/r2rml#tableName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#template
+<http://www.w3.org/ns/r2rml#template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/r2rml#TriplesMap
+<http://www.w3.org/ns/r2rml#TriplesMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Address
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Address> <http://www.w3.org/ns/r2rml#logicalTable> _:genid2 .
+_:genid2 <http://www.w3.org/ns/r2rml#tableName> "rec_club" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Address> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid3 .
+_:genid3 <http://www.w3.org/ns/r2rml#predicate> <http://xmlns.com/foaf/0.1/name> .
+_:genid3 <http://www.w3.org/ns/r2rml#objectMap> _:genid4 .
+_:genid4 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid4 <http://www.w3.org/ns/r2rml#column> "ADDRESS" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Address> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid5 .
+_:genid5 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#hasLocation> .
+_:genid5 <http://www.w3.org/ns/r2rml#objectMap> _:genid6 .
+_:genid6 <http://www.w3.org/ns/r2rml#parentTriplesMap> <file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Geolocation> .
+_:genid6 <http://www.w3.org/ns/r2rml#joinCondition> _:genid7 .
+_:genid7 <http://www.w3.org/ns/r2rml#parent> "OBJECTID" .
+_:genid7 <http://www.w3.org/ns/r2rml#child> "OBJECTID" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Address> <http://www.w3.org/ns/r2rml#subjectMap> _:genid8 .
+_:genid8 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/rec-club/{OBJECTID}/address" .
+_:genid8 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#Address> .
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation> <http://www.w3.org/ns/r2rml#logicalTable> _:genid9 .
+_:genid9 <http://www.w3.org/ns/r2rml#tableName> "rec_club" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid10 .
+_:genid10 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#website> .
+_:genid10 <http://www.w3.org/ns/r2rml#objectMap> _:genid11 .
+_:genid11 <http://www.w3.org/ns/r2rml#datatype> <http://xmlns.com/foaf/0.1/homepage> .
+_:genid11 <http://www.w3.org/ns/r2rml#column> "WEBSITE" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid12 .
+_:genid12 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#phone> .
+_:genid12 <http://www.w3.org/ns/r2rml#objectMap> _:genid13 .
+_:genid13 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid13 <http://www.w3.org/ns/r2rml#column> "PHONENUMBER" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid14 .
+_:genid14 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#email> .
+_:genid14 <http://www.w3.org/ns/r2rml#objectMap> _:genid15 .
+_:genid15 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid15 <http://www.w3.org/ns/r2rml#column> "EMAIL" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid16 .
+_:genid16 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#socialLinks> .
+_:genid16 <http://www.w3.org/ns/r2rml#objectMap> _:genid17 .
+_:genid17 <http://www.w3.org/ns/r2rml#template> "Facebook: {FACEBOOK}, Twitter: {TWITTER}" .
+_:genid17 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation> <http://www.w3.org/ns/r2rml#subjectMap> _:genid18 .
+_:genid18 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/rec-club/{OBJECTID}/contact" .
+_:genid18 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#ContactInfo> .
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#logicalTable> _:genid19 .
+_:genid19 <http://www.w3.org/ns/r2rml#tableName> "rec_club" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid20 .
+_:genid20 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#summaryOfActivities> .
+_:genid20 <http://www.w3.org/ns/r2rml#objectMap> _:genid21 .
+_:genid21 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid21 <http://www.w3.org/ns/r2rml#column> "SUMMARYACTIVITIES" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid22 .
+_:genid22 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#hall> .
+_:genid22 <http://www.w3.org/ns/r2rml#objectMap> _:genid23 .
+_:genid23 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid23 <http://www.w3.org/ns/r2rml#column> "HALL" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid24 .
+_:genid24 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#sportsHall> .
+_:genid24 <http://www.w3.org/ns/r2rml#objectMap> _:genid25 .
+_:genid25 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid25 <http://www.w3.org/ns/r2rml#column> "SPORTSHALL" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid26 .
+_:genid26 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#coffeeDock> .
+_:genid26 <http://www.w3.org/ns/r2rml#objectMap> _:genid27 .
+_:genid27 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid27 <http://www.w3.org/ns/r2rml#column> "COFFEEDOCK" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid28 .
+_:genid28 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#itFacilities> .
+_:genid28 <http://www.w3.org/ns/r2rml#objectMap> _:genid29 .
+_:genid29 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid29 <http://www.w3.org/ns/r2rml#column> "ITFACILITIES" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid30 .
+_:genid30 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#meetingRooms> .
+_:genid30 <http://www.w3.org/ns/r2rml#objectMap> _:genid31 .
+_:genid31 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid31 <http://www.w3.org/ns/r2rml#column> "MEETINGROOMS" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid32 .
+_:genid32 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#wifi> .
+_:genid32 <http://www.w3.org/ns/r2rml#objectMap> _:genid33 .
+_:genid33 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid33 <http://www.w3.org/ns/r2rml#column> "WIFI" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid34 .
+_:genid34 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#stage> .
+_:genid34 <http://www.w3.org/ns/r2rml#objectMap> _:genid35 .
+_:genid35 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid35 <http://www.w3.org/ns/r2rml#column> "STAGE" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid36 .
+_:genid36 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#childcareCreche> .
+_:genid36 <http://www.w3.org/ns/r2rml#objectMap> _:genid37 .
+_:genid37 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid37 <http://www.w3.org/ns/r2rml#column> "CHILDCARECRECHE" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid38 .
+_:genid38 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#parking> .
+_:genid38 <http://www.w3.org/ns/r2rml#objectMap> _:genid39 .
+_:genid39 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid39 <http://www.w3.org/ns/r2rml#column> "PARKING" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid40 .
+_:genid40 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#disablilityAccess> .
+_:genid40 <http://www.w3.org/ns/r2rml#objectMap> _:genid41 .
+_:genid41 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid41 <http://www.w3.org/ns/r2rml#column> "DISABILITYACCESS" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid42 .
+_:genid42 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#outdoorFacilities> .
+_:genid42 <http://www.w3.org/ns/r2rml#objectMap> _:genid43 .
+_:genid43 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid43 <http://www.w3.org/ns/r2rml#column> "OUTDOORFACILITIES" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid44 .
+_:genid44 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#playArea> .
+_:genid44 <http://www.w3.org/ns/r2rml#objectMap> _:genid45 .
+_:genid45 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid45 <http://www.w3.org/ns/r2rml#column> "PLAYAREA" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> <http://www.w3.org/ns/r2rml#subjectMap> _:genid46 .
+_:genid46 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/rec-club/{OBJECTID}/facilities" .
+_:genid46 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#Facilities> .
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Geolocation
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Geolocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Geolocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Geolocation> <http://www.w3.org/ns/r2rml#logicalTable> _:genid47 .
+_:genid47 <http://www.w3.org/ns/r2rml#tableName> "rec_club" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Geolocation> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid48 .
+_:genid48 <http://www.w3.org/ns/r2rml#predicate> <http://www.opengis.net/ont/geosparql#hasGeometry> .
+_:genid48 <http://www.w3.org/ns/r2rml#objectMap> _:genid49 .
+_:genid49 <http://www.w3.org/ns/r2rml#template> "POINT ({LAT} {LONG})" .
+_:genid49 <http://www.w3.org/ns/r2rml#datatype> <http://www.opengis.net/ont/geosparql#wktLiteral> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Geolocation> <http://www.w3.org/ns/r2rml#subjectMap> _:genid50 .
+_:genid50 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/rec-club/{OBJECTID}/loc" .
+_:genid50 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#location> .
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#RecreationClubs
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#RecreationClubs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#RecreationClubs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#RecreationClubs> <http://www.w3.org/ns/r2rml#logicalTable> _:genid51 .
+_:genid51 <http://www.w3.org/ns/r2rml#tableName> "rec_club" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#RecreationClubs> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid52 .
+_:genid52 <http://www.w3.org/ns/r2rml#predicate> <http://xmlns.com/foaf/0.1/name> .
+_:genid52 <http://www.w3.org/ns/r2rml#objectMap> _:genid53 .
+_:genid53 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid53 <http://www.w3.org/ns/r2rml#column> "NAME" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#RecreationClubs> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid54 .
+_:genid54 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#hasAddress> .
+_:genid54 <http://www.w3.org/ns/r2rml#objectMap> _:genid55 .
+_:genid55 <http://www.w3.org/ns/r2rml#parentTriplesMap> <file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Address> .
+_:genid55 <http://www.w3.org/ns/r2rml#joinCondition> _:genid56 .
+_:genid56 <http://www.w3.org/ns/r2rml#parent> "OBJECTID" .
+_:genid56 <http://www.w3.org/ns/r2rml#child> "OBJECTID" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#RecreationClubs> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid57 .
+_:genid57 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#hasContactInfo> .
+_:genid57 <http://www.w3.org/ns/r2rml#objectMap> _:genid58 .
+_:genid58 <http://www.w3.org/ns/r2rml#parentTriplesMap> <file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#ContactInfomation> .
+_:genid58 <http://www.w3.org/ns/r2rml#joinCondition> _:genid59 .
+_:genid59 <http://www.w3.org/ns/r2rml#parent> "OBJECTID" .
+_:genid59 <http://www.w3.org/ns/r2rml#child> "OBJECTID" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#RecreationClubs> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid60 .
+_:genid60 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#hasFacilities> .
+_:genid60 <http://www.w3.org/ns/r2rml#objectMap> _:genid61 .
+_:genid61 <http://www.w3.org/ns/r2rml#parentTriplesMap> <file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#Facilities> .
+_:genid61 <http://www.w3.org/ns/r2rml#joinCondition> _:genid62 .
+_:genid62 <http://www.w3.org/ns/r2rml#parent> "OBJECTID" .
+_:genid62 <http://www.w3.org/ns/r2rml#child> "OBJECTID" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Locations/rec-club-mapping.ttl#RecreationClubs> <http://www.w3.org/ns/r2rml#subjectMap> _:genid63 .
+_:genid63 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/rec-club/{OBJECTID}" .
+_:genid63 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#RecreationClub> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:r2rml="http://www.w3.org/ns/r2rml#">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#child -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#child"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#class -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#class"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#column -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#column"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#datatype -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#datatype"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#joinCondition -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#joinCondition"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#logicalTable -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#logicalTable"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#objectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#objectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parent -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#parent"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#parentTriplesMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#parentTriplesMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicate -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#predicate"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#predicateObjectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#predicateObjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#subjectMap -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#subjectMap"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#tableName -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#tableName"/>
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#template -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/ns/r2rml#template"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/ns/r2rml#TriplesMap -->
+
+
+    <Class rdf:about="http://www.w3.org/ns/r2rml#TriplesMap"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Bus -->
+
+
+    <NamedIndividual rdf:about="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Bus">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <r2rml:logicalTable>
+            <rdf:Description>
+                <r2rml:tableName>routes_trips_stops_combined1</r2rml:tableName>
+            </rdf:Description>
+        </r2rml:logicalTable>
+        <r2rml:predicateObjectMap rdf:nodeID="genid3"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid5"/>
+        <r2rml:subjectMap rdf:nodeID="genid8"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid3">
+        <r2rml:objectMap rdf:nodeID="genid4"/>
+        <r2rml:predicate rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid5">
+        <r2rml:objectMap rdf:nodeID="genid6"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#hasBusTrip"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid8">
+        <r2rml:class rdf:resource="http://data.example.org/ont#Bus"/>
+        <r2rml:template>http://data.example.org/bus/{ROUTE_SHORT_NAME}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid4">
+        <r2rml:column>ROUTE_SHORT_NAME</r2rml:column>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid6">
+        <r2rml:joinCondition rdf:nodeID="genid7"/>
+        <r2rml:parentTriplesMap rdf:resource="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Trips"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid7">
+        <r2rml:child>TRIP_ID</r2rml:child>
+        <r2rml:parent>TRIP_ID</r2rml:parent>
+    </rdf:Description>
+    
+
+
+    <!-- file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#BusStop -->
+
+
+    <NamedIndividual rdf:about="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#BusStop">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <r2rml:logicalTable>
+            <rdf:Description>
+                <r2rml:tableName>routes_trips_stops_combined1</r2rml:tableName>
+            </rdf:Description>
+        </r2rml:logicalTable>
+        <r2rml:predicateObjectMap rdf:nodeID="genid10"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid13"/>
+        <r2rml:subjectMap rdf:nodeID="genid15"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid10">
+        <r2rml:objectMap rdf:nodeID="genid11"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#hasLocation"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid13">
+        <r2rml:objectMap rdf:nodeID="genid14"/>
+        <r2rml:predicate rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid15">
+        <r2rml:class rdf:resource="http://data.example.org/ont#BusStop"/>
+        <r2rml:template>http://data.example.org/stop/{STOP_ID}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid11">
+        <r2rml:joinCondition rdf:nodeID="genid12"/>
+        <r2rml:parentTriplesMap rdf:resource="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Geolocation"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid14">
+        <r2rml:column>STOP_NAME</r2rml:column>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid12">
+        <r2rml:child>STOP_ID</r2rml:child>
+        <r2rml:parent>STOP_ID</r2rml:parent>
+    </rdf:Description>
+    
+
+
+    <!-- file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Geolocation -->
+
+
+    <NamedIndividual rdf:about="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Geolocation">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <r2rml:logicalTable>
+            <rdf:Description>
+                <r2rml:tableName>routes_trips_stops_combined1</r2rml:tableName>
+            </rdf:Description>
+        </r2rml:logicalTable>
+        <r2rml:predicateObjectMap rdf:nodeID="genid17"/>
+        <r2rml:subjectMap rdf:nodeID="genid19"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid17">
+        <r2rml:objectMap rdf:nodeID="genid18"/>
+        <r2rml:predicate rdf:resource="http://www.opengis.net/ont/geosparql#hasGeometry"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid19">
+        <r2rml:class rdf:resource="http://data.example.org/ont#Location"/>
+        <r2rml:template>http://data.example.org/stop/{STOP_ID}/loc</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid18">
+        <r2rml:datatype rdf:resource="http://www.opengis.net/ont/geosparql#wktLiteral"/>
+        <r2rml:template>POINT({STOP_LAT} {STOP_LON})</r2rml:template>
+    </rdf:Description>
+    
+
+
+    <!-- file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#SequenceNumber -->
+
+
+    <NamedIndividual rdf:about="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#SequenceNumber">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <r2rml:logicalTable>
+            <rdf:Description>
+                <r2rml:tableName>routes_trips_stops_combined1</r2rml:tableName>
+            </rdf:Description>
+        </r2rml:logicalTable>
+        <r2rml:predicateObjectMap rdf:nodeID="genid21"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid23"/>
+        <r2rml:subjectMap rdf:nodeID="genid26"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid21">
+        <r2rml:objectMap rdf:nodeID="genid22"/>
+        <r2rml:predicate rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid23">
+        <r2rml:objectMap rdf:nodeID="genid24"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#hasBusStop"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid26">
+        <r2rml:class rdf:resource="http://data.example.org/ont#SequenceNumber"/>
+        <r2rml:template>http://data.example.org/bus/{ROUTE_SHORT_NAME}/{DIRECTION_ID}/{STOP_SEQUENCE}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid22">
+        <r2rml:column>STOP_SEQUENCE</r2rml:column>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid24">
+        <r2rml:joinCondition rdf:nodeID="genid25"/>
+        <r2rml:parentTriplesMap rdf:resource="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#BusStop"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid25">
+        <r2rml:child>STOP_ID</r2rml:child>
+        <r2rml:parent>STOP_ID</r2rml:parent>
+    </rdf:Description>
+    
+
+
+    <!-- file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Trips -->
+
+
+    <NamedIndividual rdf:about="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Trips">
+        <rdf:type rdf:resource="http://www.w3.org/ns/r2rml#TriplesMap"/>
+        <r2rml:logicalTable>
+            <rdf:Description>
+                <r2rml:tableName>routes_trips_stops_combined1</r2rml:tableName>
+            </rdf:Description>
+        </r2rml:logicalTable>
+        <r2rml:predicateObjectMap rdf:nodeID="genid28"/>
+        <r2rml:predicateObjectMap rdf:nodeID="genid31"/>
+        <r2rml:subjectMap rdf:nodeID="genid33"/>
+    </NamedIndividual>
+    <rdf:Description rdf:nodeID="genid28">
+        <r2rml:objectMap rdf:nodeID="genid29"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#hasBusStopSequenceNumber"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid31">
+        <r2rml:objectMap rdf:nodeID="genid32"/>
+        <r2rml:predicate rdf:resource="http://data.example.org/ont#tripID"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid33">
+        <r2rml:class rdf:resource="http://data.example.org/ont#BusTrip"/>
+        <r2rml:template>http://data.example.org/bus/{ROUTE_SHORT_NAME}/{DIRECTION_ID}</r2rml:template>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid29">
+        <r2rml:joinCondition rdf:nodeID="genid30"/>
+        <r2rml:parentTriplesMap rdf:resource="file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#SequenceNumber"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid32">
+        <r2rml:column>TRIP_ID</r2rml:column>
+        <r2rml:datatype rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </rdf:Description>
+    <rdf:Description rdf:nodeID="genid30">
+        <r2rml:child>TRIP_ID</r2rml:child>
+        <r2rml:parent>TRIP_ID</r2rml:parent>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

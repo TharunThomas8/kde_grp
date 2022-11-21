@@ -1,0 +1,173 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/ns/r2rml" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/ns/r2rml#TriplesMap",
+    "baseIri" : "http://www.w3.org/ns/r2rml",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TriplesMap"
+    },
+    "individuals" : [ {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Trips",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483650",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483648",
+          "type" : "label"
+        }, {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483649",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483651",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Trips"
+      }
+    }, {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#LuasStop",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483678",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483665",
+          "type" : "label"
+        }, {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483662",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483664",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "LuasStop"
+      }
+    }, {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#SequenceNumber",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483656",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483655",
+          "type" : "label"
+        }, {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483654",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483657",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "SequenceNumber"
+      }
+    }, {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Luas",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483660",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483659",
+          "type" : "label"
+        }, {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483658",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483661",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Luas"
+      }
+    }, {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Geolocation",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483679",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483671",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483674",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Geolocation"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "0"
+  } ]
+}

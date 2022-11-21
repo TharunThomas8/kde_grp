@@ -1,0 +1,172 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/r2rml#child
+<http://www.w3.org/ns/r2rml#child> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#class
+<http://www.w3.org/ns/r2rml#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#column
+<http://www.w3.org/ns/r2rml#column> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#datatype
+<http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#joinCondition
+<http://www.w3.org/ns/r2rml#joinCondition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#logicalTable
+<http://www.w3.org/ns/r2rml#logicalTable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#objectMap
+<http://www.w3.org/ns/r2rml#objectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#parent
+<http://www.w3.org/ns/r2rml#parent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#parentTriplesMap
+<http://www.w3.org/ns/r2rml#parentTriplesMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#predicate
+<http://www.w3.org/ns/r2rml#predicate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#predicateObjectMap
+<http://www.w3.org/ns/r2rml#predicateObjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#subjectMap
+<http://www.w3.org/ns/r2rml#subjectMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#tableName
+<http://www.w3.org/ns/r2rml#tableName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/ns/r2rml#template
+<http://www.w3.org/ns/r2rml#template> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/ns/r2rml#TriplesMap
+<http://www.w3.org/ns/r2rml#TriplesMap> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Geolocation
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Geolocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Geolocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Geolocation> <http://www.w3.org/ns/r2rml#logicalTable> _:genid2 .
+_:genid2 <http://www.w3.org/ns/r2rml#tableName> "routes_trips_stops_combined2" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Geolocation> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid3 .
+_:genid3 <http://www.w3.org/ns/r2rml#predicate> <http://www.opengis.net/ont/geosparql#hasGeometry> .
+_:genid3 <http://www.w3.org/ns/r2rml#objectMap> _:genid4 .
+_:genid4 <http://www.w3.org/ns/r2rml#template> "POINT({STOP_LAT} {STOP_LON})" .
+_:genid4 <http://www.w3.org/ns/r2rml#datatype> <http://www.opengis.net/ont/geosparql#wktLiteral> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Geolocation> <http://www.w3.org/ns/r2rml#subjectMap> _:genid5 .
+_:genid5 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/stop/{STOP_ID}/loc" .
+_:genid5 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#Location> .
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Luas
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Luas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Luas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Luas> <http://www.w3.org/ns/r2rml#logicalTable> _:genid6 .
+_:genid6 <http://www.w3.org/ns/r2rml#tableName> "routes_trips_stops_combined2" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Luas> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid7 .
+_:genid7 <http://www.w3.org/ns/r2rml#predicate> <http://xmlns.com/foaf/0.1/name> .
+_:genid7 <http://www.w3.org/ns/r2rml#objectMap> _:genid8 .
+_:genid8 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid8 <http://www.w3.org/ns/r2rml#column> "ROUTE_SHORT_NAME" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Luas> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid9 .
+_:genid9 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#hasLuasTrip> .
+_:genid9 <http://www.w3.org/ns/r2rml#objectMap> _:genid10 .
+_:genid10 <http://www.w3.org/ns/r2rml#parentTriplesMap> <file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Trips> .
+_:genid10 <http://www.w3.org/ns/r2rml#joinCondition> _:genid11 .
+_:genid11 <http://www.w3.org/ns/r2rml#parent> "TRIP_ID" .
+_:genid11 <http://www.w3.org/ns/r2rml#child> "TRIP_ID" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Luas> <http://www.w3.org/ns/r2rml#subjectMap> _:genid12 .
+_:genid12 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/luas/{ROUTE_SHORT_NAME}" .
+_:genid12 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#Luas> .
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#LuasStop
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#LuasStop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#LuasStop> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#LuasStop> <http://www.w3.org/ns/r2rml#logicalTable> _:genid13 .
+_:genid13 <http://www.w3.org/ns/r2rml#tableName> "routes_trips_stops_combined2" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#LuasStop> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid14 .
+_:genid14 <http://www.w3.org/ns/r2rml#predicate> <http://xmlns.com/foaf/0.1/name> .
+_:genid14 <http://www.w3.org/ns/r2rml#objectMap> _:genid15 .
+_:genid15 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid15 <http://www.w3.org/ns/r2rml#column> "STOP_NAME" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#LuasStop> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid16 .
+_:genid16 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#hasLocation> .
+_:genid16 <http://www.w3.org/ns/r2rml#objectMap> _:genid17 .
+_:genid17 <http://www.w3.org/ns/r2rml#parentTriplesMap> <file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Geolocation> .
+_:genid17 <http://www.w3.org/ns/r2rml#joinCondition> _:genid18 .
+_:genid18 <http://www.w3.org/ns/r2rml#parent> "STOP_ID" .
+_:genid18 <http://www.w3.org/ns/r2rml#child> "STOP_ID" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#LuasStop> <http://www.w3.org/ns/r2rml#subjectMap> _:genid19 .
+_:genid19 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/stop/{STOP_ID}" .
+_:genid19 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#LuasStop> .
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#SequenceNumber
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#SequenceNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#SequenceNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#SequenceNumber> <http://www.w3.org/ns/r2rml#logicalTable> _:genid20 .
+_:genid20 <http://www.w3.org/ns/r2rml#tableName> "routes_trips_stops_combined2" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#SequenceNumber> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid21 .
+_:genid21 <http://www.w3.org/ns/r2rml#predicate> <http://xmlns.com/foaf/0.1/name> .
+_:genid21 <http://www.w3.org/ns/r2rml#objectMap> _:genid22 .
+_:genid22 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid22 <http://www.w3.org/ns/r2rml#column> "STOP_SEQUENCE" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#SequenceNumber> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid23 .
+_:genid23 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#hasLuasStop> .
+_:genid23 <http://www.w3.org/ns/r2rml#objectMap> _:genid24 .
+_:genid24 <http://www.w3.org/ns/r2rml#parentTriplesMap> <file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#LuasStop> .
+_:genid24 <http://www.w3.org/ns/r2rml#joinCondition> _:genid25 .
+_:genid25 <http://www.w3.org/ns/r2rml#parent> "STOP_ID" .
+_:genid25 <http://www.w3.org/ns/r2rml#child> "STOP_ID" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#SequenceNumber> <http://www.w3.org/ns/r2rml#subjectMap> _:genid26 .
+_:genid26 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/luas/{ROUTE_SHORT_NAME}/{DIRECTION_ID}/{STOP_SEQUENCE}" .
+_:genid26 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#SequenceNumber> .
+# 
+# file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Trips
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Trips> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Trips> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/r2rml#TriplesMap> .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Trips> <http://www.w3.org/ns/r2rml#logicalTable> _:genid27 .
+_:genid27 <http://www.w3.org/ns/r2rml#tableName> "routes_trips_stops_combined2" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Trips> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid28 .
+_:genid28 <http://www.w3.org/ns/r2rml#predicate> <http://xmlns.com/foaf/0.1/name> .
+_:genid28 <http://www.w3.org/ns/r2rml#objectMap> _:genid29 .
+_:genid29 <http://www.w3.org/ns/r2rml#datatype> <http://www.w3.org/2001/XMLSchema#string> .
+_:genid29 <http://www.w3.org/ns/r2rml#column> "TRIP_ID" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Trips> <http://www.w3.org/ns/r2rml#predicateObjectMap> _:genid30 .
+_:genid30 <http://www.w3.org/ns/r2rml#predicate> <http://data.example.org/ont#hasLuasStopSequenceNumber> .
+_:genid30 <http://www.w3.org/ns/r2rml#objectMap> _:genid31 .
+_:genid31 <http://www.w3.org/ns/r2rml#parentTriplesMap> <file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#SequenceNumber> .
+_:genid31 <http://www.w3.org/ns/r2rml#joinCondition> _:genid32 .
+_:genid32 <http://www.w3.org/ns/r2rml#parent> "TRIP_ID" .
+_:genid32 <http://www.w3.org/ns/r2rml#child> "TRIP_ID" .
+<file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Luas/luas-mapping.ttl#Trips> <http://www.w3.org/ns/r2rml#subjectMap> _:genid33 .
+_:genid33 <http://www.w3.org/ns/r2rml#template> "http://data.example.org/luas/{ROUTE_SHORT_NAME}/{DIRECTION_ID}" .
+_:genid33 <http://www.w3.org/ns/r2rml#class> <http://data.example.org/ont#LuasTrip> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

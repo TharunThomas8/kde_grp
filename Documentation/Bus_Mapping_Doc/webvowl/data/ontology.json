@@ -1,0 +1,173 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://www.w3.org/ns/r2rml" ],
+    "iri" : "No IRI set"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "0",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/ns/r2rml#TriplesMap",
+    "baseIri" : "http://www.w3.org/ns/r2rml",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TriplesMap"
+    },
+    "individuals" : [ {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Bus",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483664",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483660",
+          "type" : "label"
+        }, {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483663",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483659",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Bus"
+      }
+    }, {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Trips",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483665",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483649",
+          "type" : "label"
+        }, {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483655",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483657",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Trips"
+      }
+    }, {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#BusStop",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483679",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483677",
+          "type" : "label"
+        }, {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483675",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483669",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "BusStop"
+      }
+    }, {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#Geolocation",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483670",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483656",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483648",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Geolocation"
+      }
+    }, {
+      "iri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl#SequenceNumber",
+      "baseIri" : "file:/Users/varunsharma/Downloads/Classes/KDE/Group%20Project/Code/kde_grp/./Buses/bus-stops-mapping.ttl",
+      "annotations" : {
+        "logicalTable" : [ {
+          "identifier" : "logicalTable",
+          "language" : "undefined",
+          "value" : "_:genid2147483668",
+          "type" : "label"
+        } ],
+        "predicateObjectMap" : [ {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483666",
+          "type" : "label"
+        }, {
+          "identifier" : "predicateObjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483667",
+          "type" : "label"
+        } ],
+        "subjectMap" : [ {
+          "identifier" : "subjectMap",
+          "language" : "undefined",
+          "value" : "_:genid2147483658",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "SequenceNumber"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "0"
+  } ]
+}
