@@ -3,11 +3,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Property"
+      "@id" : "http://data.example.org/ont#Property"
     }, {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#RecreationClub"
+      "@id" : "http://data.example.org/ont#RecreationClub"
     }, {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub"
+      "@id" : "http://data.example.org/ont#SportsClub"
     } ]
   } ]
 }, {
@@ -15,11 +15,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Property"
+      "@id" : "http://data.example.org/ont#Property"
     }, {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#RecreationClub"
+      "@id" : "http://data.example.org/ont#RecreationClub"
     }, {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub"
+      "@id" : "http://data.example.org/ont#SportsClub"
     } ]
   } ]
 }, {
@@ -27,11 +27,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Address"
+      "@id" : "http://data.example.org/ont#Address"
     }, {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop"
+      "@id" : "http://data.example.org/ont#BusStop"
     }, {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop"
+      "@id" : "http://data.example.org/ont#LuasStop"
     } ]
   } ]
 }, {
@@ -39,9 +39,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#RecreationClub"
+      "@id" : "http://data.example.org/ont#RecreationClub"
     }, {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub"
+      "@id" : "http://data.example.org/ont#SportsClub"
     } ]
   } ]
 }, {
@@ -49,237 +49,240 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Address"
+      "@id" : "http://data.example.org/ont#Address"
     }, {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop"
+      "@id" : "http://data.example.org/ont#BusStop"
     }, {
-      "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop"
+      "@id" : "http://data.example.org/ont#LuasStop"
     } ]
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+  "@id" : "http://data.example.org/ont#",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Address",
+  "@id" : "http://data.example.org/ont#Address",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Bus",
+  "@id" : "http://data.example.org/ont#Bus",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Route"
+    "@id" : "http://data.example.org/ont#Route"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Luas"
+    "@id" : "http://data.example.org/ont#Luas"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop",
+  "@id" : "http://data.example.org/ont#BusStop",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Stop"
+    "@id" : "http://data.example.org/ont#Stop"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop"
+    "@id" : "http://data.example.org/ont#LuasStop"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip",
+  "@id" : "http://data.example.org/ont#BusTrip",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Trip"
+    "@id" : "http://data.example.org/ont#Trip"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip"
+    "@id" : "http://data.example.org/ont#LuasTrip"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Club",
+  "@id" : "http://data.example.org/ont#Club",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#ContactInfo",
+  "@id" : "http://data.example.org/ont#ContactInfo",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Location",
+  "@id" : "http://data.example.org/ont#Facilities",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Luas",
+  "@id" : "http://data.example.org/ont#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://data.example.org/ont#Luas",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Route"
+    "@id" : "http://data.example.org/ont#Route"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop",
+  "@id" : "http://data.example.org/ont#LuasStop",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Stop"
+    "@id" : "http://data.example.org/ont#Stop"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip",
+  "@id" : "http://data.example.org/ont#LuasTrip",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Trip"
+    "@id" : "http://data.example.org/ont#Trip"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Property",
+  "@id" : "http://data.example.org/ont#Property",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#RecreationClub",
+  "@id" : "http://data.example.org/ont#RecreationClub",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Club"
+    "@id" : "http://data.example.org/ont#Club"
   } ],
   "http://www.w3.org/2002/07/owl#disjointWith" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub"
+    "@id" : "http://data.example.org/ont#SportsClub"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Route",
+  "@id" : "http://data.example.org/ont#Route",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber",
+  "@id" : "http://data.example.org/ont#SequenceNumber",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub",
+  "@id" : "http://data.example.org/ont#SportsClub",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Club"
+    "@id" : "http://data.example.org/ont#Club"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Stop",
+  "@id" : "http://data.example.org/ont#Stop",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Trip",
+  "@id" : "http://data.example.org/ont#Trip",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasAddress",
+  "@id" : "http://data.example.org/ont#hasAddress",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "_:genid1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Address"
+    "@id" : "http://data.example.org/ont#Address"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isAddressOf"
+    "@id" : "http://data.example.org/ont#isAddressOf"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStop",
+  "@id" : "http://data.example.org/ont#hasBusStop",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"
+    "@id" : "http://data.example.org/ont#SequenceNumber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop"
+    "@id" : "http://data.example.org/ont#BusStop"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusStopSequenceNumberOf"
+    "@id" : "http://data.example.org/ont#isBusStopSequenceNumberOf"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStopSequenceNumber",
+  "@id" : "http://data.example.org/ont#hasBusStopSequenceNumber",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip"
+    "@id" : "http://data.example.org/ont#BusTrip"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"
+    "@id" : "http://data.example.org/ont#SequenceNumber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnBusTrip"
+    "@id" : "http://data.example.org/ont#isOnBusTrip"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusTrip",
+  "@id" : "http://data.example.org/ont#hasBusTrip",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Bus"
+    "@id" : "http://data.example.org/ont#Bus"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip"
+    "@id" : "http://data.example.org/ont#BusTrip"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusTripOf"
+    "@id" : "http://data.example.org/ont#isBusTripOf"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasContactInfo",
+  "@id" : "http://data.example.org/ont#hasContactInfo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "_:genid5"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#ContactInfo"
+    "@id" : "http://data.example.org/ont#ContactInfo"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLocation",
+  "@id" : "http://data.example.org/ont#hasLocation",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "_:genid8"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Location"
+    "@id" : "http://data.example.org/ont#Location"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLocationOf"
+    "@id" : "http://data.example.org/ont#isLocationOf"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStop",
+  "@id" : "http://data.example.org/ont#hasLuasStop",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"
+    "@id" : "http://data.example.org/ont#SequenceNumber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop"
+    "@id" : "http://data.example.org/ont#LuasStop"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasStopSequenceNumberOf"
+    "@id" : "http://data.example.org/ont#isLuasStopSequenceNumberOf"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStopSequenceNumber",
+  "@id" : "http://data.example.org/ont#hasLuasStopSequenceNumber",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip"
+    "@id" : "http://data.example.org/ont#LuasTrip"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"
+    "@id" : "http://data.example.org/ont#SequenceNumber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnLuasTrip"
+    "@id" : "http://data.example.org/ont#isOnLuasTrip"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasTrip",
+  "@id" : "http://data.example.org/ont#hasLuasTrip",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Luas"
+    "@id" : "http://data.example.org/ont#Luas"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip"
+    "@id" : "http://data.example.org/ont#LuasTrip"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ],
   "http://www.w3.org/2002/07/owl#inverseOf" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasTripOf"
+    "@id" : "http://data.example.org/ont#isLuasTripOf"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isAddressOf",
+  "@id" : "http://data.example.org/ont#isAddressOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Address"
+    "@id" : "http://data.example.org/ont#Address"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid12"
@@ -288,34 +291,34 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusStopSequenceNumberOf",
+  "@id" : "http://data.example.org/ont#isBusStopSequenceNumberOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop"
+    "@id" : "http://data.example.org/ont#BusStop"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"
+    "@id" : "http://data.example.org/ont#SequenceNumber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusTripOf",
+  "@id" : "http://data.example.org/ont#isBusTripOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip"
+    "@id" : "http://data.example.org/ont#BusTrip"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Bus"
+    "@id" : "http://data.example.org/ont#Bus"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLocationOf",
+  "@id" : "http://data.example.org/ont#isLocationOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Location"
+    "@id" : "http://data.example.org/ont#Location"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "_:genid16"
@@ -324,49 +327,49 @@
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasStopSequenceNumberOf",
+  "@id" : "http://data.example.org/ont#isLuasStopSequenceNumberOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop"
+    "@id" : "http://data.example.org/ont#LuasStop"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"
+    "@id" : "http://data.example.org/ont#SequenceNumber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasTripOf",
+  "@id" : "http://data.example.org/ont#isLuasTripOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip"
+    "@id" : "http://data.example.org/ont#LuasTrip"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Luas"
+    "@id" : "http://data.example.org/ont#Luas"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnBusTrip",
+  "@id" : "http://data.example.org/ont#isOnBusTrip",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"
+    "@id" : "http://data.example.org/ont#SequenceNumber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip"
+    "@id" : "http://data.example.org/ont#BusTrip"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
   } ]
 }, {
-  "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnLuasTrip",
+  "@id" : "http://data.example.org/ont#isOnLuasTrip",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"
+    "@id" : "http://data.example.org/ont#SequenceNumber"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip"
+    "@id" : "http://data.example.org/ont#LuasTrip"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
     "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
