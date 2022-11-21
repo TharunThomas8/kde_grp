@@ -1,1 +1,0 @@
-{'head': {'vars': ['loc1', 'loc2']}, 'results': {'bindings': [{'loc1': {'datatype': 'http://www.opengis.net/ont/geosparql#wktLiteral', 'type': 'literal', 'value': 'POINT(53.3096724384248 -6.25174998445436)'}, 'loc2': {'datatype': 'http://www.opengis.net/ont/geosparql#wktLiteral', 'type': 'literal', 'value': 'POINT(53.3513626465176 -6.26551660165371)'}}]}}
