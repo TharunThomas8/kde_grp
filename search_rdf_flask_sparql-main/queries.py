@@ -219,7 +219,165 @@ LIMIT 5
 """
 
 q6_query = """
+prefix ex: <http://data.example.org/ont#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix loca1: <http://data.example.org/stop/8240DB000324/>
+prefix loca2: <http://data.example.org/stop/8220DB004521/>
+prefix geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX uom:  <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX bus: <http://data.example.org/bus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+select ?recName where {
+    	?prop foaf:name "34 NAAS RD, BLUEBELL, DUBLIN, Dublin, Ireland" .
+        ?prop ex:hasLocation  ?propLoc .
+        ?propLoc geo:hasGeometry ?apartLatLong .
+    
+        ?recClub rdf:type ex:RecreationClub .
+    	?recClub ex:hasFacilities ?recFac ;
+              	foaf:name ?recName .
+    	?recFac ex:hall ?recHall .
+    	?recClub ex:hasAddress ?recAdd .
+    	?recAdd ex:hasLocation ?recLoc .
+    	?recLoc geo:hasGeometry ?recLatLong .
+    	FILTER (?recHall = "Yes")
+    
+    	BIND(round(geof:distance(?buslatlong,?apartLatLong, uom:metre)) AS ?dis1) .
+   }
+ORDER BY ASC(?dis1)
+        LIMIT 10
+
+
 """
 
 q7_query = """
+prefix ex: <http://data.example.org/ont#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix loca1: <http://data.example.org/stop/8240DB000324/>
+prefix loca2: <http://data.example.org/stop/8220DB004521/>
+prefix geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX uom:  <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX bus: <http://data.example.org/bus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+select ?recName where {
+    	?prop foaf:name "34 NAAS RD, BLUEBELL, DUBLIN, Dublin, Ireland" .
+        ?prop ex:hasLocation  ?propLoc .
+        ?propLoc geo:hasGeometry ?apartLatLong .
+    
+        ?recClub rdf:type ex:RecreationClub .
+    	?recClub ex:hasFacilities ?recFac ;
+              	foaf:name ?recName .
+    	?recFac ex:hall ?recHall .
+    	?recClub ex:hasAddress ?recAdd .
+    	?recAdd ex:hasLocation ?recLoc .
+    	?recLoc geo:hasGeometry ?recLatLong .
+    	FILTER (?recHall = "Yes")
+    
+    	BIND(round(geof:distance(?buslatlong,?apartLatLong, uom:metre)) AS ?dis1) .
+   }
+ORDER BY ASC(?dis1)
+        LIMIT 10
+
+
+"""
+
+q8_query = """
+prefix ex: <http://data.example.org/ont#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix loca1: <http://data.example.org/stop/8240DB000324/>
+prefix loca2: <http://data.example.org/stop/8220DB004521/>
+prefix geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX uom:  <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX bus: <http://data.example.org/bus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+select ?recName where {
+    	?prop foaf:name "34 NAAS RD, BLUEBELL, DUBLIN, Dublin, Ireland" .
+        ?prop ex:hasLocation  ?propLoc .
+        ?propLoc geo:hasGeometry ?apartLatLong .
+    
+        ?recClub rdf:type ex:RecreationClub .
+    	?recClub ex:hasFacilities ?recFac ;
+              	foaf:name ?recName .
+    	?recFac ex:hall ?recHall .
+    	?recClub ex:hasAddress ?recAdd .
+    	?recAdd ex:hasLocation ?recLoc .
+    	?recLoc geo:hasGeometry ?recLatLong .
+    	FILTER (?recHall = "Yes")
+    
+    	BIND(round(geof:distance(?buslatlong,?apartLatLong, uom:metre)) AS ?dis1) .
+   }
+ORDER BY ASC(?dis1)
+        LIMIT 10
+"""
+
+q9_query = """
+prefix ex: <http://data.example.org/ont#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix loca1: <http://data.example.org/stop/8240DB000324/>
+prefix loca2: <http://data.example.org/stop/8220DB004521/>
+prefix geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX uom:  <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX bus: <http://data.example.org/bus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+select ?recName where {
+    	?prop foaf:name "34 NAAS RD, BLUEBELL, DUBLIN, Dublin, Ireland" .
+        ?prop ex:hasLocation  ?propLoc .
+        ?propLoc geo:hasGeometry ?apartLatLong .
+    
+        ?recClub rdf:type ex:RecreationClub .
+    	?recClub ex:hasFacilities ?recFac ;
+              	foaf:name ?recName .
+    	?recFac ex:hall ?recHall .
+    	?recClub ex:hasAddress ?recAdd .
+    	?recAdd ex:hasLocation ?recLoc .
+    	?recLoc geo:hasGeometry ?recLatLong .
+    	FILTER (?recHall = "Yes")
+    
+    	BIND(round(geof:distance(?buslatlong,?apartLatLong, uom:metre)) AS ?dis1) .
+   }
+ORDER BY ASC(?dis1)
+        LIMIT 10
+"""
+
+q10_query = """
+prefix ex: <http://data.example.org/ont#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix loca1: <http://data.example.org/stop/8240DB000324/>
+prefix loca2: <http://data.example.org/stop/8220DB004521/>
+prefix geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX uom:  <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX bus: <http://data.example.org/bus/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+select ?recName ?sportsName where {
+    
+        ?recClub rdf:type ex:RecreationClub .
+    	?recClub ex:hasAddress ?recAdd ;
+    			foaf:name ?recName .
+    	?recAdd ex:hasLocation ?recLoc .
+    	?recLoc geo:hasGeometry ?recLatLong .
+    
+    	?sportsClub rdf:type ex:SportsClub .
+    	?sportsClub ex:hasAddress ?sportsAdd ;
+                 foaf:name ?sportsName .
+    	?sportsAdd ex:hasLocation ?sportsLoc .
+    	?sportsLoc geo:hasGeometry ?sportsLatLong .
+    
+    	BIND(round(geof:distance(?sportsLatLong,?recLatLong, uom:metre)) AS ?dis1) .
+   }
+ORDER BY ASC(?dis1)
+    LIMIT 10
 """
