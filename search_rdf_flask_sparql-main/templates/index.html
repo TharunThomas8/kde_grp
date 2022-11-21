@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RDF Example by Maheen</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+<h1> </h1>
+
+<div class="container">
+  <p class="text-justify">This is demo to search in RDF data file. </p>
+  <!-- <h1 class="label label-success">Demo RDF Quering by Maheen Bakhtyar</h1> -->
+  <form class="form-horizontal" action="/" method="post" >
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Enter Name</label>
+      <div class="col-sm-12">
+        <select class="form-select" aria-label="Default select example" id="mySelection" name="question">
+          <option value="q1">Are you lesbian?</option>
+          <option value="q2">Are you gay?</option>
+          <option value="q3">Does your mm know you are gay?</option>
+          <option value="q4">Does your dad know you are lesbian?</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <div class="mt-4 mb-4 col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Search</button>
+      </div>
+    </div>
+  </form>
+</div>
+{%if showtable%}
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr class="table-dark">
+        {% for header in query_result.head.vars %}
+          <th>{{ header }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {% for row in query_result.results.bindings %}
+      <tr class="table-success">
+        {% for cell in row.items() %}
+          <td>{{ cell.1.value }}</td>
+        {% endfor %}
+      </tr>
+      {%endfor%}
+    </tbody>
+  </table>
+</div>
+{%endif%}
+</body>
+</html>
