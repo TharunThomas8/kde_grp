@@ -121,19 +121,6 @@
 			] 
         ] ;
 	] ;
-
-	rr:predicateObjectMap [
-		rr:predicate ex:isStopOf ;
-		rr:objectMap [
-			rr:parentTriplesMap <#Trips> ;
-			rr:joinCondition [
-				rr:child "TRIP_ID";
-				rr:parent "TRIP_ID";
-			] 
-        ] ;
-	] ;
-	
-	
 	.
 
 <#Geolocation>

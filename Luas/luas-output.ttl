@@ -1,2669 +1,2221 @@
 <http://data.example.org/stop/823GA00395/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00395> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2910061402448 -6.40649150960108)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00419>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00419/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Saggart" .
 
 <http://data.example.org/luas/RED/0>
         a       <http://data.example.org/ont#LuasTrip> ;
-        <http://data.example.org/ont#stopSequenceNumber>
-                <http://data.example.org/luas/RED/0/18> , <http://data.example.org/luas/RED/0/2> , <http://data.example.org/luas/RED/0/11> , <http://data.example.org/luas/RED/0/10> , <http://data.example.org/luas/RED/0/22> , <http://data.example.org/luas/RED/0/17> , <http://data.example.org/luas/RED/0/8> , <http://data.example.org/luas/RED/0/21> , <http://data.example.org/luas/RED/0/15> , <http://data.example.org/luas/RED/0/16> , <http://data.example.org/luas/RED/0/28> , <http://data.example.org/luas/RED/0/7> , <http://data.example.org/luas/RED/0/14> , <http://data.example.org/luas/RED/0/26> , <http://data.example.org/luas/RED/0/27> , <http://data.example.org/luas/RED/0/25> , <http://data.example.org/luas/RED/0/20> , <http://data.example.org/luas/RED/0/12> , <http://data.example.org/luas/RED/0/24> , <http://data.example.org/luas/RED/0/6> , <http://data.example.org/luas/RED/0/13> , <http://data.example.org/luas/RED/0/23> , <http://data.example.org/luas/RED/0/4> , <http://data.example.org/luas/RED/0/5> , <http://data.example.org/luas/RED/0/9> , <http://data.example.org/luas/RED/0/3> , <http://data.example.org/luas/RED/0/19> , <http://data.example.org/luas/RED/0/1> ;
-        <http://data.example.org/ont#tripID>
+        <http://data.example.org/ont#hasLuasStopSequenceNumber>
+                <http://data.example.org/luas/RED/0/17> , <http://data.example.org/luas/RED/0/11> , <http://data.example.org/luas/RED/0/18> , <http://data.example.org/luas/RED/0/12> , <http://data.example.org/luas/RED/0/2> , <http://data.example.org/luas/RED/0/23> , <http://data.example.org/luas/RED/0/8> , <http://data.example.org/luas/RED/0/3> , <http://data.example.org/luas/RED/0/15> , <http://data.example.org/luas/RED/0/24> , <http://data.example.org/luas/RED/0/9> , <http://data.example.org/luas/RED/0/16> , <http://data.example.org/luas/RED/0/27> , <http://data.example.org/luas/RED/0/10> , <http://data.example.org/luas/RED/0/28> , <http://data.example.org/luas/RED/0/21> , <http://data.example.org/luas/RED/0/6> , <http://data.example.org/luas/RED/0/13> , <http://data.example.org/luas/RED/0/22> , <http://data.example.org/luas/RED/0/7> , <http://data.example.org/luas/RED/0/19> , <http://data.example.org/luas/RED/0/1> , <http://data.example.org/luas/RED/0/14> , <http://data.example.org/luas/RED/0/25> , <http://data.example.org/luas/RED/0/4> , <http://data.example.org/luas/RED/0/26> , <http://data.example.org/luas/RED/0/20> , <http://data.example.org/luas/RED/0/5> ;
+        <http://xmlns.com/foaf/0.1/name>
                 "261.MF-BH.93-RED-y11-19.58.O" .
 
 <http://data.example.org/stop/823GA00395>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00395/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Cheeverstown" .
 
 <http://data.example.org/luas/GRN/1/20>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00070> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "20" .
 
 <http://data.example.org/stop/825GA00330>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00330/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Laughanstown" .
 
 <http://data.example.org/stop/822GA00370/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00370> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3359596247184 -6.31333788082313)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/RED/1/1>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00419> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "1" .
 
 <http://data.example.org/stop/822GA00402/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00402> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3468876006718 -6.27364394754555)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00363/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00363> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3342630170616 -6.32753451321291)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00428>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00428/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "George's Dock" .
 
 <http://data.example.org/stop/825GA00287>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00287/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Dundrum" .
 
 <http://data.example.org/stop/822GA00084/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00084> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3209317359514 -6.25462217836102)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
-<http://data.example.org/luas/GRN/1/32>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00459> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "32" .
-
-<http://data.example.org/luas/GRN/0/31>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/825GA00332> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "31" .
-
 <http://data.example.org/stop/822GA00428/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00428> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3494735278055 -6.24756798954507)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
+<http://data.example.org/luas/GRN/0/31>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/825GA00332> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "31" .
+
+<http://data.example.org/luas/GRN/1/32>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00459> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "32" .
+
 <http://data.example.org/stop/825GA00294/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00294> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2776744279986 -6.20457439139796)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00347>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00347/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Belgard" .
 
 <http://data.example.org/luas/RED/0/16>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00369> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "16" .
 
 <http://data.example.org/stop/825GA00326/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00326> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2543954567481 -6.17151201763568)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/1/8>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00314> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "8" .
 
 <http://data.example.org/stop/822GA00275/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00275> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3163934083477 -6.25344151996887)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/RED/1/17>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00382> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "17" .
 
 <http://data.example.org/stop/825GA00287/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00287> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2924255697948 -6.24511888166812)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00440/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00440> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3336246193004 -6.26273785213709)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00319/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00319> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2582472581313 -6.19838832357195)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00351/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00351> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3036907869086 -6.36550642913275)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00471>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00471/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Parnell" .
 
 <http://data.example.org/stop/822GA00386>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00386/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Heuston" .
 
 <http://data.example.org/luas/GRN/0/13>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00071> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "13" .
 
 <http://data.example.org/luas/GRN/1/14>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00287> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "14" .
 
 <http://data.example.org/stop/822GA00441>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00441/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Dawson" .
 
 <http://data.example.org/stop/822GA00356>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00356/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Kylemore" .
 
 <http://data.example.org/stop/823GA00416/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00416> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.284310052795 -6.42475313819877)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/RED/0/28>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00418> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "28" .
 
 <http://data.example.org/stop/825GA00310/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00310> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2701680261721 -6.20389941956598)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00398>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00398/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Smithfield" .
 
 <http://data.example.org/luas/GRN/0/25>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00313> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "25" .
 
 <http://data.example.org/luas/GRN/1/26>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00470> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "26" .
 
 <http://data.example.org/stop/825GA00336>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00336/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Brides Glen" .
 
 <http://data.example.org/luas/RED/1/7>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00351> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "7" .
 
 <http://data.example.org/luas/GRN/0/6>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00467> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "6" .
 
 <http://data.example.org/stop/822GA00378/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00378> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3384174486802 -6.29277257068145)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00282>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00282/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Windy Arbour" .
 
 <http://data.example.org/stop/825GA00336/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00336> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2420535158945 -6.14296996911551)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00357/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00357> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3266344972539 -6.34380664554675)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/1>
         a       <http://data.example.org/ont#LuasTrip> ;
-        <http://data.example.org/ont#stopSequenceNumber>
-                <http://data.example.org/luas/GRN/1/8> , <http://data.example.org/luas/GRN/1/12> , <http://data.example.org/luas/GRN/1/20> , <http://data.example.org/luas/GRN/1/28> , <http://data.example.org/luas/GRN/1/9> , <http://data.example.org/luas/GRN/1/21> , <http://data.example.org/luas/GRN/1/29> , <http://data.example.org/luas/GRN/1/30> , <http://data.example.org/luas/GRN/1/13> , <http://data.example.org/luas/GRN/1/15> , <http://data.example.org/luas/GRN/1/1> , <http://data.example.org/luas/GRN/1/14> , <http://data.example.org/luas/GRN/1/16> , <http://data.example.org/luas/GRN/1/22> , <http://data.example.org/luas/GRN/1/23> , <http://data.example.org/luas/GRN/1/31> , <http://data.example.org/luas/GRN/1/2> , <http://data.example.org/luas/GRN/1/32> , <http://data.example.org/luas/GRN/1/17> , <http://data.example.org/luas/GRN/1/3> , <http://data.example.org/luas/GRN/1/6> , <http://data.example.org/luas/GRN/1/10> , <http://data.example.org/luas/GRN/1/18> , <http://data.example.org/luas/GRN/1/24> , <http://data.example.org/luas/GRN/1/26> , <http://data.example.org/luas/GRN/1/7> , <http://data.example.org/luas/GRN/1/27> , <http://data.example.org/luas/GRN/1/25> , <http://data.example.org/luas/GRN/1/4> , <http://data.example.org/luas/GRN/1/11> , <http://data.example.org/luas/GRN/1/19> , <http://data.example.org/luas/GRN/1/5> ;
-        <http://data.example.org/ont#tripID>
+        <http://data.example.org/ont#hasLuasStopSequenceNumber>
+                <http://data.example.org/luas/GRN/1/10> , <http://data.example.org/luas/GRN/1/26> , <http://data.example.org/luas/GRN/1/23> , <http://data.example.org/luas/GRN/1/12> , <http://data.example.org/luas/GRN/1/21> , <http://data.example.org/luas/GRN/1/2> , <http://data.example.org/luas/GRN/1/9> , <http://data.example.org/luas/GRN/1/31> , <http://data.example.org/luas/GRN/1/22> , <http://data.example.org/luas/GRN/1/20> , <http://data.example.org/luas/GRN/1/18> , <http://data.example.org/luas/GRN/1/30> , <http://data.example.org/luas/GRN/1/28> , <http://data.example.org/luas/GRN/1/17> , <http://data.example.org/luas/GRN/1/14> , <http://data.example.org/luas/GRN/1/27> , <http://data.example.org/luas/GRN/1/4> , <http://data.example.org/luas/GRN/1/25> , <http://data.example.org/luas/GRN/1/6> , <http://data.example.org/luas/GRN/1/3> , <http://data.example.org/luas/GRN/1/24> , <http://data.example.org/luas/GRN/1/1> , <http://data.example.org/luas/GRN/1/32> , <http://data.example.org/luas/GRN/1/11> , <http://data.example.org/luas/GRN/1/8> , <http://data.example.org/luas/GRN/1/29> , <http://data.example.org/luas/GRN/1/7> , <http://data.example.org/luas/GRN/1/5> , <http://data.example.org/luas/GRN/1/16> , <http://data.example.org/luas/GRN/1/19> , <http://data.example.org/luas/GRN/1/15> , <http://data.example.org/luas/GRN/1/13> ;
+        <http://xmlns.com/foaf/0.1/name>
                 "3.MF-BH.93-GRN-y11-18.2.I" .
 
 <http://data.example.org/luas/GRN/1/3>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00330> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "3" .
 
 <http://data.example.org/luas/RED/0/11>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00386> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "11" .
 
 <http://data.example.org/luas/RED/1/12>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00367> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "12" .
 
 <http://data.example.org/stop/825GA00294>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00294/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Sandyford" .
 
 <http://data.example.org/stop/822GA00405>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00405/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Jervis" .
 
 <http://data.example.org/stop/822GA00381>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00381/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "James's" .
 
 <http://data.example.org/stop/822GA00455/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00455> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3603735102995 -6.27888337452366)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00401/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00401> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3468518865036 -6.27366041080427)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00320/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00320> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2583007009824 -6.19835609866355)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00354>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00354/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Red Cow" .
 
 <http://data.example.org/luas/GRN/0/19>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00286> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "19" .
 
-<http://data.example.org/luas/RED/0/23>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/823GA00347> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "23" .
-
-<http://data.example.org/luas/RED/0/5>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00420> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "5" .
-
 <http://data.example.org/stop/822GA00434/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00434> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3488253393425 -6.23712501166335)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
+<http://data.example.org/luas/RED/0/5>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00420> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "5" .
+
+<http://data.example.org/luas/RED/0/23>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/823GA00347> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "23" .
+
 <http://data.example.org/luas/RED/1/24>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00421> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "24" .
 
 <http://data.example.org/stop/822GA00083/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00083> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3209242897877 -6.25472755973654)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00427/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00427> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3494286142306 -6.24756983199847)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/RED/1>
         a       <http://data.example.org/ont#LuasTrip> ;
-        <http://data.example.org/ont#stopSequenceNumber>
-                <http://data.example.org/luas/RED/1/1> , <http://data.example.org/luas/RED/1/25> , <http://data.example.org/luas/RED/1/28> , <http://data.example.org/luas/RED/1/16> , <http://data.example.org/luas/RED/1/3> , <http://data.example.org/luas/RED/1/6> , <http://data.example.org/luas/RED/1/19> , <http://data.example.org/luas/RED/1/13> , <http://data.example.org/luas/RED/1/27> , <http://data.example.org/luas/RED/1/10> , <http://data.example.org/luas/RED/1/15> , <http://data.example.org/luas/RED/1/9> , <http://data.example.org/luas/RED/1/21> , <http://data.example.org/luas/RED/1/24> , <http://data.example.org/luas/RED/1/12> , <http://data.example.org/luas/RED/1/2> , <http://data.example.org/luas/RED/1/26> , <http://data.example.org/luas/RED/1/18> , <http://data.example.org/luas/RED/1/5> , <http://data.example.org/luas/RED/1/23> , <http://data.example.org/luas/RED/1/8> , <http://data.example.org/luas/RED/1/11> , <http://data.example.org/luas/RED/1/14> , <http://data.example.org/luas/RED/1/7> , <http://data.example.org/luas/RED/1/22> , <http://data.example.org/luas/RED/1/4> , <http://data.example.org/luas/RED/1/17> , <http://data.example.org/luas/RED/1/20> ;
-        <http://data.example.org/ont#tripID>
+        <http://data.example.org/ont#hasLuasStopSequenceNumber>
+                <http://data.example.org/luas/RED/1/5> , <http://data.example.org/luas/RED/1/25> , <http://data.example.org/luas/RED/1/21> , <http://data.example.org/luas/RED/1/17> , <http://data.example.org/luas/RED/1/15> , <http://data.example.org/luas/RED/1/11> , <http://data.example.org/luas/RED/1/4> , <http://data.example.org/luas/RED/1/9> , <http://data.example.org/luas/RED/1/24> , <http://data.example.org/luas/RED/1/14> , <http://data.example.org/luas/RED/1/27> , <http://data.example.org/luas/RED/1/10> , <http://data.example.org/luas/RED/1/8> , <http://data.example.org/luas/RED/1/23> , <http://data.example.org/luas/RED/1/19> , <http://data.example.org/luas/RED/1/6> , <http://data.example.org/luas/RED/1/26> , <http://data.example.org/luas/RED/1/7> , <http://data.example.org/luas/RED/1/22> , <http://data.example.org/luas/RED/1/16> , <http://data.example.org/luas/RED/1/20> , <http://data.example.org/luas/RED/1/18> , <http://data.example.org/luas/RED/1/12> , <http://data.example.org/luas/RED/1/28> , <http://data.example.org/luas/RED/1/1> , <http://data.example.org/luas/RED/1/3> , <http://data.example.org/luas/RED/1/13> , <http://data.example.org/luas/RED/1/2> ;
+        <http://xmlns.com/foaf/0.1/name>
                 "23.MF-BH.93-RED-y11-19.9.I" .
 
 <http://data.example.org/stop/823GA00396>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00396/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Cheeverstown" .
 
 <http://data.example.org/luas/GRN/0/20>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00291> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "20" .
 
 <http://data.example.org/stop/822GA00062/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00062> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3336509121052 -6.26269173695201)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/1/21>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00062> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "21" .
 
 <http://data.example.org/stop/825GA00293/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00293> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2775502511836 -6.20468456856607)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00367/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00367> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.335391321414 -6.31828555865664)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00363>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00363/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Blackhorse" .
 
 <http://data.example.org/luas/RED/1/2>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00416> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "2" .
 
 <http://data.example.org/stop/825GA00325/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00325> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2544053583321 -6.17157154706938)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00278>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00278/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Milltown" .
 
 <http://data.example.org/stop/825GA00286/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00286> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2923905211767 -6.24518032276024)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/0/1>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00459> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "1" .
 
 <http://data.example.org/stop/822GA00459>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00459/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Broombridge" .
 
 <http://data.example.org/stop/822GA00034/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00034> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.349244873455 -6.25773158174384)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/0/32>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00336> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "32" .
 
-<http://data.example.org/stop/822GA00375>
-        a       <http://data.example.org/ont#Stop> ;
-        <http://data.example.org/ont#hasLocation>
-                <http://data.example.org/stop/822GA00375/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "Rialto" .
-
 <http://data.example.org/stop/823GA00415/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00415> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2842559530273 -6.42474013039954)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
+<http://data.example.org/stop/822GA00375>
+        a       <http://data.example.org/ont#LuasStop> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/stop/822GA00375/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Rialto" .
+
 <http://data.example.org/stop/825GA00313>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00313/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Glencairn" .
 
 <http://data.example.org/stop/823GA00348>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00348/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Belgard" .
 
 <http://data.example.org/stop/822GA00430>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00430/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Mayor Square - NCI" .
 
 <http://data.example.org/stop/822GA00279/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00279> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3096715589924 -6.2516899918998)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00444/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00444> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3488448095826 -6.2598808611383)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/1/9>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00311> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "9" .
 
 <http://data.example.org/luas/RED/0/17>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00366> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "17" .
 
 <http://data.example.org/luas/RED/1/18>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00387> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "18" .
 
 <http://data.example.org/stop/822GA00387>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00387/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Heuston" .
 
 <http://data.example.org/luas/GRN/0/14>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00075> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "14" .
 
 <http://data.example.org/luas/GRN/1/15>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00282> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "15" .
 
 <http://data.example.org/stop/825GA00325>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00325/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Carrickmines" .
 
 <http://data.example.org/stop/825GA00335/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00335> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2420514158783 -6.14283520678566)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00357>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00357/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Kylemore" .
 
 <http://data.example.org/stop/823GA00415>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00415/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Fortunestown" .
 
 <http://data.example.org/stop/825GA00282/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00282> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3017466839606 -6.25064837931916)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00356/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00356> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3265889562733 -6.34376337103715)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00314/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00314> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.266267853885 -6.20992478702996)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00399>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00399/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Smithfield" .
 
 <http://data.example.org/luas/GRN/0/26>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00316> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "26" .
 
 <http://data.example.org/luas/GRN/1/27>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00467> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "27" .
 
 <http://data.example.org/stop/822GA00389/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00389> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3478792135231 -6.28694206472106)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00062>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00062/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Harcourt" .
 
 <http://data.example.org/stop/822GA00369>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00369/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Goldenbridge" .
 
 <http://data.example.org/luas/RED/1/8>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00354> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "8" .
 
 <http://data.example.org/luas/GRN/0/7>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00471> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "7" .
 
 <http://data.example.org/stop/822GA00370>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00370/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Goldenbridge" .
 
 <http://data.example.org/stop/822GA00433/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00433> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3487804260142 -6.23712686504901)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00074>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00074/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Ranelagh" .
 
-<http://data.example.org/luas/RED/0/12>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00381> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "12" .
+<http://data.example.org/stop/825GA00319>
+        a       <http://data.example.org/ont#LuasStop> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/stop/825GA00319/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Leopardstown Valley" .
 
 <http://data.example.org/luas/GRN/1/4>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00326> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "4" .
 
-<http://data.example.org/stop/825GA00319>
-        a       <http://data.example.org/ont#Stop> ;
-        <http://data.example.org/ont#hasLocation>
-                <http://data.example.org/stop/825GA00319/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "Leopardstown Valley" .
+<http://data.example.org/luas/RED/0/12>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00381> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "12" .
 
 <http://data.example.org/luas/RED/1/13>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00370> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "13" .
 
 <http://data.example.org/stop/822GA00436>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00436/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "The Point" .
 
 <http://data.example.org/stop/825GA00295>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00295/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Kilmacud" .
 
 <http://data.example.org/stop/822GA00373/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00373> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3366375181369 -6.307259495111)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00459/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00459> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3722378096588 -6.29768727017946)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00405/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00405> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3477099552136 -6.26527436979355)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00292/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00292> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.28608121706 -6.23667956541375)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00382>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00382/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "James's" .
 
 <http://data.example.org/luas/GRN/1/10>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00294> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "10" .
 
 <http://data.example.org/stop/825GA00320>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00320/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Leopardstown Valley" .
 
 <http://data.example.org/luas/RED>
         a       <http://data.example.org/ont#Luas> ;
-        <http://data.example.org/ont#hasTrip>
+        <http://data.example.org/ont#hasLuasTrip>
                 <http://data.example.org/luas/RED/0> , <http://data.example.org/luas/RED/1> .
 
 <http://data.example.org/stop/822GA00399/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00399> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3471496504727 -6.27809436824864)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/RED/0/6>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00408> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "6" .
 
 <http://data.example.org/luas/RED/0/24>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00392> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "24" .
 
 <http://data.example.org/luas/RED/1/25>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00428> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "25" .
 
 <http://data.example.org/stop/825GA00297/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00297> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2794245435184 -6.21037969938823)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/0/21>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00295> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "21" .
 
 <http://data.example.org/luas/GRN/1/22>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00058> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "22" .
 
 <http://data.example.org/stop/825GA00332>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00332/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Cherrywood" .
 
 <http://data.example.org/stop/825GA00329/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00329> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2506100860899 -6.15509824254792)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00278/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00278> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3096724384248 -6.25174998445436)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00364>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00364/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Blackhorse" .
 
 <http://data.example.org/luas/RED/1/3>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00413> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "3" .
 
 <http://data.example.org/stop/822GA00279>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00279/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Milltown" .
 
 <http://data.example.org/luas/GRN/0/2>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00469> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "2" .
 
 <http://data.example.org/stop/823GA00354/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00354> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3167288179049 -6.36984124363593)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00390/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00390> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3479153606749 -6.28695563578203)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00071/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00071> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3308170285893 -6.25881304466914)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00419/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00419> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2848228174177 -6.43776755755447)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00376>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00376/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Rialto" .
 
 <http://data.example.org/stop/825GA00314>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00314/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Glencairn" .
 
 <http://data.example.org/stop/822GA00431>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00431/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Mayor Square - NCI" .
 
 <http://data.example.org/stop/825GA00281/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00281> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3017475638273 -6.25070836073336)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00313/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00313> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2663230997252 -6.21001243119552)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/RED/0/18>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00363> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "18" .
 
 <http://data.example.org/luas/RED/1/19>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00390> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "19" .
 
 <http://data.example.org/stop/822GA00401>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00401/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Four Courts" .
 
 <http://data.example.org/stop/823GA00350>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00350/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Kingswood" .
 
 <http://data.example.org/luas/GRN/0/15>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00083> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "15" .
 
 <http://data.example.org/luas/GRN/1/16>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00279> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "16" .
 
 <http://data.example.org/luas/RED/0/1>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00436> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "1" .
 
 <http://data.example.org/stop/825GA00326>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00326/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Carrickmines" .
 
 <http://data.example.org/luas/RED/1/20>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00399> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "20" .
 
 <http://data.example.org/stop/822GA00443>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00443/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Westmoreland" .
 
 <http://data.example.org/stop/823GA00416>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00416/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Fortunestown" .
 
 <http://data.example.org/stop/823GA00392>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00392/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Fettercairn" .
 
 <http://data.example.org/stop/823GA00350/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00350> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3036450480899 -6.36544815713671)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/0/27>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00319> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "27" .
 
 <http://data.example.org/luas/GRN/1/28>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00481> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "28" .
 
 <http://data.example.org/stop/822GA00455>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00455/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Phibsborough" .
 
 <http://data.example.org/stop/822GA00372/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00372> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3365921771546 -6.30723125795761)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/RED/1/9>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00357> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "9" .
 
 <http://data.example.org/luas/GRN>
         a       <http://data.example.org/ont#Luas> ;
-        <http://data.example.org/ont#hasTrip>
+        <http://data.example.org/ont#hasLuasTrip>
                 <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> .
 
 <http://data.example.org/stop/825GA00330/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00330> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2506543026388 -6.15505137976867)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
-<http://data.example.org/luas/GRN/0/8>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00034> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "8" .
-
 <http://data.example.org/stop/822GA00404/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00404> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.347683006807 -6.26527546402981)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
+<http://data.example.org/luas/GRN/0/8>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00034> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "8" .
+
 <http://data.example.org/stop/825GA00291/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00291> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2860463944099 -6.23675599383553)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00323/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00323> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2550691300542 -6.18441806716433)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00437/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00437> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3483482128401 -6.22918370093486)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00398/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00398> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3471135023706 -6.27808080493654)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00348/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00348> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2992914617323 -6.3750664593354)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00075>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00075/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Ranelagh" .
 
 <http://data.example.org/stop/822GA00467>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00467/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Dominick" .
 
 <http://data.example.org/luas/GRN/1/5>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00323> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "5" .
 
 <http://data.example.org/luas/RED/0/13>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00378> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "13" .
 
 <http://data.example.org/luas/RED/1/14>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00373> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "14" .
 
 <http://data.example.org/stop/822GA00437>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00437/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "The Point" .
 
 <http://data.example.org/stop/825GA00296>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00296/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Kilmacud" .
 
 <http://data.example.org/stop/822GA00409/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00409> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3485908878241 -6.25849427156767)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00296/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00296> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2829363525349 -6.2240309407436)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00058/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00058> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3391291464903 -6.26114750507718)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/0/10>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00441> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "10" .
 
 <http://data.example.org/luas/GRN/1/11>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00298> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "11" .
 
 <http://data.example.org/stop/823GA00393/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00393> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2933722278281 -6.39593268245185)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
-<http://data.example.org/luas/RED/0/25>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/823GA00395> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "25" .
-
-<http://data.example.org/luas/RED/0/7>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00404> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "7" .
-
-<http://data.example.org/luas/RED/1/26>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00431> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "26" .
-
 <http://data.example.org/stop/822GA00421/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00421> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.350151920675 -6.25153583898202)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
+<http://data.example.org/luas/RED/0/7>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00404> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "7" .
+
+<http://data.example.org/luas/RED/0/25>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/823GA00395> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "25" .
+
+<http://data.example.org/luas/RED/1/26>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00431> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "26" .
+
 <http://data.example.org/stop/823GA00418/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00418> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2847775062226 -6.43773921457576)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00361/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00361> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3293185582226 -6.33388362503051)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/0/22>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00297> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "22" .
 
 <http://data.example.org/luas/GRN/1/23>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00441> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "23" .
 
 <http://data.example.org/stop/825GA00333>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00333/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Cherrywood" .
 
 <http://data.example.org/luas/RED/1/4>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00396> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "4" .
 
 <http://data.example.org/luas/GRN/0/3>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00455> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "3" .
 
 <http://data.example.org/stop/822GA00420>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00420/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "BusÃ¡ras" .
+        <http://xmlns.com/foaf/0.1/name>
+                "Busáras" .
 
 <http://data.example.org/stop/822GA00387/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00387> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3466823551431 -6.29185654699592)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00075/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00075> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3261319365781 -6.25619643649449)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00366/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00366> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3353461945094 -6.31827231820974)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00070>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00070/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Charlemont" .
 
 <http://data.example.org/stop/825GA00317/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00317> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2611462033597 -6.20585151740359)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00291>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00291/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Balally" .
 
 <http://data.example.org/luas/RED/0/19>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00360> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "19" .
 
 <http://data.example.org/stop/822GA00402>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00402/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Four Courts" .
 
 <http://data.example.org/stop/822GA00471/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00471> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3531052634056 -6.26050348365004)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00351>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00351/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Kingswood" .
 
 <http://data.example.org/stop/822GA00389>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00389/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Museum" .
 
 <http://data.example.org/luas/GRN/0/16>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00275> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "16" .
 
 <http://data.example.org/luas/GRN/1/17>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00276> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "17" .
 
 <http://data.example.org/luas/RED/0/2>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00433> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "2" .
 
 <http://data.example.org/luas/RED/0/20>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00356> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "20" .
 
 <http://data.example.org/luas/RED/1/21>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00402> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "21" .
 
 <http://data.example.org/stop/822GA00444>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00444/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "O'Connell - GPO" .
 
 <http://data.example.org/stop/822GA00443/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00443> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3463598738902 -6.25897573265937)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00436/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00436> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3482763518163 -6.22918667965203)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00393>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00393/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Fettercairn" .
 
 <http://data.example.org/stop/822GA00390>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00390/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Museum" .
 
 <http://data.example.org/stop/823GA00347/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00347> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2992453188551 -6.37497819204133)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00360>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00360/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Bluebell" .
 
 <http://data.example.org/stop/822GA00469/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00469> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3643367750297 -6.28196929164461)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/1/29>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00452> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "29" .
 
 <http://data.example.org/luas/GRN/0/28>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00322> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "28" .
 
 <http://data.example.org/stop/822GA00275>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00275/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Cowper" .
 
 <http://data.example.org/stop/822GA00376/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00376> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3379445321794 -6.29741668416627)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00408/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00408> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3485637204018 -6.25848035827565)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00295/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00295> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2830028034142 -6.22426815021288)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/0/9>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00035> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "9" .
 
 <http://data.example.org/stop/822GA00034>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00034/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Marlborough" .
 
 <http://data.example.org/luas/GRN/1/30>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00455> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "30" .
 
 <http://data.example.org/stop/822GA00481/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00481> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3541163185912 -6.27380246941192)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00392/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00392> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2933175201817 -6.39587472807754)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00372>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00372/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Suir Road" .
 
 <http://data.example.org/stop/825GA00310>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00310/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Central Park" .
 
 <http://data.example.org/luas/GRN/1/6>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00320> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "6" .
 
 <http://data.example.org/luas/RED/0/14>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00375> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "14" .
 
 <http://data.example.org/luas/RED/1/15>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00376> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "15" .
 
 <http://data.example.org/stop/825GA00297>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00297/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Stillorgan" .
 
 <http://data.example.org/stop/822GA00360/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00360> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3292817872848 -6.33382500275913)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00408>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00408/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Abbey Street" .
 
 <http://data.example.org/luas/GRN/0/11>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00058> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "11" .
 
 <http://data.example.org/luas/GRN/1/12>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00296> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "12" .
 
 <http://data.example.org/stop/825GA00322>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00322/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Ballyogan Wood" .
-
-<http://data.example.org/luas/RED/0/26>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/823GA00412> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "26" .
-
-<http://data.example.org/luas/RED/0/8>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00401> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "8" .
-
-<http://data.example.org/stop/822GA00074/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00074> ;
-        <http://www.opengis.net/ont/geosparql#hasGeometry>
-                "POINT(53.3261398226374 -6.25612105038529)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/RED/1/27>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00434> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "27" .
 
+<http://data.example.org/stop/822GA00074/loc>
+        a       <http://data.example.org/ont#Location> ;
+        <http://www.opengis.net/ont/geosparql#hasGeometry>
+                "POINT(53.3261398226374 -6.25612105038529)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+
+<http://data.example.org/luas/RED/0/8>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00401> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "8" .
+
+<http://data.example.org/luas/RED/0/26>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/823GA00412> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "26" .
+
 <http://data.example.org/stop/823GA00412>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00412/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Citywest Campus" .
 
 <http://data.example.org/stop/822GA00058>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00058/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "St.Stephen's Green" .
 
 <http://data.example.org/stop/822GA00481>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00481/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Broadstone - DIT" .
 
 <http://data.example.org/luas/GRN/0/23>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00293> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "23" .
 
 <http://data.example.org/luas/GRN/1/24>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00443> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "24" .
 
 <http://data.example.org/stop/825GA00316/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00316> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2611210592308 -6.20597249176767)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00366>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00366/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Drimnagh" .
 
 <http://data.example.org/luas/RED/1/5>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00393> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "5" .
 
 <http://data.example.org/luas/GRN/0/4>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00452> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "4" .
 
 <http://data.example.org/stop/822GA00421>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00421/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "BusÃ¡ras" .
+        <http://xmlns.com/foaf/0.1/name>
+                "Busáras" .
 
 <http://data.example.org/stop/822GA00470/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00470> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3516119242577 -6.26102997364643)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/823GA00413/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00413> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2878642325129 -6.4189377232912)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00071>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00071/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Charlemont" .
 
 <http://data.example.org/stop/822GA00378>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00378/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Fatima" .
 
 <http://data.example.org/stop/823GA00353/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00353> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3167459644463 -6.36978055275246)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/1/1>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00335> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "1" .
 
 <http://data.example.org/stop/825GA00316>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00316/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "The Gallops" .
 
 <http://data.example.org/luas/RED/1/10>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00361> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "10" .
 
 <http://data.example.org/stop/822GA00433>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00433/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Spencer Dock" .
 
 <http://data.example.org/stop/825GA00292>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00292/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Balally" .
 
 <http://data.example.org/stop/822GA00382/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00382> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3417777506246 -6.29331414603483)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00070/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00070> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3306152452507 -6.25853598870761)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00375/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00375> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3378991889529 -6.29738845667394)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00333/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00333> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.245397839321 -6.14589703501644)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00083>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00083/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Beechwood" .
 
 <http://data.example.org/luas/GRN/0/17>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00278> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "17" .
 
 <http://data.example.org/luas/GRN/1/18>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00084> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "18" .
 
 <http://data.example.org/luas/RED/0/3>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00430> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "3" .
 
 <http://data.example.org/luas/RED/0/21>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00353> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "21" .
 
 <http://data.example.org/luas/RED/1/22>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00405> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "22" .
 
 <http://data.example.org/stop/823GA00418>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00418/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Saggart" .
 
 <http://data.example.org/stop/822GA00035/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00035> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.345279750127 -6.25825374630143)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00361>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00361/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Bluebell" .
 
 <http://data.example.org/luas/GRN/0/29>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00325> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "29" .
 
 <http://data.example.org/stop/822GA00276>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00276/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Cowper" .
 
 <http://data.example.org/stop/822GA00452/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00452> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3572043791841 -6.27726833669171)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00035>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00035/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Trinity College, Trinity" .
 
 <http://data.example.org/stop/822GA00427>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00427/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "George's Dock" .
 
 <http://data.example.org/stop/825GA00286>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00286/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Dundrum" .
 
 <http://data.example.org/stop/822GA00431/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00431> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3492035667048 -6.24326802932614)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/0/30>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00329> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "30" .
 
 <http://data.example.org/luas/GRN/1/31>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00469> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "31" .
 
 <http://data.example.org/stop/823GA00396/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00396> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2910516589517 -6.40653481614151)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00373>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00373/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Suir Road" .
 
 <http://data.example.org/stop/825GA00311>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00311/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Central Park" .
 
 <http://data.example.org/stop/822GA00469>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00469/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Cabra" .
 
 <http://data.example.org/luas/GRN/1/7>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00317> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "7" .
 
 <http://data.example.org/luas/RED/0/15>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00372> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "15" .
 
 <http://data.example.org/luas/RED/1/16>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00379> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "16" .
 
 <http://data.example.org/stop/822GA00364/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00364> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3342993702968 -6.32756312200431)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00322/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00322> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2550341124762 -6.18447950288443)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00298>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00298/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Stillorgan" .
 
 <http://data.example.org/stop/822GA00409>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00409/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Abbey Street" .
 
 <http://data.example.org/stop/822GA00470>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00470/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "O'Connell Upper" .
 
 <http://data.example.org/luas/GRN/0/12>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00440> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "12" .
 
 <http://data.example.org/luas/GRN/1/13>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00292> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "13" .
 
 <http://data.example.org/stop/825GA00323>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00323/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Ballyogan Wood" .
 
 <http://data.example.org/stop/822GA00440>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00440/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Harcourt" .
 
-<http://data.example.org/luas/RED/0/27>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/823GA00415> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "27" .
+<http://data.example.org/stop/823GA00413>
+        a       <http://data.example.org/ont#LuasStop> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/stop/823GA00413/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "Citywest Campus" .
 
 <http://data.example.org/luas/RED/0/9>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00398> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "9" .
+
+<http://data.example.org/luas/RED/0/27>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/823GA00415> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "27" .
 
 <http://data.example.org/luas/RED/1/28>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00437> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "28" .
 
-<http://data.example.org/stop/823GA00413>
-        a       <http://data.example.org/ont#Stop> ;
-        <http://data.example.org/ont#hasLocation>
-                <http://data.example.org/stop/823GA00413/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "Citywest Campus" .
-
 <http://data.example.org/stop/823GA00412/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/823GA00412> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2877997570864 -6.41882011133546)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00369/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00369> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3359142851229 -6.31330963762208)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00276/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00276> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3164010731427 -6.25335115008755)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00441/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00441> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3421833204572 -6.25794442539933)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/luas/GRN/0/24>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00310> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "24" .
 
 <http://data.example.org/luas/GRN/1/25>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00444> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "25" .
 
 <http://data.example.org/stop/825GA00335>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00335/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Brides Glen" .
 
 <http://data.example.org/stop/822GA00452>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00452/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> , <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Grangegorman" .
 
 <http://data.example.org/stop/822GA00367>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00367/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Drimnagh" .
 
 <http://data.example.org/luas/RED/1/6>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/823GA00348> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "6" .
 
 <http://data.example.org/stop/822GA00420/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00420> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3501166497202 -6.25158234663213)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
-<http://data.example.org/luas/GRN/0/5>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00481> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "5" .
-
 <http://data.example.org/stop/822GA00381/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00381> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.341812608786 -6.29323766222319)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
+<http://data.example.org/luas/GRN/0/5>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00481> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "5" .
+
 <http://data.example.org/stop/825GA00281>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00281/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Windy Arbour" .
 
 <http://data.example.org/stop/822GA00467/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00467> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3513626465176 -6.26551660165371)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00332/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00332> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2453619098395 -6.14589858857429)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00311/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00311> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2701033417132 -6.20378218443983)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00379>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00379/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Fatima" .
 
-<http://data.example.org/luas/RED/0/10>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00389> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "10" .
+<http://data.example.org/stop/825GA00317>
+        a       <http://data.example.org/ont#LuasStop> ;
+        <http://data.example.org/ont#hasLocation>
+                <http://data.example.org/stop/825GA00317/loc> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "The Gallops" .
 
 <http://data.example.org/luas/GRN/0>
         a       <http://data.example.org/ont#LuasTrip> ;
-        <http://data.example.org/ont#stopSequenceNumber>
-                <http://data.example.org/luas/GRN/0/1> , <http://data.example.org/luas/GRN/0/16> , <http://data.example.org/luas/GRN/0/7> , <http://data.example.org/luas/GRN/0/20> , <http://data.example.org/luas/GRN/0/17> , <http://data.example.org/luas/GRN/0/2> , <http://data.example.org/luas/GRN/0/8> , <http://data.example.org/luas/GRN/0/25> , <http://data.example.org/luas/GRN/0/14> , <http://data.example.org/luas/GRN/0/26> , <http://data.example.org/luas/GRN/0/21> , <http://data.example.org/luas/GRN/0/18> , <http://data.example.org/luas/GRN/0/3> , <http://data.example.org/luas/GRN/0/9> , <http://data.example.org/luas/GRN/0/10> , <http://data.example.org/luas/GRN/0/30> , <http://data.example.org/luas/GRN/0/22> , <http://data.example.org/luas/GRN/0/4> , <http://data.example.org/luas/GRN/0/19> , <http://data.example.org/luas/GRN/0/11> , <http://data.example.org/luas/GRN/0/27> , <http://data.example.org/luas/GRN/0/31> , <http://data.example.org/luas/GRN/0/28> , <http://data.example.org/luas/GRN/0/23> , <http://data.example.org/luas/GRN/0/5> , <http://data.example.org/luas/GRN/0/12> , <http://data.example.org/luas/GRN/0/24> , <http://data.example.org/luas/GRN/0/15> , <http://data.example.org/luas/GRN/0/6> , <http://data.example.org/luas/GRN/0/32> , <http://data.example.org/luas/GRN/0/13> , <http://data.example.org/luas/GRN/0/29> ;
-        <http://data.example.org/ont#tripID>
+        <http://data.example.org/ont#hasLuasStopSequenceNumber>
+                <http://data.example.org/luas/GRN/0/6> , <http://data.example.org/luas/GRN/0/21> , <http://data.example.org/luas/GRN/0/16> , <http://data.example.org/luas/GRN/0/7> , <http://data.example.org/luas/GRN/0/11> , <http://data.example.org/luas/GRN/0/18> , <http://data.example.org/luas/GRN/0/15> , <http://data.example.org/luas/GRN/0/23> , <http://data.example.org/luas/GRN/0/10> , <http://data.example.org/luas/GRN/0/3> , <http://data.example.org/luas/GRN/0/22> , <http://data.example.org/luas/GRN/0/31> , <http://data.example.org/luas/GRN/0/20> , <http://data.example.org/luas/GRN/0/30> , <http://data.example.org/luas/GRN/0/13> , <http://data.example.org/luas/GRN/0/9> , <http://data.example.org/luas/GRN/0/32> , <http://data.example.org/luas/GRN/0/28> , <http://data.example.org/luas/GRN/0/19> , <http://data.example.org/luas/GRN/0/14> , <http://data.example.org/luas/GRN/0/17> , <http://data.example.org/luas/GRN/0/12> , <http://data.example.org/luas/GRN/0/8> , <http://data.example.org/luas/GRN/0/27> , <http://data.example.org/luas/GRN/0/5> , <http://data.example.org/luas/GRN/0/26> , <http://data.example.org/luas/GRN/0/1> , <http://data.example.org/luas/GRN/0/2> , <http://data.example.org/luas/GRN/0/24> , <http://data.example.org/luas/GRN/0/29> , <http://data.example.org/luas/GRN/0/4> , <http://data.example.org/luas/GRN/0/25> ;
+        <http://xmlns.com/foaf/0.1/name>
                 "79.SuBH.93-GRN-y11-18.23.O" .
 
 <http://data.example.org/luas/GRN/1/2>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00333> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "2" .
 
-<http://data.example.org/stop/825GA00317>
-        a       <http://data.example.org/ont#Stop> ;
-        <http://data.example.org/ont#hasLocation>
-                <http://data.example.org/stop/825GA00317/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "The Gallops" .
+<http://data.example.org/luas/RED/0/10>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00389> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "10" .
 
 <http://data.example.org/luas/RED/1/11>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00364> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "11" .
 
 <http://data.example.org/stop/822GA00434>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00434/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Spencer Dock" .
 
 <http://data.example.org/stop/825GA00293>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00293/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Sandyford" .
 
 <http://data.example.org/stop/822GA00386/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00386> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.3466812805486 -6.29178148979062)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00404>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00404/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Jervis" .
 
 <http://data.example.org/stop/822GA00379/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00379> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.338462578185 -6.29278578501984)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/825GA00298/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/825GA00298> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.2794678818974 -6.21027291203434)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
 
 <http://data.example.org/stop/822GA00084>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/822GA00084/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/1> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Beechwood" .
 
 <http://data.example.org/stop/823GA00353>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/823GA00353/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/RED/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Red Cow" .
-
-<http://data.example.org/luas/RED/0/22>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/823GA00350> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "22" .
 
 <http://data.example.org/luas/GRN/0/18>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/825GA00281> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "18" .
-
-<http://data.example.org/luas/GRN/1/19>
-        a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
-                <http://data.example.org/stop/822GA00074> ;
-        <http://xmlns.com/foaf/0.1/Name>
-                "19" .
 
 <http://data.example.org/luas/RED/0/4>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00427> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "4" .
 
+<http://data.example.org/luas/GRN/1/19>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/822GA00074> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "19" .
+
 <http://data.example.org/stop/825GA00329>
-        a       <http://data.example.org/ont#Stop> ;
+        a       <http://data.example.org/ont#LuasStop> ;
         <http://data.example.org/ont#hasLocation>
                 <http://data.example.org/stop/825GA00329/loc> ;
-        <http://data.example.org/ont#isStopOf>
-                <http://data.example.org/luas/GRN/0> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "Laughanstown" .
+
+<http://data.example.org/luas/RED/0/22>
+        a       <http://data.example.org/ont#SequenceNumber> ;
+        <http://data.example.org/ont#hasLuasStop>
+                <http://data.example.org/stop/823GA00350> ;
+        <http://xmlns.com/foaf/0.1/name>
+                "22" .
 
 <http://data.example.org/luas/RED/1/23>
         a       <http://data.example.org/ont#SequenceNumber> ;
-        <http://data.example.org/ont#hasStop>
+        <http://data.example.org/ont#hasLuasStop>
                 <http://data.example.org/stop/822GA00409> ;
-        <http://xmlns.com/foaf/0.1/Name>
+        <http://xmlns.com/foaf/0.1/name>
                 "23" .
 
 <http://data.example.org/stop/822GA00430/loc>
-        a       <http://data.example.org/ont#location> ;
-        <http://data.example.org/ont#isLocationOf>
-                <http://data.example.org/stop/822GA00430> ;
+        a       <http://data.example.org/ont#Location> ;
         <http://www.opengis.net/ont/geosparql#hasGeometry>
                 "POINT(53.349167635926 -6.24326950689028)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
