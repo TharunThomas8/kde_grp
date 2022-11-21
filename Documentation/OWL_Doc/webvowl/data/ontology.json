@@ -1,0 +1,616 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema" ],
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "50",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "9",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:unionOf"
+  }, {
+    "id" : "14",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Address",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Address"
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#ContactInfo",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ContactInfo"
+    },
+    "id" : "5"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SequenceNumber"
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusStop"
+    },
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Luas",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Luas"
+    },
+    "id" : "10",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Stop",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stop"
+    },
+    "subClasses" : [ "1", "6" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Bus",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bus"
+    },
+    "id" : "32",
+    "superClasses" : [ "11" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Trip",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Trip"
+    },
+    "subClasses" : [ "31", "34" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuasTrip"
+    },
+    "id" : "31",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Route",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Route"
+    },
+    "subClasses" : [ "32", "10" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Club",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Club"
+    },
+    "subClasses" : [ "41", "45" ],
+    "id" : "42"
+  }, {
+    "instances" : 0,
+    "union" : [ "49", "41", "45" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "46"
+  }, {
+    "instances" : 0,
+    "union" : [ "41", "45" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "13"
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "1", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "50"
+  }, {
+    "instances" : 0,
+    "union" : [ "49", "41", "45" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "9"
+  }, {
+    "instances" : 0,
+    "union" : [ "4", "1", "6" ],
+    "attributes" : [ "union", "anonymous" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "14",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Location",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location"
+    },
+    "id" : "29"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#RecreationClub",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RecreationClub"
+    },
+    "id" : "41",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LuasStop"
+    },
+    "id" : "1",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportsClub"
+    },
+    "id" : "45",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Property",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Property"
+    },
+    "id" : "49"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusTrip"
+    },
+    "id" : "34",
+    "superClasses" : [ "33" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "48",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasStopSequenceNumberOf",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isLuasStopSequenceNumberOf"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isAddressOf",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isAddressOf"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasContactInfo",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasContactInfo"
+    },
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "14",
+    "subproperty" : [ "15", "16", "17", "0", "18", "19", "8", "20", "21", "22", "23", "24", "25", "26", "27", "28" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLocationOf",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "isLocationOf"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "29",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusStopSequenceNumberOf",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isBusStopSequenceNumberOf"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "6",
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasTrip",
+    "inverse" : "19",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "hasLuasTrip"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "10",
+    "attributes" : [ "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusTripOf",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "32",
+    "label" : {
+      "IRI-based" : "isBusTripOf"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "17"
+  }, {
+    "range" : "11",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "33",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "36"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStop",
+    "inverse" : "0",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasLuasStop"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "range" : "11",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "38"
+  }, {
+    "range" : "33",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "42",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "7",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "42",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStop",
+    "inverse" : "26",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasBusStop"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasAddress",
+    "inverse" : "8",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasAddress"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "46",
+    "attributes" : [ "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasTripOf",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "isLuasTripOf"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "range" : "31",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "47"
+  }, {
+    "range" : "45",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnBusTrip",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "isOnBusTrip"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "range" : "10",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "51"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLocation",
+    "inverse" : "25",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasLocation"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "50",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "range" : "1",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnLuasTrip",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "isOnLuasTrip"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusTrip",
+    "inverse" : "17",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "34",
+    "label" : {
+      "IRI-based" : "hasBusTrip"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "32",
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStopSequenceNumber",
+    "inverse" : "21",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasBusStopSequenceNumber"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "34",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStopSequenceNumber",
+    "inverse" : "28",
+    "baseIri" : "http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasLuasStopSequenceNumber"
+    },
+    "superproperty" : [ "3" ],
+    "domain" : "31",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  } ]
+}

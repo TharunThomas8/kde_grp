@@ -1,0 +1,249 @@
+@prefix : <http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#> .
+
+<http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasAddress
+:hasAddress rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            owl:inverseOf :isAddressOf ;
+            rdfs:domain [ rdf:type owl:Class ;
+                          owl:unionOf ( :Property
+                                        :RecreationClub
+                                        :SportsClub
+                                      )
+                        ] ;
+            rdfs:range :Address .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStop
+:hasBusStop rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            owl:inverseOf :isBusStopSequenceNumberOf ;
+            rdfs:domain :SequenceNumber ;
+            rdfs:range :BusStop .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStopSequenceNumber
+:hasBusStopSequenceNumber rdf:type owl:ObjectProperty ;
+                          rdfs:subPropertyOf owl:topObjectProperty ;
+                          owl:inverseOf :isOnBusTrip ;
+                          rdfs:domain :BusTrip ;
+                          rdfs:range :SequenceNumber .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusTrip
+:hasBusTrip rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            owl:inverseOf :isBusTripOf ;
+            rdfs:domain :Bus ;
+            rdfs:range :BusTrip .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasContactInfo
+:hasContactInfo rdf:type owl:ObjectProperty ;
+                rdfs:domain [ rdf:type owl:Class ;
+                              owl:unionOf ( :RecreationClub
+                                            :SportsClub
+                                          )
+                            ] ;
+                rdfs:range :ContactInfo .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLocation
+:hasLocation rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             owl:inverseOf :isLocationOf ;
+             rdfs:domain [ rdf:type owl:Class ;
+                           owl:unionOf ( :Address
+                                         :BusStop
+                                         :LuasStop
+                                       )
+                         ] ;
+             rdfs:range :Location .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStop
+:hasLuasStop rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             owl:inverseOf :isLuasStopSequenceNumberOf ;
+             rdfs:domain :SequenceNumber ;
+             rdfs:range :LuasStop .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStopSequenceNumber
+:hasLuasStopSequenceNumber rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty ;
+                           owl:inverseOf :isOnLuasTrip ;
+                           rdfs:domain :LuasTrip ;
+                           rdfs:range :SequenceNumber .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasTrip
+:hasLuasTrip rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             owl:inverseOf :isLuasTripOf ;
+             rdfs:domain :Luas ;
+             rdfs:range :LuasTrip .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isAddressOf
+:isAddressOf rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :Address ;
+             rdfs:range [ rdf:type owl:Class ;
+                          owl:unionOf ( :Property
+                                        :RecreationClub
+                                        :SportsClub
+                                      )
+                        ] .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusStopSequenceNumberOf
+:isBusStopSequenceNumberOf rdf:type owl:ObjectProperty ;
+                           rdfs:subPropertyOf owl:topObjectProperty ;
+                           rdfs:domain :BusStop ;
+                           rdfs:range :SequenceNumber .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusTripOf
+:isBusTripOf rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :BusTrip ;
+             rdfs:range :Bus .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLocationOf
+:isLocationOf rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :Location ;
+              rdfs:range [ rdf:type owl:Class ;
+                           owl:unionOf ( :Address
+                                         :BusStop
+                                         :LuasStop
+                                       )
+                         ] .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasStopSequenceNumberOf
+:isLuasStopSequenceNumberOf rdf:type owl:ObjectProperty ;
+                            rdfs:subPropertyOf owl:topObjectProperty ;
+                            rdfs:domain :LuasStop ;
+                            rdfs:range :SequenceNumber .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasTripOf
+:isLuasTripOf rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :LuasTrip ;
+              rdfs:range :Luas .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnBusTrip
+:isOnBusTrip rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf owl:topObjectProperty ;
+             rdfs:domain :SequenceNumber ;
+             rdfs:range :BusTrip .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnLuasTrip
+:isOnLuasTrip rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdfs:domain :SequenceNumber ;
+              rdfs:range :LuasTrip .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Address
+:Address rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Bus
+:Bus rdf:type owl:Class ;
+     rdfs:subClassOf :Route ;
+     owl:disjointWith :Luas .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop
+:BusStop rdf:type owl:Class ;
+         rdfs:subClassOf :Stop ;
+         owl:disjointWith :LuasStop .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip
+:BusTrip rdf:type owl:Class ;
+         rdfs:subClassOf :Trip ;
+         owl:disjointWith :LuasTrip .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Club
+:Club rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#ContactInfo
+:ContactInfo rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Location
+:Location rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Luas
+:Luas rdf:type owl:Class ;
+      rdfs:subClassOf :Route .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop
+:LuasStop rdf:type owl:Class ;
+          rdfs:subClassOf :Stop .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip
+:LuasTrip rdf:type owl:Class ;
+          rdfs:subClassOf :Trip .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Property
+:Property rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#RecreationClub
+:RecreationClub rdf:type owl:Class ;
+                rdfs:subClassOf :Club ;
+                owl:disjointWith :SportsClub .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Route
+:Route rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber
+:SequenceNumber rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub
+:SportsClub rdf:type owl:Class ;
+            rdfs:subClassOf :Club .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Stop
+:Stop rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Trip
+:Trip rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

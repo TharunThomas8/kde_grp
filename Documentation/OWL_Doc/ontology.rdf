@@ -6,7 +6,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://data.example.org/ont"/>
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G"/>
     
 
 
@@ -18,10 +18,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasAddress -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasAddress">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -42,6 +44,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStop -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStop">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusStopSequenceNumberOf"/>
@@ -52,6 +55,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStopSequenceNumber -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusStopSequenceNumber">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -64,6 +68,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusTrip -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasBusTrip">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusTripOf"/>
@@ -74,6 +79,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasContactInfo -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasContactInfo">
         <rdfs:domain>
@@ -90,6 +96,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLocation -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLocation">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -110,6 +117,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStop -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStop">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasStopSequenceNumberOf"/>
@@ -120,6 +128,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStopSequenceNumber -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasStopSequenceNumber">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -132,6 +141,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasTrip -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#hasLuasTrip">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasTripOf"/>
@@ -142,6 +152,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isAddressOf -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isAddressOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -161,6 +172,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusStopSequenceNumberOf -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusStopSequenceNumberOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop"/>
@@ -171,6 +183,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusTripOf -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isBusTripOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip"/>
@@ -180,6 +193,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLocationOf -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLocationOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -199,6 +213,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasStopSequenceNumberOf -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasStopSequenceNumberOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop"/>
@@ -208,6 +223,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasTripOf -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isLuasTripOf">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -219,6 +235,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnBusTrip -->
 
+
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnBusTrip">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"/>
@@ -228,6 +245,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnLuasTrip -->
+
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#isOnLuasTrip">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
@@ -245,16 +263,19 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+
     
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Address -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Address"/>
     
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Bus -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Bus">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Route"/>
@@ -265,6 +286,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusStop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Stop"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop"/>
@@ -273,6 +295,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#BusTrip">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Trip"/>
@@ -283,29 +306,27 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Club -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Club"/>
     
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#ContactInfo -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#ContactInfo"/>
     
 
 
-    <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Facilities -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Facilities"/>
-    
-
-
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Location -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Location"/>
     
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Luas -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Luas">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Route"/>
@@ -315,6 +336,7 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasStop">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Stop"/>
     </owl:Class>
@@ -322,6 +344,7 @@
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#LuasTrip">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Trip"/>
@@ -331,11 +354,13 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Property -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Property"/>
     
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#RecreationClub -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#RecreationClub">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Club"/>
@@ -346,17 +371,20 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Route -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Route"/>
     
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SequenceNumber"/>
     
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub -->
+
 
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#SportsClub">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Club"/>
@@ -366,16 +394,19 @@
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Stop -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Stop"/>
     
 
 
     <!-- http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Trip -->
 
+
     <owl:Class rdf:about="http://www.semanticweb.org/tingzhouwan/ontologies/2022/10/kde-group-G#Trip"/>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
 
