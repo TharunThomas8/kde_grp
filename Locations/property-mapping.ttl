@@ -6,8 +6,6 @@
 @prefix sch: <https://schema.org/address#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
- 
-
 <#Property>
 
 	a rr:TriplesMap ;
@@ -17,14 +15,6 @@
 	rr:subjectMap [
 		rr:template "http://data.example.org/property/{ID}" ;
 		rr:class ex:Property ;
-	] ;
-
-	rr:predicateObjectMap [
-		rr:predicate foaf:name ;
-		rr:objectMap [
-             rr:column "ADDRESS" ;
-			 rr:datatype xsd:string ;
-        ] ;
 	] ;
 
 	rr:predicateObjectMap [
